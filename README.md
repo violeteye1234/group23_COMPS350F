@@ -1,5 +1,6 @@
 # group23_COMPS350F
 This is the repository for the Group Project in the Course COMP S350F Software Engineering 2024-25 provided by Hong Kong Metropolitan University.
+这是香港都会大学提供的 COMP S350F 软件工程 2024-25 课程中小组项目的存储库。
 
 # Project Components/项目组成:
 1) GitHub Link to Program 
@@ -29,7 +30,7 @@ This is the repository for the Group Project in the Course COMP S350F Software E
    Q & A During the Project Presentation (20%)
    - All students will participate in the presentation (even when they are not presenting)
    - Bring your laptop for submitting your answers after presentation (no paper submission)
-这是香港都会大学提供的 COMP S350F 软件工程 2024-25 课程中小组项目的存储库。
+
 
 # 项目组成：
 1) GitHub 程序链接
