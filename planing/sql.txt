@@ -1,0 +1,203 @@
+-- ================================
+-- 創建 User 表
+-- ================================
+CREATE TABLE User (
+    userID INT PRIMARY KEY AUTO_INCREMENT,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    first_name VARCHAR(100) NOT NULL,
+    last_name VARCHAR(100) NOT NULL,
+    gender VARCHAR(10),
+    birthday DATE,
+    hkid VARCHAR(20) UNIQUE,
+    phone_number VARCHAR(20),
+    current_location VARCHAR(255)
+);
+
+-- ================================
+-- 創建 Airport 表
+-- ================================
+CREATE TABLE Airport (
+    airport_code VARCHAR(10) PRIMARY KEY,
+    full_name VARCHAR(255) NOT NULL,
+    city_name VARCHAR(100) NOT NULL
+);
+
+-- ================================
+-- 創建 Airline 表
+-- ================================
+CREATE TABLE Airline (
+    name VARCHAR(100) PRIMARY KEY,
+    logo BLOB
+);
+
+-- ================================
+-- 創建 BoardingGate 表
+-- ================================
+CREATE TABLE BoardingGate (
+    gate_number VARCHAR(20) PRIMARY KEY,
+    status VARCHAR(50),
+    lineup_count INT,
+    streaming_link VARCHAR(255),
+    boarding_type VARCHAR(50)
+);
+
+-- ================================
+-- 創建 SeatMap 表
+-- ================================
+CREATE TABLE SeatMap (
+    seat_map_id INT PRIMARY KEY AUTO_INCREMENT,
+    flight_number VARCHAR(20) UNIQUE,
+    seat_map_image BLOB,
+    FOREIGN KEY (flight_number) REFERENCES Flight(flight_number)
+        ON DELETE CASCADE
+);
+
+-- ================================
+-- 創建 CheckinCounter 表
+-- ================================
+CREATE TABLE CheckinCounter (
+    checkin_counter_id INT PRIMARY KEY AUTO_INCREMENT,
+    flight_number VARCHAR(20) UNIQUE,
+    operating_hours VARCHAR(100),
+    FOREIGN KEY (flight_number) REFERENCES Flight(flight_number)
+        ON DELETE CASCADE
+);
+
+-- ================================
+-- 創建 Flight 表
+-- ================================
+CREATE TABLE Flight (
+    flight_number VARCHAR(20) PRIMARY KEY,
+    departure_airport_code VARCHAR(10),
+    arrival_airport_code VARCHAR(10),
+    boarding_gate_number VARCHAR(20),
+    departure_time DATETIME,
+    arrival_time DATETIME,
+    status VARCHAR(50),
+    last_update_time DATETIME,
+    airline_name VARCHAR(100),
+    terminal VARCHAR(50),
+    baggage_claim VARCHAR(50),
+    aircraft_type VARCHAR(50),
+    seat_map_id INT,
+    checkin_counter_id INT,
+    FOREIGN KEY (departure_airport_code) REFERENCES Airport(airport_code)
+        ON DELETE SET NULL,
+    FOREIGN KEY (arrival_airport_code) REFERENCES Airport(airport_code)
+        ON DELETE SET NULL,
+    FOREIGN KEY (boarding_gate_number) REFERENCES BoardingGate(gate_number)
+        ON DELETE SET NULL,
+    FOREIGN KEY (airline_name) REFERENCES Airline(name)
+        ON DELETE SET NULL,
+    FOREIGN KEY (seat_map_id) REFERENCES SeatMap(seat_map_id)
+        ON DELETE SET NULL,
+    FOREIGN KEY (checkin_counter_id) REFERENCES CheckinCounter(checkin_counter_id)
+        ON DELETE SET NULL
+);
+
+-- ================================
+-- 創建 UserFlights 表（User 與 Flight 的多對多關係）
+-- ================================
+CREATE TABLE UserFlights (
+    userID INT,
+    flight_number VARCHAR(20),
+    my_seat_number VARCHAR(10),
+    my_seat_type VARCHAR(50),
+    PRIMARY KEY (userID, flight_number),
+    FOREIGN KEY (userID) REFERENCES User(userID)
+        ON DELETE CASCADE,
+    FOREIGN KEY (flight_number) REFERENCES Flight(flight_number)
+        ON DELETE CASCADE
+);
+
+-- ================================
+-- 創建 Baggage 表
+-- ================================
+CREATE TABLE Baggage (
+    baggage_id VARCHAR(50) PRIMARY KEY,
+    userID INT,
+    flight_number VARCHAR(20),
+    weight FLOAT,
+    status VARCHAR(50),
+    last_update_time DATETIME,
+    pickup_time DATETIME,
+    last_scanned_location VARCHAR(255),
+    destination_airport_code VARCHAR(10),
+    departure_airport_code VARCHAR(10),
+    FOREIGN KEY (userID) REFERENCES User(userID)
+        ON DELETE SET NULL,
+    FOREIGN KEY (flight_number) REFERENCES Flight(flight_number)
+        ON DELETE SET NULL,
+    FOREIGN KEY (destination_airport_code) REFERENCES Airport(airport_code)
+        ON DELETE SET NULL,
+    FOREIGN KEY (departure_airport_code) REFERENCES Airport(airport_code)
+        ON DELETE SET NULL
+);
+
+-- ================================
+-- 創建 FlightTrackingHistory 表
+-- ================================
+CREATE TABLE FlightTrackingHistory (
+    flight_number VARCHAR(20),
+    timestamp DATETIME,
+    status VARCHAR(50),
+    location VARCHAR(255),
+    PRIMARY KEY (flight_number, timestamp),
+    FOREIGN KEY (flight_number) REFERENCES Flight(flight_number)
+        ON DELETE CASCADE
+);
+
+-- ================================
+-- 創建 BaggageActivityHistory 表
+-- ================================
+CREATE TABLE BaggageActivityHistory (
+    baggage_id VARCHAR(50),
+    timestamp DATETIME,
+    activity_description VARCHAR(255),
+    PRIMARY KEY (baggage_id, timestamp),
+    FOREIGN KEY (baggage_id) REFERENCES Baggage(baggage_id)
+        ON DELETE CASCADE
+);
+
+-- ================================
+-- 創建 Notification 表
+-- ================================
+CREATE TABLE Notification (
+    notification_id INT PRIMARY KEY AUTO_INCREMENT,
+    userID INT,
+    title VARCHAR(255),
+    detail TEXT,
+    datetime DATETIME,
+    is_read BOOLEAN DEFAULT FALSE,
+    related_flight_number VARCHAR(20),
+    related_baggage_id VARCHAR(50),
+    FOREIGN KEY (userID) REFERENCES User(userID)
+        ON DELETE CASCADE,
+    FOREIGN KEY (related_flight_number) REFERENCES Flight(flight_number)
+        ON DELETE SET NULL,
+    FOREIGN KEY (related_baggage_id) REFERENCES Baggage(baggage_id)
+        ON DELETE SET NULL
+);
+
+-- ================================
+-- 創建 Settings 表
+-- ================================
+CREATE TABLE Settings (
+    userID INT,
+    setting_name VARCHAR(100),
+    value VARCHAR(255),
+    PRIMARY KEY (userID, setting_name),
+    FOREIGN KEY (userID) REFERENCES User(userID)
+        ON DELETE CASCADE
+);
+
+-- ================================
+-- 創建索引（可選）
+-- ================================
+-- 為經常查詢的外鍵建立索引以提高性能
+CREATE INDEX idx_user_email ON User(email);
+CREATE INDEX idx_flight_departure ON Flight(departure_airport_code);
+CREATE INDEX idx_flight_arrival ON Flight(arrival_airport_code);
+CREATE INDEX idx_baggage_user ON Baggage(userID);
+CREATE INDEX idx_notification_user ON Notification(userID);

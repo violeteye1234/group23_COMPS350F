@@ -1,0 +1,4 @@
+**/.conda/
+.mypy_cache
+__pycache__
+Tkinter-Designer-master

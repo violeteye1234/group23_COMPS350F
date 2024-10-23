@@ -1,0 +1,5 @@
+1. figma to tkinter
+2. what is MVC
+3. What are we doing
+4. how to do view
+5. how to do controller

@@ -1,0 +1,2 @@
+class AboutPageView:
+    pass
