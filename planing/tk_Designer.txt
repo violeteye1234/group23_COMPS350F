@@ -1,1 +1,29 @@
 https://github.com/ParthJadhav/Tkinter-Designer/blob/master/docs/instructions.md
+
+
+
+# -----------------------Image------------------------
+
+(image_image_.*) = PhotoImage\(
+    file=relative_to_assets\((.*)\)\)
+$1 = PhotoImage(file=relative_to_assets($2))
+
+
+(image_.*) = canvas.create_image\(
+    (.*),
+    (.*),
+    image=(.*)
+\)
+$1 = canvas.create_image($2, $3, image=$4)
+
+# ------------------------Text------------------------
+
+canvas.create_text\(
+    (.*),
+    (.*),
+    anchor=(.*),
+    text=(.*),
+    fill=(.*),
+    font=(.*)
+\)
+canvas.create_text($1, $2, anchor=$3, text=$4, fill=$5, font=$6)

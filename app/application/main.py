@@ -25,7 +25,25 @@ class SampleFrame(tk.Frame):
 
 if __name__ == "__main__":
     app = DraggableWindow()
+
+    pages = [
+        [               "login", LoginPage                      ],
+        [       "customer_main", CustomerMainPage               ], 
+        [    "customer_booking", CustomerBookingPage            ], 
+        [       "customer_info", CustomerInformationPage        ], 
+        ["customer_flight_info", CustomerFlightInformationPage  ],
+        [          "admin_main", AdminMainPage                  ], 
+        [        "admin_flight", AdminFlightTablePage           ], 
+        [       "admin_booking", AdminBookingTablePage          ], 
+        [       "admin_baggage", AdminBaggageTablePage          ],
+        [ "admin_login_history", AdminLoginHistoryTablePage     ],
+        [         "admin_admin", AdminAdminTablePage            ],
+        [      "admin_customer", AdminCustomerTablePage         ],
+        [      "admin_database", AdminDatabase                  ]
+        ]
     
+    for page in pages:
+        window.add_frame(page[0], page[1])
     app.add_frame("Sample", SampleFrame)
     app.show_frame("Sample")
 
