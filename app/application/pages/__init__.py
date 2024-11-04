@@ -16,8 +16,6 @@ from .notification_setting.notification_setting_controller import NotificationSe
 from .personal_information.personal_information_controller import PersonalInformationPageController
 from .profile.profile_controller import ProfilePageController
 from .register.register_controller import RegisterPageController
-from .side_bar.sidebar_controller import SideBarController
-from .topbar.topbar_controller import TopbarController
 
 from .about.about_view import AboutPageView
 from .baggage_detail.baggage_detail_view import BaggageDetailPageView
@@ -35,8 +33,6 @@ from .notification_setting.notification_setting_view import NotificationSettingP
 from .personal_information.personal_information_view import PersonalInformationPageView
 from .profile.profile_view import ProfilePageView
 from .register.register_view import RegisterPageView
-from .side_bar.sidebar_view import SideBarView
-from .topbar.topbar_view import TopbarView
 
 __all__ = [
     'AboutPageController',
@@ -55,8 +51,6 @@ __all__ = [
     'PersonalInformationPageController',
     'ProfilePageController',
     'RegisterPageController',
-    'SideBarController',
-    'TopbarController',
     'BasePage',
     'AboutPageView',
     'BaggageDetailPageView',
@@ -74,6 +68,4 @@ __all__ = [
     'PersonalInformationPageView',
     'ProfilePageView',
     'RegisterPageView',
-    'SideBarView',
-    'TopbarView'
 ]

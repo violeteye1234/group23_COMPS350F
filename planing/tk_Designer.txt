@@ -27,3 +27,23 @@ canvas.create_text\(
     font=(.*)
 \)
 canvas.create_text($1, $2, anchor=$3, text=$4, fill=$5, font=$6)
+
+# ------------------------Other-------------------------
+
+=relative_to_assets\("(.*)"\)
+=self.image_path / "$1"
+
+image_(.*) =
+self.image_$1 =
+
+=image_image_(.*)\)
+=self.image_image_$1)
+
+"
+
+# -----------------------toCanvasButton--------------------
+
+self.image_image_(.*) = PhotoImage\(file=(.*)\)
+self.image_.* = self.canvas.create_image\((.*), (.*), image=self.image_image.*\)
+
+button_$1 = CanvasButton(self.canvas,  $3, $4, $2, lambda: self.controller.log("pressed"))

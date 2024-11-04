@@ -1,36 +1,64 @@
 # main_page_controller.py
 from pages.page_controller import PageController
 from .main_page_view import MainPageView
+from pages.about.about_controller import AboutPageController
+from pages.baggage_detail.baggage_detail_controller import BaggageDetailPageController
+from pages.boarding_information.boarding_information_controller import BoardingInformationPageController
+from pages.dashboard.dashboard_controller import DashboardPageController
+from pages.flight_detail.flight_detail_controller import FlightDetailPageController
+from pages.help.help_controller import HelpPageController
+from pages.login.login_controller import LoginPageController
+from pages.map.map_controller import MapPageController
+from pages.my_baggage.my_baggage_controller import MyBaggagePageController
+from pages.my_flight.my_flight_controller import MyFlightPageController
+from pages.notification_center.notification_center_controller import NotificationCenterPageController
+from pages.notification_setting.notification_setting_controller import NotificationSettingPageController
+from pages.personal_information.personal_information_controller import PersonalInformationPageController
+from pages.profile.profile_controller import ProfilePageController
+from pages.register.register_controller import RegisterPageController
 
 class MainPageController(PageController):
-    def __init__(self, root):
-        super().__init__(root)
+    def __init__(self, root, parent_container = None):
+        super().__init__(root, parent_container)
         self.root = root
-        self.view = MainPageView(root)  # MainPageView 實例
+        self.view = MainPageView(root.container)
         self.current_content_controller = None
-        self.view_set_controller()  # 設置 View 的 Controller 引用
-        self.view.render()
+        self.view_set_controller()
+        self.pages = {
+            "about"                  : AboutPageController                 ,
+            "baggage_detail"         : BaggageDetailPageController         ,
+            "boarding_information"   : BoardingInformationPageController   ,
+            "dashboard"              : DashboardPageController             ,
+            "flight_detail"          : FlightDetailPageController          ,
+            "help"                   : HelpPageController                  ,
+            "login"                  : LoginPageController                 ,
+            "map"                    : MapPageController                   ,
+            "my_baggage"             : MyBaggagePageController             ,
+            "my_flight"              : MyFlightPageController              ,
+            "notification_center"    : NotificationCenterPageController    ,
+            "notification_setting"   : NotificationSettingPageController   ,
+            "personal_information"   : PersonalInformationPageController   ,
+            "profile"                : ProfilePageController               ,
+            "register"               : RegisterPageController              
+        }
 
     def switch_page(self, page_name):
-        # 1. 清理當前頁面
         if self.current_content_controller:
             self.current_content_controller.cleanup()
-            self.view.clear_content()
-
-        # 2. 實例化新頁面的 Controller
-        # if page_name == "Home":
-        #     self.current_content_controller = HomePageController(self.view.content_frame, self.model)
-        # elif page_name == "Settings":
-        #     self.current_content_controller = SettingsPageController(self.view.content_frame, self.model)
-        # else:
-        #     print(f"Unknown page: {page_name}")
-        #     return
-
-        # 3. 渲染新頁面
+        
+        self.current_content_controller = self.pages[page_name](self.root, self.view.content_frame)
+        
         self.current_content_controller.render()
+        self.root.logger.info(f"Showing page {page_name}")
+
 
     def clean_content(self):
         if self.current_content_controller:
             self.current_content_controller.cleanup()
             self.current_content_controller = None
             self.view.clear_content()
+            
+
+        
+    def logout(self) -> None:
+        self.root.show_page('Login')

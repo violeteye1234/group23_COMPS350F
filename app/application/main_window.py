@@ -7,18 +7,18 @@ from pages.page_controller import PageController
 from pages import LoginPageController, RegisterPageController, MainPageController
 
 class MainWindow(tk.Tk):
-    def __init__(self, logger = get_logger(), *args: Any, **kwargs: Any) -> None:
-        super().__init__(*args, **kwargs)
+    def __init__(self, logger=get_logger(), *args: Any, **kwargs: Any) -> None:
+        super().__init__(*args, **kwargs) 
         self.logger = logger
         self.logger.info("Initializing MainWindow")
 
-        # Set window properties
-        self.geometry("800x600")
+        # 設置視窗屬性
+        self.geometry("1440x1024")
         self.overrideredirect(True)
-        self.resizable(False, False)
+        self.resizable(True, True)
         self.wm_attributes('-transparentcolor', '#123456')
 
-        # Initialize variables
+        # 初始化變數
         self.hasstyle: bool = False
         self.dragging: bool = False
         self.now_alpha: float = 1.0
@@ -29,69 +29,67 @@ class MainWindow(tk.Tk):
         self._startx: int = 0
         self._starty: int = 0
 
-        # Set up container
+        # 設置容器
         self.container = tk.Frame(self)
         self.container.pack(side="top", fill="both", expand=True)
-        self.container.grid_rowconfigure(0, weight=1)
-        self.container.grid_columnconfigure(0, weight=1)
+        # self.container.grid_rowconfigure(0, weight=1)
+        # self.container.grid_columnconfigure(0, weight=1)
 
-        # Initialize pages
+        # 初始化頁面
         self.init_pages()
 
-        # Set application window style
+        # 設置應用程式視窗樣式
         self.set_appwindow()
 
-        # Bind events
+        # 綁定事件
         self.bind('<ButtonPress-1>', self.start_move)
         self.bind('<ButtonRelease-1>', self.stop_move)
         self.bind('<B1-Motion>', self.on_move)
         self.bind('<Escape>', self.on_key)
 
     def init_pages(self):
-        # Initialize the pages (controllers)
         pages = {
             'Login': LoginPageController,
             'Register': RegisterPageController,
             'Main': MainPageController
         }
         for name, ControllerClass in pages.items():
-            controller = ControllerClass(self)
+            controller = ControllerClass(self, self.container)
             self.pages[name] = controller
             self.logger.info(f"Page '{name}' initialized.")
 
     def show_page(self, page_name: str, note_page: bool = True) -> None:
         self.logger.info(f"Showing page '{page_name}'.")
-        # Hide current page
         if self.current_page_name and self.current_page_name in self.pages:
             self.pages[self.current_page_name].view.pack_forget()
 
-        # Show new page
         page_controller = self.pages[page_name]
         page_controller.render()
+        page_controller.view.pack(fill="both", expand=True)
         self.current_page_name = page_name
 
         if note_page and self.current_page_name:
             self.page_history.append(self.current_page_name)
             self.logger.debug(f"Added '{self.current_page_name}' to page history.")
 
-    def go_back(self) -> None:
-        if self.page_history:
-            previous_page = self.page_history.pop()
-            self.show_page(previous_page, note_page=False)
-            self.logger.info(f"Navigated back to page '{previous_page}'.")
-        else:
-            self.logger.warning("No page to go back to.")
+    def login(self, id: str, password: str) -> None:
+        self.logger.info(f"Login as {id}.")
+        self.show_page("Main")
 
-    # Draggable window methods
+    def is_pressed_top(self, event):
+        return self.winfo_x() + self.winfo_width()-60 >= event.x_root >= self.winfo_x() and self.winfo_y() + 30 >= event.y_root >= self.winfo_y()
+
     def start_move(self, event: tk.Event) -> None:
-        self.dragging = True
-        self._startx = event.x
-        self._starty = event.y
-        self.logger.info("Started dragging the window.")
+        if self.is_pressed_top(event):
+            self.dragging = True
+            self._startx = event.x
+            self._starty = event.y
+            self.logger.info("Started dragging the window.")
 
     def stop_move(self, event: tk.Event) -> None:
-        self.dragging = False
-        self.logger.info("Stopped dragging the window.")
+        if self.dragging:
+            self.dragging = False
+            self.logger.info("Stopped dragging the window.")
 
     def on_move(self, event: tk.Event) -> None:
         if self.dragging:
@@ -111,7 +109,6 @@ class MainWindow(tk.Tk):
 
     def set_appwindow(self) -> None:
         try:
-            # Windows-specific code to set the window style
             import ctypes
             GWL_EXSTYLE = -20
             WS_EX_APPWINDOW = 0x00040000
@@ -129,5 +126,5 @@ class MainWindow(tk.Tk):
 
 if __name__ == "__main__":
     app = MainWindow()
-    app.show_page('Login')  # Start with the Login page
+    app.show_page('Login')
     app.mainloop()

@@ -7,7 +7,6 @@
             "baggage.py": "File",
             "canvas_button.py": "File",
             "database.py": "File",
-            "draggable_window.py": "File",
             "flight.py": "File",
             "logger.py": "File",
             "my_baggage.py": "File",
@@ -21,30 +20,7 @@
             "about": {
                 "about_controller.py": "File",
                 "about_view.py": "File",
-                "images": {
-                    "image_1.png": "File",
-                    "image_10.png": "File",
-                    "image_11.png": "File",
-                    "image_12.png": "File",
-                    "image_13.png": "File",
-                    "image_14.png": "File",
-                    "image_15.png": "File",
-                    "image_16.png": "File",
-                    "image_17.png": "File",
-                    "image_18.png": "File",
-                    "image_19.png": "File",
-                    "image_2.png": "File",
-                    "image_20.png": "File",
-                    "image_21.png": "File",
-                    "image_22.png": "File",
-                    "image_3.png": "File",
-                    "image_4.png": "File",
-                    "image_5.png": "File",
-                    "image_6.png": "File",
-                    "image_7.png": "File",
-                    "image_8.png": "File",
-                    "image_9.png": "File"
-                },
+                "images": {},
                 "__pycache__": "Skipped"
             },
             "baggage_detail": {
@@ -84,6 +60,21 @@
                 "__pycache__": "Skipped"
             },
             "main_page": {
+                "images": {
+                    "image_1.png": "File",
+                    "image_10.png": "File",
+                    "image_11.png": "File",
+                    "image_12.png": "File",
+                    "image_13.png": "File",
+                    "image_2.png": "File",
+                    "image_3.png": "File",
+                    "image_4.png": "File",
+                    "image_5.png": "File",
+                    "image_6.png": "File",
+                    "image_7.png": "File",
+                    "image_8.png": "File",
+                    "image_9.png": "File"
+                },
                 "main_page_controller.py": "File",
                 "main_page_view.py": "File",
                 "__pycache__": "Skipped"
@@ -150,6 +141,11 @@
             },
             "__init__.py": "File",
             "__pycache__": "Skipped"
+        },
+        "utils": {
+            "canvas_button.py": "File",
+            "resizable_canvas.py": "File",
+            "__init__.py": "File"
         }
     },
     "logs": {
