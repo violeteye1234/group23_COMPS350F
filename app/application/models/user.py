@@ -3,18 +3,18 @@ from models.my_flight import MyFlight
 from models.my_baggage import MyBaggage
 
 class User:
-    def __init__(self, user_id, first_name, last_name, gender, birthday, passport, phone_number, email, password):
+    def __init__(self, user_id, username, email):
         self.user_id = user_id
-        self.first_name = first_name
-        self.last_name = last_name
-        self.gender = gender
-        self.birthday = birthday
-        self.passport = passport
-        self.phone_number = phone_number
+        self.username = username
         self.email = email
+        self.current_location = None
         
         self.flights = []
         self.baggages = []
+        
+    def get_location(self):
+        # self.current_location = 
+        pass
 
     def update_info(self):
         pass

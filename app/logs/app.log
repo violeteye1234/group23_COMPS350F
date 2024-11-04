@@ -6995,3 +6995,2070 @@
 2024-11-04 11:49:59 - AppLogger - INFO - Showing page dashboard
 2024-11-04 11:50:00 - AppLogger - INFO - Escape key pressed. Closing the window.
 2024-11-04 11:50:00 - AppLogger - INFO - Closing the window...
+2024-11-04 20:37:26 - AppLogger - INFO - Initializing MainWindow
+2024-11-04 20:37:26 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-04 20:37:26 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-04 20:37:26 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-04 20:37:26 - AppLogger - DEBUG - Set application window style.
+2024-11-04 20:37:26 - AppLogger - INFO - Showing page 'Login'.
+2024-11-04 20:37:26 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-04 20:37:27 - AppLogger - INFO - Started dragging the window.
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (1, 1).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (2, 3).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (3, 4).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (4, 6).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (5, 6).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (6, 8).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (7, 8).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (8, 9).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (12, 12).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (15, 13).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (20, 16).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (23, 16).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (33, 21).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (37, 22).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (51, 25).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (63, 27).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (75, 31).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (87, 33).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (102, 36).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (121, 40).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (142, 44).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (161, 48).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (169, 51).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (187, 56).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (203, 59).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (219, 63).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (224, 64).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (232, 65).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (241, 66).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (246, 67).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (250, 67).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (254, 67).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (257, 67).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (260, 67).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (263, 67).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (264, 67).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (266, 66).
+2024-11-04 20:37:27 - AppLogger - DEBUG - Window moved to (268, 66).
+2024-11-04 20:37:28 - AppLogger - DEBUG - Window moved to (269, 66).
+2024-11-04 20:37:28 - AppLogger - DEBUG - Window moved to (272, 65).
+2024-11-04 20:37:28 - AppLogger - DEBUG - Window moved to (277, 65).
+2024-11-04 20:37:28 - AppLogger - DEBUG - Window moved to (278, 65).
+2024-11-04 20:37:28 - AppLogger - DEBUG - Window moved to (283, 65).
+2024-11-04 20:37:28 - AppLogger - DEBUG - Window moved to (286, 65).
+2024-11-04 20:37:28 - AppLogger - DEBUG - Window moved to (291, 65).
+2024-11-04 20:37:28 - AppLogger - DEBUG - Window moved to (294, 65).
+2024-11-04 20:37:28 - AppLogger - DEBUG - Window moved to (299, 65).
+2024-11-04 20:37:28 - AppLogger - DEBUG - Window moved to (301, 65).
+2024-11-04 20:37:28 - AppLogger - DEBUG - Window moved to (304, 65).
+2024-11-04 20:37:28 - AppLogger - DEBUG - Window moved to (305, 65).
+2024-11-04 20:37:28 - AppLogger - DEBUG - Window moved to (306, 65).
+2024-11-04 20:37:28 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 20:37:30 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-04 20:37:30 - AppLogger - INFO - Showing page 'Main'.
+2024-11-04 20:37:30 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-04 20:37:31 - AppLogger - INFO - Started dragging the window.
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (307, 65).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (308, 65).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (309, 65).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (310, 65).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (311, 65).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (312, 65).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (313, 66).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (314, 67).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (315, 68).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (316, 68).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (318, 69).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (320, 70).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (322, 70).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (325, 71).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (327, 72).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (330, 73).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (332, 74).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (334, 75).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (336, 76).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (338, 76).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (340, 77).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (341, 78).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (342, 78).
+2024-11-04 20:37:31 - AppLogger - DEBUG - Window moved to (342, 79).
+2024-11-04 20:37:31 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 20:37:33 - AppLogger - INFO - Started dragging the window.
+2024-11-04 20:37:33 - AppLogger - INFO - Showing page profile
+2024-11-04 20:37:33 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 20:37:33 - AppLogger - INFO - Showing page help
+2024-11-04 20:37:34 - AppLogger - INFO - Started dragging the window.
+2024-11-04 20:37:34 - AppLogger - INFO - Showing page about
+2024-11-04 20:37:34 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 20:37:36 - AppLogger - INFO - Showing page dashboard
+2024-11-04 20:37:36 - AppLogger - INFO - Showing page dashboard
+2024-11-04 20:37:37 - AppLogger - INFO - Showing page notification_center
+2024-11-04 20:37:38 - AppLogger - INFO - Showing page dashboard
+2024-11-04 20:37:38 - AppLogger - INFO - Showing page notification_center
+2024-11-04 20:37:39 - AppLogger - INFO - Showing page dashboard
+2024-11-04 20:37:39 - AppLogger - INFO - Showing page boarding_information
+2024-11-04 20:37:40 - AppLogger - INFO - Showing page my_flight
+2024-11-04 20:37:40 - AppLogger - INFO - Showing page my_baggage
+2024-11-04 20:37:41 - AppLogger - INFO - Showing page 'Login'.
+2024-11-04 20:37:41 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-04 20:37:41 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-04 20:37:41 - AppLogger - INFO - Showing page 'Main'.
+2024-11-04 20:37:41 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-04 20:37:43 - AppLogger - INFO - Showing page my_baggage
+2024-11-04 20:37:43 - AppLogger - INFO - Showing page my_flight
+2024-11-04 20:37:43 - AppLogger - INFO - Showing page boarding_information
+2024-11-04 20:37:43 - AppLogger - INFO - Showing page notification_center
+2024-11-04 20:37:44 - AppLogger - INFO - Showing page dashboard
+2024-11-04 20:37:44 - AppLogger - INFO - Showing page notification_center
+2024-11-04 20:37:44 - AppLogger - INFO - Showing page boarding_information
+2024-11-04 20:37:45 - AppLogger - INFO - Showing page my_flight
+2024-11-04 20:37:45 - AppLogger - INFO - Showing page my_baggage
+2024-11-04 20:37:47 - AppLogger - INFO - Escape key pressed. Closing the window.
+2024-11-04 20:37:47 - AppLogger - INFO - Closing the window...
+2024-11-04 20:42:12 - AppLogger - INFO - Initializing MainWindow
+2024-11-04 20:42:12 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-04 20:42:12 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-04 20:42:12 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-04 20:42:12 - AppLogger - DEBUG - Set application window style.
+2024-11-04 20:42:12 - AppLogger - INFO - Showing page 'Login'.
+2024-11-04 20:42:12 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-04 20:42:13 - AppLogger - INFO - Started dragging the window.
+2024-11-04 20:42:13 - AppLogger - DEBUG - Window moved to (1, 0).
+2024-11-04 20:42:13 - AppLogger - DEBUG - Window moved to (2, 0).
+2024-11-04 20:42:13 - AppLogger - DEBUG - Window moved to (3, 0).
+2024-11-04 20:42:13 - AppLogger - DEBUG - Window moved to (5, 1).
+2024-11-04 20:42:13 - AppLogger - DEBUG - Window moved to (6, 1).
+2024-11-04 20:42:13 - AppLogger - DEBUG - Window moved to (8, 2).
+2024-11-04 20:42:13 - AppLogger - DEBUG - Window moved to (11, 4).
+2024-11-04 20:42:13 - AppLogger - DEBUG - Window moved to (13, 5).
+2024-11-04 20:42:13 - AppLogger - DEBUG - Window moved to (23, 7).
+2024-11-04 20:42:13 - AppLogger - DEBUG - Window moved to (30, 9).
+2024-11-04 20:42:13 - AppLogger - DEBUG - Window moved to (46, 14).
+2024-11-04 20:42:13 - AppLogger - DEBUG - Window moved to (57, 18).
+2024-11-04 20:42:13 - AppLogger - DEBUG - Window moved to (71, 22).
+2024-11-04 20:42:13 - AppLogger - DEBUG - Window moved to (84, 26).
+2024-11-04 20:42:13 - AppLogger - DEBUG - Window moved to (98, 29).
+2024-11-04 20:42:13 - AppLogger - DEBUG - Window moved to (111, 31).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (124, 34).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (137, 38).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (149, 40).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (158, 42).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (168, 45).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (180, 50).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (194, 54).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (214, 61).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (237, 71).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (245, 74).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (267, 81).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (291, 88).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (300, 90).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (317, 95).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (331, 99).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (336, 100).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (346, 103).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (350, 104).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (356, 106).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (358, 106).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (359, 106).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (360, 106).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (361, 106).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (362, 106).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (364, 106).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (366, 106).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (368, 106).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (371, 106).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (373, 106).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (374, 105).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (377, 104).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (378, 103).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (379, 103).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (381, 103).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (382, 103).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (383, 102).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (384, 102).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (387, 102).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (389, 102).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (392, 102).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (395, 102).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (398, 102).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (401, 102).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (403, 102).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (404, 102).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (405, 101).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (407, 101).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (409, 101).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (410, 100).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (413, 99).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (416, 98).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (419, 96).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (422, 95).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (425, 93).
+2024-11-04 20:42:14 - AppLogger - DEBUG - Window moved to (427, 91).
+2024-11-04 20:42:14 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 20:42:34 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-04 20:42:34 - AppLogger - INFO - Showing page 'Main'.
+2024-11-04 20:42:34 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-04 20:42:45 - AppLogger - INFO - Showing page about
+2024-11-04 20:42:51 - AppLogger - INFO - Showing page dashboard
+2024-11-04 20:42:52 - AppLogger - INFO - Showing page dashboard
+2024-11-04 20:42:52 - AppLogger - INFO - Showing page notification_center
+2024-11-04 20:42:53 - AppLogger - INFO - Showing page boarding_information
+2024-11-04 20:42:53 - AppLogger - INFO - Showing page my_flight
+2024-11-04 20:42:54 - AppLogger - INFO - Showing page my_baggage
+2024-11-04 20:42:54 - AppLogger - INFO - Showing page 'Login'.
+2024-11-04 20:42:54 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-04 20:42:55 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-04 20:42:55 - AppLogger - INFO - Showing page 'Main'.
+2024-11-04 20:42:55 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-04 20:42:56 - AppLogger - INFO - Showing page my_baggage
+2024-11-04 20:42:57 - AppLogger - INFO - Showing page my_flight
+2024-11-04 20:42:57 - AppLogger - INFO - Showing page help
+2024-11-04 20:42:58 - AppLogger - INFO - Started dragging the window.
+2024-11-04 20:42:58 - AppLogger - INFO - Showing page profile
+2024-11-04 20:42:58 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 20:43:05 - AppLogger - INFO - Showing page 'Login'.
+2024-11-04 20:43:05 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-04 20:43:08 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-04 20:43:08 - AppLogger - INFO - Showing page 'Main'.
+2024-11-04 20:43:08 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-04 20:43:10 - AppLogger - INFO - Showing page help
+2024-11-04 20:43:10 - AppLogger - INFO - Started dragging the window.
+2024-11-04 20:43:10 - AppLogger - INFO - Showing page profile
+2024-11-04 20:43:10 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 20:43:11 - AppLogger - INFO - Started dragging the window.
+2024-11-04 20:43:11 - AppLogger - DEBUG - Window moved to (428, 91).
+2024-11-04 20:43:11 - AppLogger - DEBUG - Window moved to (429, 90).
+2024-11-04 20:43:11 - AppLogger - DEBUG - Window moved to (433, 89).
+2024-11-04 20:43:11 - AppLogger - DEBUG - Window moved to (435, 89).
+2024-11-04 20:43:11 - AppLogger - DEBUG - Window moved to (439, 88).
+2024-11-04 20:43:11 - AppLogger - DEBUG - Window moved to (443, 87).
+2024-11-04 20:43:11 - AppLogger - DEBUG - Window moved to (446, 87).
+2024-11-04 20:43:11 - AppLogger - DEBUG - Window moved to (448, 87).
+2024-11-04 20:43:11 - AppLogger - DEBUG - Window moved to (449, 87).
+2024-11-04 20:43:11 - AppLogger - DEBUG - Window moved to (451, 87).
+2024-11-04 20:43:11 - AppLogger - DEBUG - Window moved to (453, 88).
+2024-11-04 20:43:11 - AppLogger - DEBUG - Window moved to (454, 89).
+2024-11-04 20:43:11 - AppLogger - DEBUG - Window moved to (455, 89).
+2024-11-04 20:43:11 - AppLogger - DEBUG - Window moved to (456, 89).
+2024-11-04 20:43:11 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 20:43:19 - AppLogger - INFO - Showing page notification_center
+2024-11-04 20:43:20 - AppLogger - INFO - Showing page boarding_information
+2024-11-04 20:43:20 - AppLogger - INFO - Showing page notification_center
+2024-11-04 20:43:21 - AppLogger - INFO - Showing page dashboard
+2024-11-04 20:43:23 - AppLogger - INFO - Showing page profile
+2024-11-04 20:43:24 - AppLogger - INFO - Showing page help
+2024-11-04 20:43:24 - AppLogger - INFO - Showing page about
+2024-11-04 20:43:26 - AppLogger - INFO - Showing page help
+2024-11-04 20:43:26 - AppLogger - INFO - Started dragging the window.
+2024-11-04 20:43:26 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 20:43:27 - AppLogger - INFO - Started dragging the window.
+2024-11-04 20:43:27 - AppLogger - INFO - Showing page profile
+2024-11-04 20:43:27 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 20:43:37 - AppLogger - INFO - Showing page help
+2024-11-04 20:43:37 - AppLogger - INFO - Showing page profile
+2024-11-04 20:43:38 - AppLogger - INFO - Started dragging the window.
+2024-11-04 20:43:38 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 20:43:39 - AppLogger - INFO - Showing page notification_center
+2024-11-04 20:43:40 - AppLogger - INFO - Showing page boarding_information
+2024-11-04 20:43:40 - AppLogger - INFO - Showing page my_flight
+2024-11-04 20:43:41 - AppLogger - INFO - Showing page my_baggage
+2024-11-04 20:43:45 - AppLogger - INFO - Escape key pressed. Closing the window.
+2024-11-04 20:43:45 - AppLogger - INFO - Closing the window...
+2024-11-04 21:04:17 - AppLogger - INFO - Initializing MainWindow
+2024-11-04 21:04:17 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-04 21:04:17 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-04 21:04:17 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-04 21:04:17 - AppLogger - DEBUG - Set application window style.
+2024-11-04 21:04:17 - AppLogger - INFO - Showing page 'Login'.
+2024-11-04 21:04:17 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-04 21:04:18 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (1, 0).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (2, 0).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (3, 0).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (5, 1).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (8, 3).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (16, 7).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (28, 14).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (44, 22).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (72, 31).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (96, 37).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (139, 47).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (175, 52).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (220, 58).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (267, 59).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (319, 63).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (375, 63).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (427, 63).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (454, 63).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (511, 65).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (541, 65).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (572, 67).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (627, 71).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (658, 74).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (683, 75).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (705, 77).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (722, 77).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (739, 78).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (751, 78).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (763, 77).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (771, 76).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (772, 75).
+2024-11-04 21:04:18 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:04:18 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (771, 75).
+2024-11-04 21:04:18 - AppLogger - DEBUG - Window moved to (769, 75).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (763, 75).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (754, 75).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (746, 76).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (730, 77).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (715, 78).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (699, 79).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (673, 81).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (643, 82).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (626, 82).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (591, 82).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (569, 82).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (529, 82).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (509, 82).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (471, 80).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (454, 79).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (439, 78).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (421, 77).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (411, 76).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (404, 76).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (401, 75).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (400, 75).
+2024-11-04 21:04:19 - AppLogger - DEBUG - Window moved to (399, 75).
+2024-11-04 21:04:19 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:04:19 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-04 21:04:19 - AppLogger - INFO - Showing page 'Main'.
+2024-11-04 21:04:19 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-04 21:04:22 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:04:22 - AppLogger - DEBUG - Window moved to (399, 74).
+2024-11-04 21:04:22 - AppLogger - DEBUG - Window moved to (400, 74).
+2024-11-04 21:04:22 - AppLogger - DEBUG - Window moved to (402, 74).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (405, 76).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (411, 77).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (420, 79).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (434, 81).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (456, 84).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (485, 87).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (526, 91).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (549, 92).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (592, 92).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (619, 92).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (657, 92).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (714, 92).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (733, 92).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (779, 92).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (825, 92).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (845, 92).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (888, 92).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (907, 92).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (937, 92).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (950, 91).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (964, 91).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (974, 90).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (991, 89).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1000, 88).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1010, 87).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1018, 86).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1025, 85).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1032, 84).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1033, 83).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1037, 82).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1038, 81).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1039, 81).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1041, 80).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1043, 78).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1045, 77).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1046, 76).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1048, 75).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1050, 72).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1051, 71).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1052, 69).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1053, 67).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1053, 66).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1053, 64).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1053, 61).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1053, 60).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1052, 57).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1050, 55).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1049, 53).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1042, 49).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1036, 45).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1025, 40).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (1013, 36).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (995, 31).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (968, 24).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (933, 16).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (917, 12).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (878, 5).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (857, 1).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (838, -3).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (803, -9).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (784, -9).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (768, -9).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (755, -10).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (743, -9).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (732, -9).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (721, -9).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (712, -9).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (704, -9).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (695, -9).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (690, -9).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (684, -9).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (680, -9).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (678, -9).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (675, -10).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (673, -9).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (672, -9).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (670, -9).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (669, -9).
+2024-11-04 21:04:23 - AppLogger - DEBUG - Window moved to (668, -9).
+2024-11-04 21:04:23 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:04:24 - AppLogger - INFO - Escape key pressed. Closing the window.
+2024-11-04 21:04:24 - AppLogger - INFO - Closing the window...
+2024-11-04 21:05:25 - AppLogger - INFO - Initializing MainWindow
+2024-11-04 21:05:25 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-04 21:05:25 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-04 21:05:25 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-04 21:05:25 - AppLogger - DEBUG - Set application window style.
+2024-11-04 21:05:25 - AppLogger - INFO - Showing page 'Login'.
+2024-11-04 21:05:25 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-04 21:05:26 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (2, 1).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (2, 2).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (4, 2).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (5, 3).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (7, 3).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (8, 3).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (11, 4).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (13, 5).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (15, 6).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (23, 8).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (31, 11).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (41, 14).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (52, 17).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (63, 20).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (76, 24).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (90, 27).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (97, 29).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (112, 33).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (130, 35).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (154, 40).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (162, 41).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (185, 43).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (208, 46).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (215, 47).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (231, 49).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (238, 49).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (253, 51).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (265, 52).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (269, 52).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (276, 52).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (280, 52).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (282, 52).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (283, 52).
+2024-11-04 21:05:26 - AppLogger - DEBUG - Window moved to (284, 52).
+2024-11-04 21:05:26 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:05:27 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-04 21:05:27 - AppLogger - INFO - Showing page 'Main'.
+2024-11-04 21:05:27 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-04 21:05:29 - AppLogger - INFO - Escape key pressed. Closing the window.
+2024-11-04 21:05:29 - AppLogger - INFO - Closing the window...
+2024-11-04 21:05:56 - AppLogger - INFO - Initializing MainWindow
+2024-11-04 21:05:56 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-04 21:05:56 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-04 21:05:56 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-04 21:05:56 - AppLogger - DEBUG - Set application window style.
+2024-11-04 21:05:56 - AppLogger - INFO - Showing page 'Login'.
+2024-11-04 21:05:56 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-04 21:05:57 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:05:57 - AppLogger - DEBUG - Window moved to (1, 0).
+2024-11-04 21:05:57 - AppLogger - DEBUG - Window moved to (1, 1).
+2024-11-04 21:05:57 - AppLogger - DEBUG - Window moved to (3, 2).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (5, 3).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (7, 4).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (9, 6).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (10, 7).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (12, 8).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (13, 9).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (17, 12).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (19, 13).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (25, 18).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (32, 21).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (35, 22).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (43, 25).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (51, 27).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (60, 29).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (69, 32).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (77, 32).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (83, 32).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (87, 33).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (89, 33).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (91, 33).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (93, 33).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (95, 33).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (96, 33).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (98, 33).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (99, 33).
+2024-11-04 21:05:58 - AppLogger - DEBUG - Window moved to (101, 33).
+2024-11-04 21:05:58 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:05:58 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-04 21:05:58 - AppLogger - INFO - Showing page 'Main'.
+2024-11-04 21:05:58 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-04 21:06:02 - AppLogger - INFO - Escape key pressed. Closing the window.
+2024-11-04 21:06:02 - AppLogger - INFO - Closing the window...
+2024-11-04 21:06:23 - AppLogger - INFO - Initializing MainWindow
+2024-11-04 21:06:23 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-04 21:06:23 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-04 21:06:23 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-04 21:06:23 - AppLogger - DEBUG - Set application window style.
+2024-11-04 21:06:23 - AppLogger - INFO - Showing page 'Login'.
+2024-11-04 21:06:23 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-04 21:06:23 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-04 21:06:23 - AppLogger - INFO - Showing page 'Main'.
+2024-11-04 21:06:24 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-04 21:06:25 - AppLogger - INFO - Showing page about
+2024-11-04 21:06:26 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (1, 0).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (2, 0).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (3, 0).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (6, 0).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (8, 0).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (10, 0).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (14, 0).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (21, 1).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (26, 2).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (35, 4).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (44, 6).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (55, 8).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (67, 12).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (73, 14).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (86, 17).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (100, 20).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (115, 24).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (121, 25).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (138, 29).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (154, 31).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (159, 32).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (175, 35).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (190, 38).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (197, 40).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (212, 42).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (219, 43).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (234, 47).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (241, 48).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (258, 50).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (265, 51).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (280, 53).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (286, 54).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (298, 55).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (302, 56).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (306, 56).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (315, 56).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (318, 56).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (320, 56).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (324, 56).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (326, 56).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (327, 56).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (328, 56).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (329, 56).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (332, 55).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (334, 55).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (338, 55).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (342, 53).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (347, 52).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (352, 52).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (355, 51).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (359, 50).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (361, 50).
+2024-11-04 21:06:26 - AppLogger - DEBUG - Window moved to (362, 50).
+2024-11-04 21:06:26 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:06:27 - AppLogger - INFO - Showing page about
+2024-11-04 21:06:28 - AppLogger - INFO - Escape key pressed. Closing the window.
+2024-11-04 21:06:28 - AppLogger - INFO - Closing the window...
+2024-11-04 21:07:43 - AppLogger - INFO - Initializing MainWindow
+2024-11-04 21:07:43 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-04 21:07:43 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-04 21:07:43 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-04 21:07:43 - AppLogger - DEBUG - Set application window style.
+2024-11-04 21:07:43 - AppLogger - INFO - Showing page 'Login'.
+2024-11-04 21:07:43 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-04 21:07:44 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-04 21:07:44 - AppLogger - INFO - Showing page 'Main'.
+2024-11-04 21:07:44 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-04 21:07:45 - AppLogger - INFO - Showing page about
+2024-11-04 21:07:45 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (0, -1).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (1, -1).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (2, -1).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (4, -2).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (8, -3).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (15, -4).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (20, -5).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (31, -7).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (42, -8).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (57, -9).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (70, -9).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (88, -9).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (110, -9).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (134, -9).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (162, -9).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (176, -8).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (201, -7).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (216, -4).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (244, -1).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (258, 2).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (279, 6).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (291, 10).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (302, 14).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (313, 17).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (324, 22).
+2024-11-04 21:07:45 - AppLogger - DEBUG - Window moved to (334, 25).
+2024-11-04 21:07:46 - AppLogger - DEBUG - Window moved to (344, 29).
+2024-11-04 21:07:46 - AppLogger - DEBUG - Window moved to (351, 31).
+2024-11-04 21:07:46 - AppLogger - DEBUG - Window moved to (356, 33).
+2024-11-04 21:07:46 - AppLogger - DEBUG - Window moved to (360, 34).
+2024-11-04 21:07:46 - AppLogger - DEBUG - Window moved to (362, 35).
+2024-11-04 21:07:46 - AppLogger - DEBUG - Window moved to (363, 35).
+2024-11-04 21:07:46 - AppLogger - DEBUG - Window moved to (364, 35).
+2024-11-04 21:07:46 - AppLogger - DEBUG - Window moved to (365, 35).
+2024-11-04 21:07:46 - AppLogger - DEBUG - Window moved to (365, 36).
+2024-11-04 21:07:46 - AppLogger - DEBUG - Window moved to (366, 36).
+2024-11-04 21:07:46 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:07:48 - AppLogger - INFO - Escape key pressed. Closing the window.
+2024-11-04 21:07:48 - AppLogger - INFO - Closing the window...
+2024-11-04 21:08:03 - AppLogger - INFO - Initializing MainWindow
+2024-11-04 21:08:03 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-04 21:08:03 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-04 21:08:03 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-04 21:08:03 - AppLogger - DEBUG - Set application window style.
+2024-11-04 21:08:03 - AppLogger - INFO - Showing page 'Login'.
+2024-11-04 21:08:03 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-04 21:08:04 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-04 21:08:04 - AppLogger - INFO - Showing page 'Main'.
+2024-11-04 21:08:04 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-04 21:08:04 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:08:04 - AppLogger - DEBUG - Window moved to (1, 0).
+2024-11-04 21:08:04 - AppLogger - DEBUG - Window moved to (2, 0).
+2024-11-04 21:08:04 - AppLogger - DEBUG - Window moved to (4, 1).
+2024-11-04 21:08:04 - AppLogger - DEBUG - Window moved to (5, 1).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (6, 1).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (8, 3).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (9, 4).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (14, 5).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (20, 6).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (26, 7).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (33, 9).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (41, 10).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (44, 11).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (54, 12).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (63, 14).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (85, 18).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (95, 20).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (101, 20).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (120, 23).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (130, 23).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (141, 24).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (145, 24).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (151, 24).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (154, 24).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (155, 24).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (157, 23).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (159, 23).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (188, 29).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (201, 32).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (216, 35).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (247, 42).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (250, 43).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (266, 47).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (273, 48).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (286, 51).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (295, 53).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (302, 55).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (303, 55).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (303, 56).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (304, 57).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (304, 59).
+2024-11-04 21:08:05 - AppLogger - DEBUG - Window moved to (305, 60).
+2024-11-04 21:08:05 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:08:05 - AppLogger - INFO - Showing page dashboard
+2024-11-04 21:08:06 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:08:06 - AppLogger - DEBUG - Window moved to (305, 59).
+2024-11-04 21:08:07 - AppLogger - INFO - Showing page about
+2024-11-04 21:08:07 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:08:21 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (306, 59).
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (307, 59).
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (308, 59).
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (312, 61).
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (315, 62).
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (320, 64).
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (322, 65).
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (326, 67).
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (333, 69).
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (336, 69).
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (340, 70).
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (345, 70).
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (349, 70).
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (350, 70).
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (352, 70).
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (353, 70).
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (354, 70).
+2024-11-04 21:08:21 - AppLogger - DEBUG - Window moved to (355, 70).
+2024-11-04 21:08:22 - AppLogger - DEBUG - Window moved to (355, 69).
+2024-11-04 21:08:22 - AppLogger - DEBUG - Window moved to (355, 68).
+2024-11-04 21:08:22 - AppLogger - DEBUG - Window moved to (355, 67).
+2024-11-04 21:08:22 - AppLogger - DEBUG - Window moved to (355, 66).
+2024-11-04 21:08:22 - AppLogger - DEBUG - Window moved to (355, 65).
+2024-11-04 21:08:22 - AppLogger - DEBUG - Window moved to (355, 64).
+2024-11-04 21:08:22 - AppLogger - DEBUG - Window moved to (355, 63).
+2024-11-04 21:08:22 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:08:32 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:08:32 - AppLogger - DEBUG - Window moved to (356, 63).
+2024-11-04 21:08:32 - AppLogger - DEBUG - Window moved to (359, 63).
+2024-11-04 21:08:32 - AppLogger - DEBUG - Window moved to (364, 64).
+2024-11-04 21:08:32 - AppLogger - DEBUG - Window moved to (374, 65).
+2024-11-04 21:08:32 - AppLogger - DEBUG - Window moved to (391, 67).
+2024-11-04 21:08:32 - AppLogger - DEBUG - Window moved to (398, 67).
+2024-11-04 21:08:32 - AppLogger - DEBUG - Window moved to (403, 67).
+2024-11-04 21:08:32 - AppLogger - DEBUG - Window moved to (407, 67).
+2024-11-04 21:08:32 - AppLogger - DEBUG - Window moved to (410, 66).
+2024-11-04 21:08:32 - AppLogger - DEBUG - Window moved to (413, 65).
+2024-11-04 21:08:32 - AppLogger - DEBUG - Window moved to (415, 64).
+2024-11-04 21:08:32 - AppLogger - DEBUG - Window moved to (416, 64).
+2024-11-04 21:08:32 - AppLogger - DEBUG - Window moved to (417, 64).
+2024-11-04 21:08:32 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:08:39 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (414, 64).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (407, 65).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (386, 68).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (347, 71).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (306, 73).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (257, 77).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (199, 81).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (123, 87).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (65, 93).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-30, 100).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-107, 108).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-181, 115).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-244, 121).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-331, 129).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-392, 136).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-493, 144).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-556, 153).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-590, 156).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-647, 162).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-692, 166).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-706, 167).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-712, 168).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-711, 168).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-710, 167).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-708, 166).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-704, 166).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-699, 164).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-692, 161).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-686, 159).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-669, 155).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-645, 151).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-585, 143).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-532, 137).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-482, 133).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-401, 124).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-335, 118).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-218, 104).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-128, 96).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-128, 95).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (-43, 87).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (71, 76).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (71, 75).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (180, 64).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (270, 57).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (355, 51).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (452, 44).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (542, 40).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (602, 38).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (659, 36).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (703, 34).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (746, 34).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (765, 34).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (787, 34).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (797, 35).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (801, 36).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (802, 37).
+2024-11-04 21:08:39 - AppLogger - DEBUG - Window moved to (803, 37).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (802, 37).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (799, 38).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (792, 41).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (781, 43).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (763, 48).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (734, 55).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (696, 64).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (648, 73).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (598, 85).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (539, 97).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (462, 110).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (387, 121).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (329, 127).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (266, 133).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (206, 135).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (138, 139).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (100, 139).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (32, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-32, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-92, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-122, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-171, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-195, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-239, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-255, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-270, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-298, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-311, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-324, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-339, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-357, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-379, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-401, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-423, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-447, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-456, 141).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-481, 142).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-508, 142).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-539, 144).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-579, 144).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-592, 144).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-629, 144).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-672, 144).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-721, 140).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-768, 138).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-800, 136).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-829, 133).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-859, 130).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-934, 180).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-967, 177).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-996, 174).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1016, 171).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1036, 170).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1056, 167).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1066, 167).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1089, 164).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1119, 163).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1158, 157).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1200, 154).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1245, 147).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1257, 145).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1290, 139).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1327, 132).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1356, 127).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1380, 121).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1399, 117).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1418, 112).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1437, 106).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1456, 101).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1465, 98).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1482, 93).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1502, 86).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1516, 81).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1527, 78).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1533, 75).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1535, 74).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1536, 74).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1536, 73).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1538, 73).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1539, 72).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1540, 71).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1542, 71).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1544, 69).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1548, 68).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1551, 66).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1554, 64).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1558, 62).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1559, 60).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1560, 59).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1560, 58).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1560, 55).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1558, 48).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1553, 39).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1546, 27).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1541, 19).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1532, 7).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1531, 7).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1524, -2).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1513, -7).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1499, -7).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1483, -8).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1466, -8).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1455, -7).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1452, -7).
+2024-11-04 21:08:40 - AppLogger - DEBUG - Window moved to (-1449, -8).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1449, -7).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1450, -7).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1451, -6).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1452, -5).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1452, -4).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1454, -2).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1456, 0).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1459, 3).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1464, 6).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1469, 11).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1473, 15).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1477, 21).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1479, 24).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1482, 28).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1483, 32).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1483, 33).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1483, 34).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1483, 35).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1483, 36).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1483, 37).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1483, 38).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1483, 39).
+2024-11-04 21:08:41 - AppLogger - DEBUG - Window moved to (-1483, 40).
+2024-11-04 21:08:41 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:09:14 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1481, 40).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1479, 39).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1476, 37).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1474, 36).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1471, 34).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1470, 34).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1467, 32).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1466, 32).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1465, 31).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1462, 30).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1459, 29).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1455, 29).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1446, 29).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1437, 29).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1422, 29).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1404, 29).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1379, 29).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1338, 31).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1306, 31).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1257, 33).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1199, 37).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1153, 39).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1095, 41).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-1030, 45).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-962, 49).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-859, 55).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-700, 61).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-712, 40).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-712, 41).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-617, 45).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-554, 47).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-481, 47).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-411, 49).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-349, 49).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-287, 49).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-227, 49).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-178, 51).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-147, 54).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-116, 56).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-69, 62).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-49, 64).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-28, 67).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (-4, 72).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (8, 73).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (16, 73).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (20, 74).
+2024-11-04 21:09:14 - AppLogger - DEBUG - Window moved to (23, 74).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (27, 74).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (31, 74).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (39, 72).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (57, 72).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (72, 72).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (92, 72).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (125, 72).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (147, 72).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (174, 72).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (212, 72).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (232, 71).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (241, 71).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (252, 71).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (257, 70).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (258, 70).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (259, 70).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (260, 70).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (261, 70).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (264, 70).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (268, 70).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (273, 70).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (281, 70).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (290, 69).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (302, 69).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (315, 68).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (331, 68).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (353, 68).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (378, 68).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (405, 68).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (414, 68).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (439, 68).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (469, 68).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (485, 68).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (498, 69).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (500, 69).
+2024-11-04 21:09:15 - AppLogger - DEBUG - Window moved to (501, 69).
+2024-11-04 21:09:15 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:09:22 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:09:22 - AppLogger - DEBUG - Window moved to (501, 70).
+2024-11-04 21:09:22 - AppLogger - DEBUG - Window moved to (500, 70).
+2024-11-04 21:09:23 - AppLogger - DEBUG - Window moved to (500, 71).
+2024-11-04 21:09:23 - AppLogger - DEBUG - Window moved to (499, 71).
+2024-11-04 21:09:23 - AppLogger - DEBUG - Window moved to (499, 72).
+2024-11-04 21:09:23 - AppLogger - DEBUG - Window moved to (498, 72).
+2024-11-04 21:09:23 - AppLogger - DEBUG - Window moved to (498, 73).
+2024-11-04 21:09:23 - AppLogger - DEBUG - Window moved to (497, 74).
+2024-11-04 21:09:23 - AppLogger - DEBUG - Window moved to (496, 74).
+2024-11-04 21:09:23 - AppLogger - DEBUG - Window moved to (495, 75).
+2024-11-04 21:09:23 - AppLogger - DEBUG - Window moved to (494, 76).
+2024-11-04 21:09:23 - AppLogger - DEBUG - Window moved to (493, 77).
+2024-11-04 21:09:23 - AppLogger - DEBUG - Window moved to (492, 77).
+2024-11-04 21:09:23 - AppLogger - DEBUG - Window moved to (491, 78).
+2024-11-04 21:09:23 - AppLogger - DEBUG - Window moved to (490, 78).
+2024-11-04 21:09:23 - AppLogger - DEBUG - Window moved to (489, 79).
+2024-11-04 21:09:23 - AppLogger - DEBUG - Window moved to (488, 79).
+2024-11-04 21:09:23 - AppLogger - DEBUG - Window moved to (487, 80).
+2024-11-04 21:09:23 - AppLogger - DEBUG - Window moved to (486, 80).
+2024-11-04 21:09:23 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:09:25 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:09:25 - AppLogger - DEBUG - Window moved to (485, 80).
+2024-11-04 21:09:25 - AppLogger - DEBUG - Window moved to (484, 80).
+2024-11-04 21:09:25 - AppLogger - DEBUG - Window moved to (483, 81).
+2024-11-04 21:09:25 - AppLogger - DEBUG - Window moved to (482, 81).
+2024-11-04 21:09:25 - AppLogger - DEBUG - Window moved to (480, 81).
+2024-11-04 21:09:25 - AppLogger - DEBUG - Window moved to (477, 81).
+2024-11-04 21:09:25 - AppLogger - DEBUG - Window moved to (474, 82).
+2024-11-04 21:09:25 - AppLogger - DEBUG - Window moved to (471, 82).
+2024-11-04 21:09:25 - AppLogger - DEBUG - Window moved to (466, 83).
+2024-11-04 21:09:25 - AppLogger - DEBUG - Window moved to (459, 84).
+2024-11-04 21:09:25 - AppLogger - DEBUG - Window moved to (455, 85).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (448, 86).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (442, 88).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (435, 89).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (427, 91).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (419, 93).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (413, 94).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (402, 97).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (394, 98).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (377, 101).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (357, 103).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (331, 105).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (298, 107).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (258, 107).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (235, 108).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (186, 110).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (151, 110).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (83, 110).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (40, 110).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-39, 112).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-115, 114).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-161, 114).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-245, 116).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-320, 116).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-402, 118).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-512, 121).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-578, 123).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-664, 123).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-729, 123).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-794, 123).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-850, 123).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-889, 169).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-962, 165).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-962, 164).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-985, 163).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1040, 157).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1057, 156).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1074, 153).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1075, 153).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1082, 152).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1089, 150).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1091, 150).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1092, 149).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1093, 149).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1094, 148).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1095, 147).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1098, 146).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1102, 142).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1103, 142).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1107, 140).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1114, 133).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1119, 129).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1120, 128).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1124, 125).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1132, 118).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1143, 108).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1152, 101).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1153, 101).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1160, 93).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1171, 85).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1172, 84).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1182, 75).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1194, 65).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1207, 54).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1226, 43).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1232, 38).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1232, 37).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1251, 25).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1274, 13).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1275, 13).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1301, 0).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1329, -2).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1340, -1).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1368, -1).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1403, -1).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1413, -1).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1440, -1).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1450, -2).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1474, -1).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1483, -2).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1501, -2).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1517, -2).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1521, -2).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1534, -1).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1537, -1).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1542, -1).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1542, 0).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1542, 2).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1541, 4).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1540, 7).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1540, 8).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1539, 10).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1538, 11).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1538, 12).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1537, 13).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1536, 14).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1534, 15).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1532, 17).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1531, 18).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1525, 21).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1519, 25).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1513, 29).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1511, 31).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1505, 36).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1504, 37).
+2024-11-04 21:09:26 - AppLogger - DEBUG - Window moved to (-1503, 38).
+2024-11-04 21:09:27 - AppLogger - DEBUG - Window moved to (-1502, 39).
+2024-11-04 21:09:27 - AppLogger - DEBUG - Window moved to (-1501, 39).
+2024-11-04 21:09:27 - AppLogger - DEBUG - Window moved to (-1500, 40).
+2024-11-04 21:09:27 - AppLogger - DEBUG - Window moved to (-1500, 41).
+2024-11-04 21:09:27 - AppLogger - DEBUG - Window moved to (-1499, 41).
+2024-11-04 21:09:27 - AppLogger - DEBUG - Window moved to (-1498, 41).
+2024-11-04 21:09:27 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:12:50 - AppLogger - INFO - Initializing MainWindow
+2024-11-04 21:12:50 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-04 21:12:50 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-04 21:12:50 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-04 21:12:50 - AppLogger - DEBUG - Set application window style.
+2024-11-04 21:12:50 - AppLogger - INFO - Showing page 'Login'.
+2024-11-04 21:12:50 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-04 21:12:51 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (1, 0).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (6, 2).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (13, 6).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (21, 10).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (33, 13).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (44, 18).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (64, 21).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (77, 24).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (98, 25).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (112, 26).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (129, 27).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (148, 27).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (168, 29).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (190, 29).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (210, 30).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (219, 30).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (230, 30).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (241, 30).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (247, 30).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (252, 29).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (255, 29).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (255, 28).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (256, 28).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (257, 29).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (259, 30).
+2024-11-04 21:12:51 - AppLogger - DEBUG - Window moved to (259, 31).
+2024-11-04 21:12:51 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:12:52 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-04 21:12:52 - AppLogger - INFO - Showing page 'Main'.
+2024-11-04 21:12:52 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-04 21:12:53 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (261, 31).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (264, 31).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (268, 31).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (277, 30).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (284, 28).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (296, 26).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (306, 24).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (325, 22).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (342, 20).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (360, 18).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (380, 16).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (392, 16).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (415, 14).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (434, 12).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (445, 11).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (460, 9).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (467, 7).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (473, 6).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (479, 4).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (481, 3).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (481, 2).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (482, 2).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (483, 2).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (483, 1).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (483, 0).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (483, -1).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (483, -3).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (483, -4).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (483, -6).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (483, -7).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (483, -9).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (482, -11).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (480, -11).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (478, -11).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (477, -11).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (475, -11).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (474, -12).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (473, -11).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (472, -11).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (471, -11).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (469, -11).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (468, -11).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (467, -11).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (466, -11).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (465, -11).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (462, -12).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (459, -11).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (458, -11).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (453, -12).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (451, -12).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (450, -12).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (449, -12).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (449, -11).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (448, -9).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (446, -7).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (446, -5).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (446, -4).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (445, -4).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (443, -4).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (439, -4).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (436, -3).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (433, -2).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (430, 0).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (425, 1).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (421, 3).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (417, 5).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (414, 6).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (411, 6).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (409, 8).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (407, 8).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (405, 9).
+2024-11-04 21:12:53 - AppLogger - DEBUG - Window moved to (404, 9).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (403, 9).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (402, 9).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (401, 9).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (400, 9).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (399, 9).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (398, 9).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (396, 9).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (394, 9).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (392, 8).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (391, 8).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (390, 8).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (388, 8).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (386, 8).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (384, 7).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (382, 7).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (381, 7).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (381, 6).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (380, 6).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (379, 5).
+2024-11-04 21:12:54 - AppLogger - DEBUG - Window moved to (378, 5).
+2024-11-04 21:12:54 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:12:55 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (376, 5).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (375, 5).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (369, 5).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (362, 5).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (348, 5).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (338, 4).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (316, 4).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (292, 4).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (245, 2).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (209, 0).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (163, -2).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (103, -6).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (5, -13).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-66, -17).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-139, -17).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-215, -18).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-291, -17).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-362, -17).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-429, -17).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-489, -17).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-562, -15).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-603, -13).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-623, -12).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-659, -10).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-686, -9).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-701, -8).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-729, -6).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-744, -5).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-759, -3).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-777, 0).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-814, 7).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-820, 24).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-843, 31).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-872, 43).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-889, 50).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-907, 58).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-927, 66).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-947, 74).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-974, 83).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-984, 87).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1014, 94).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1051, 101).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1087, 106).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1121, 110).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1136, 110).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1149, 110).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1154, 110).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1156, 109).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1158, 108).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1158, 107).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1159, 106).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1160, 105).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1161, 105).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1162, 103).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1164, 102).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1165, 102).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1165, 101).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1166, 101).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1166, 99).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1166, 98).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1167, 96).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1167, 94).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1167, 92).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1167, 89).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1167, 87).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1167, 85).
+2024-11-04 21:12:55 - AppLogger - DEBUG - Window moved to (-1167, 84).
+2024-11-04 21:12:56 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:12:56 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-1166, 84).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-1163, 86).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-1159, 88).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-1153, 89).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-1145, 90).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-1136, 93).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-1119, 95).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-1107, 97).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-1083, 100).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-1059, 103).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-1026, 106).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-973, 112).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-956, 113).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-914, 117).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-879, 119).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-864, 120).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-840, 121).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-823, 121).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-820, 81).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-804, 121).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-813, 81).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-805, 81).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-802, 81).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-802, 80).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-801, 80).
+2024-11-04 21:12:56 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:12:56 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-800, 80).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-798, 80).
+2024-11-04 21:12:56 - AppLogger - DEBUG - Window moved to (-795, 81).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-791, 82).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-785, 82).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-780, 83).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-773, 84).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-764, 84).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-757, 85).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-747, 86).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-731, 87).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-716, 87).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-705, 88).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-683, 89).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-658, 91).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-644, 92).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-618, 93).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-605, 93).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-582, 95).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-570, 96).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-561, 96).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-551, 97).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-545, 97).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-539, 98).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-532, 99).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-527, 99).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-521, 100).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-515, 101).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-510, 101).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-506, 102).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-504, 102).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-503, 102).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-504, 102).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-510, 100).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-515, 99).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-523, 98).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-533, 97).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-542, 96).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-550, 95).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-558, 95).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-561, 95).
+2024-11-04 21:12:57 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:12:57 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-562, 95).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-572, 94).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-578, 93).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-592, 93).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-604, 92).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-616, 92).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-628, 91).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-640, 90).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-648, 90).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-651, 90).
+2024-11-04 21:12:57 - AppLogger - DEBUG - Window moved to (-653, 89).
+2024-11-04 21:12:57 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:13:00 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-652, 89).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-651, 89).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-649, 89).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-645, 88).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-642, 88).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-638, 88).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-634, 88).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-627, 88).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-618, 88).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-611, 88).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-596, 88).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-577, 88).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-561, 88).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-528, 89).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-508, 90).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-489, 90).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-463, 91).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-422, 93).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-392, 94).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-364, 96).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-337, 96).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-312, 97).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-289, 99).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-265, 99).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-239, 100).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-230, 100).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-206, 100).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-178, 99).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-148, 97).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-136, 96).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-103, 91).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-58, 86).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (-11, 79).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (3, 76).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (40, 71).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (82, 66).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (95, 64).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (130, 61).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (171, 59).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (184, 58).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (218, 58).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (257, 56).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (270, 55).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (302, 53).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (343, 52).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (355, 51).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (388, 46).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (425, 41).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (435, 39).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (468, 31).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (478, 27).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (485, 24).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (492, 19).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (496, 16).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (497, 14).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (498, 12).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (498, 11).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (498, 10).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (498, 9).
+2024-11-04 21:13:00 - AppLogger - DEBUG - Window moved to (497, 9).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (493, 7).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (488, 5).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (481, 4).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (478, 4).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (471, 4).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (463, 4).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (460, 4).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (456, 4).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (454, 4).
+2024-11-04 21:13:01 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:13:01 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (453, 4).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (448, 7).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (441, 9).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (431, 13).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (423, 16).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (403, 21).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (391, 25).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (358, 31).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (332, 34).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (283, 38).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (253, 38).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (222, 39).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (190, 39).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (160, 39).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (130, 39).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (97, 39).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (64, 38).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (29, 38).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-12, 38).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-50, 38).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-86, 39).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-118, 39).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-162, 41).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-174, 42).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-185, 42).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-190, 42).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-192, 42).
+2024-11-04 21:13:01 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:13:01 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-191, 42).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-188, 42).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-182, 43).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-174, 44).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-163, 45).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-141, 46).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-119, 46).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-97, 46).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-51, 48).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (-13, 48).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (36, 48).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (88, 50).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (150, 52).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (218, 52).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (286, 54).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (319, 56).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (384, 58).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (417, 58).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (444, 58).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (495, 58).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (520, 58).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (543, 57).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (562, 55).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (580, 54).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (595, 52).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (606, 51).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (615, 50).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (618, 50).
+2024-11-04 21:13:01 - AppLogger - DEBUG - Window moved to (619, 50).
+2024-11-04 21:13:01 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:13:01 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (617, 50).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (615, 50).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (614, 50).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (611, 50).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (605, 50).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (596, 51).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (588, 51).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (573, 51).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (562, 51).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (547, 51).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (531, 51).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (490, 51).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (449, 50).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (427, 48).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (375, 46).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (344, 43).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (284, 41).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (250, 38).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (212, 36).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (173, 32).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (110, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (82, 27).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (51, 24).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (34, 22).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (22, 21).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (7, 20).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (-3, 19).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (-6, 18).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (-11, 17).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (-12, 17).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (-13, 17).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (-12, 17).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (-10, 17).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (-5, 17).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (2, 18).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (9, 19).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (21, 20).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (31, 21).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (44, 22).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (53, 22).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (61, 23).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (68, 24).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (74, 24).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (82, 24).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (84, 24).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (90, 25).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (98, 25).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (108, 26).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (118, 27).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (132, 27).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (145, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (159, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (176, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (181, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (197, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (210, 28).
+2024-11-04 21:13:02 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:13:02 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (211, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (212, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (214, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (218, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (220, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (222, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (229, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (232, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (243, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (248, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (254, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (270, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (278, 28).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (286, 27).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (293, 27).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (305, 26).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (310, 26).
+2024-11-04 21:13:02 - AppLogger - DEBUG - Window moved to (312, 26).
+2024-11-04 21:13:03 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:13:04 - AppLogger - INFO - Showing page notification_center
+2024-11-04 21:13:08 - AppLogger - INFO - Showing page about
+2024-11-04 21:13:15 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:13:15 - AppLogger - DEBUG - Window moved to (311, 26).
+2024-11-04 21:13:15 - AppLogger - DEBUG - Window moved to (311, 27).
+2024-11-04 21:13:15 - AppLogger - DEBUG - Window moved to (309, 28).
+2024-11-04 21:13:15 - AppLogger - DEBUG - Window moved to (308, 29).
+2024-11-04 21:13:15 - AppLogger - DEBUG - Window moved to (304, 30).
+2024-11-04 21:13:15 - AppLogger - DEBUG - Window moved to (300, 31).
+2024-11-04 21:13:15 - AppLogger - DEBUG - Window moved to (294, 33).
+2024-11-04 21:13:15 - AppLogger - DEBUG - Window moved to (281, 37).
+2024-11-04 21:13:15 - AppLogger - DEBUG - Window moved to (254, 40).
+2024-11-04 21:13:15 - AppLogger - DEBUG - Window moved to (229, 41).
+2024-11-04 21:13:15 - AppLogger - DEBUG - Window moved to (204, 41).
+2024-11-04 21:13:15 - AppLogger - DEBUG - Window moved to (168, 43).
+2024-11-04 21:13:15 - AppLogger - DEBUG - Window moved to (114, 43).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (74, 43).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-5, 43).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-69, 43).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-134, 43).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-205, 43).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-275, 43).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-343, 41).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-413, 41).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-483, 41).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-583, 41).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-653, 41).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-724, 39).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-799, 39).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-901, 50).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-980, 48).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1053, 44).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1124, 40).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1189, 36).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1247, 32).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1302, 26).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1349, 22).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1380, 19).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1397, 18).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1411, 15).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1420, 14).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1424, 14).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1430, 14).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1432, 14).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1433, 14).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1434, 14).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1435, 14).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1437, 15).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1439, 15).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1441, 16).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1443, 17).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1448, 19).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1455, 21).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1457, 23).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1464, 26).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1467, 27).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1476, 30).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1478, 31).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1483, 34).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1487, 36).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1489, 36).
+2024-11-04 21:13:16 - AppLogger - DEBUG - Window moved to (-1489, 37).
+2024-11-04 21:13:20 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:13:53 - AppLogger - INFO - Escape key pressed. Closing the window.
+2024-11-04 21:13:53 - AppLogger - INFO - Closing the window...
+2024-11-04 21:13:55 - AppLogger - INFO - Initializing MainWindow
+2024-11-04 21:13:55 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-04 21:13:55 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-04 21:13:55 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-04 21:13:55 - AppLogger - DEBUG - Set application window style.
+2024-11-04 21:13:55 - AppLogger - INFO - Showing page 'Login'.
+2024-11-04 21:13:55 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-04 21:13:55 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-04 21:13:55 - AppLogger - INFO - Showing page 'Main'.
+2024-11-04 21:13:55 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-04 21:13:56 - AppLogger - INFO - Showing page about
+2024-11-04 21:13:57 - AppLogger - INFO - pressed
+2024-11-04 21:13:59 - AppLogger - INFO - pressed
+2024-11-04 21:14:00 - AppLogger - INFO - pressed
+2024-11-04 21:14:02 - AppLogger - INFO - pressed
+2024-11-04 21:14:03 - AppLogger - INFO - pressed
+2024-11-04 21:14:10 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (0, 1).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1, 1).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-4, 3).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-6, 5).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-9, 8).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-11, 11).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-14, 14).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-16, 17).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-16, 19).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-17, 21).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-17, 22).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-15, 22).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-12, 22).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-9, 22).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-3, 21).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (5, 19).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (11, 17).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (16, 15).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (20, 14).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (22, 13).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (22, 12).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (21, 12).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (19, 12).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (9, 12).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (1, 12).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-29, 13).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-55, 16).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-91, 20).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-141, 26).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-207, 32).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-307, 38).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-378, 41).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-455, 42).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-507, 44).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-577, 44).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-627, 44).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-669, 44).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-718, 42).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-737, 42).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-761, 41).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-773, 40).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-782, 40).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-788, 40).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-796, 39).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-803, 39).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-996, 60).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1003, 60).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1015, 60).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1022, 59).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1032, 59).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1038, 59).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1050, 59).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1056, 59).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1061, 59).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1066, 59).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1074, 59).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1082, 59).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1090, 60).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1093, 60).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1101, 61).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1105, 61).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1104, 61).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1099, 61).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1094, 61).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1086, 61).
+2024-11-04 21:14:10 - AppLogger - DEBUG - Window moved to (-1072, 60).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1063, 60).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1054, 59).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1042, 58).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1025, 55).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1015, 54).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1010, 53).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1005, 52).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1004, 52).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1005, 52).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1008, 51).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1016, 51).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1024, 49).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1036, 48).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1063, 45).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1074, 44).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1098, 41).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1129, 38).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1158, 35).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1172, 34).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1197, 32).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1209, 31).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1220, 31).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1229, 30).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1237, 30).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1238, 30).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1238, 29).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1237, 28).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1236, 27).
+2024-11-04 21:14:11 - AppLogger - DEBUG - Window moved to (-1233, 27).
+2024-11-04 21:14:11 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:14:13 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-1232, 27).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-1232, 28).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-1231, 28).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-1230, 28).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-1229, 29).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-1226, 31).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-1223, 31).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-1220, 33).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-1214, 35).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-1205, 37).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-1190, 42).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-1157, 52).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-1114, 64).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-1044, 80).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-961, 98).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-889, 108).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-807, 122).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-807, 121).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-734, 90).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-630, 101).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-566, 109).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-479, 120).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-408, 127).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-337, 133).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-268, 139).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-197, 143).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-132, 145).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-72, 149).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (-7, 149).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (44, 149).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (63, 149).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (93, 149).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (107, 149).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (115, 149).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (120, 149).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (126, 148).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (131, 148).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (137, 148).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (150, 148).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (163, 148).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (183, 148).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (212, 145).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (251, 140).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (272, 136).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (317, 126).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (344, 120).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (390, 108).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (406, 103).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (419, 99).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (434, 90).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (442, 84).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (448, 78).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (451, 72).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (455, 67).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (462, 56).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (465, 49).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (469, 40).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (478, 23).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (483, 15).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (488, 6).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (492, -3).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (497, -13).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (500, -17).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (502, -16).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (504, -16).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (504, -17).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (503, -16).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (502, -16).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (501, -16).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (500, -17).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (500, -16).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (499, -16).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (500, -16).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (503, -15).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (512, -13).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (520, -11).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (531, -10).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (551, -9).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (561, -9).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (579, -9).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (601, -9).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (611, -9).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (632, -10).
+2024-11-04 21:14:13 - AppLogger - DEBUG - Window moved to (641, -10).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (653, -10).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (656, -10).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (658, -10).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (659, -10).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (661, -8).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (664, -4).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (671, 3).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (679, 9).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (689, 17).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (699, 24).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (713, 31).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (724, 35).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (737, 41).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (748, 44).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (756, 48).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (763, 51).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (769, 52).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (771, 52).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (773, 53).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (774, 53).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (779, 55).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (787, 57).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (795, 60).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (809, 63).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (820, 65).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (837, 69).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (847, 71).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (862, 75).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (870, 77).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (881, 80).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (888, 82).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (895, 85).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (901, 87).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (912, 93).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (925, 100).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (940, 107).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (960, 116).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (988, 126).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (1002, 129).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (1025, 135).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (1037, 137).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (1058, 141).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (1066, 142).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (1075, 143).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (1077, 143).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (1075, 143).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (1069, 141).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (1061, 139).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (1057, 138).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (1053, 138).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (1048, 138).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (1045, 138).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (1044, 138).
+2024-11-04 21:14:14 - AppLogger - DEBUG - Window moved to (1044, 137).
+2024-11-04 21:14:14 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:14:15 - AppLogger - INFO - pressed
+2024-11-04 21:14:15 - AppLogger - INFO - pressed
+2024-11-04 21:14:15 - AppLogger - INFO - pressed
+2024-11-04 21:14:16 - AppLogger - INFO - pressed
+2024-11-04 21:14:17 - AppLogger - INFO - Started dragging the window.
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1045, 137).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1046, 137).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1049, 136).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1052, 136).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1056, 136).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1061, 135).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1066, 133).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1069, 132).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1078, 131).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1085, 130).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1090, 129).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1096, 128).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1102, 128).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1107, 127).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1114, 126).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1122, 126).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1128, 126).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1139, 125).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1147, 124).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1157, 124).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1176, 122).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1186, 121).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1196, 118).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1204, 117).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1211, 115).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1212, 115).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1211, 115).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1204, 111).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1194, 105).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1167, 92).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1131, 80).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1091, 66).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (1042, 55).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (983, 41).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (949, 36).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (891, 25).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (830, 19).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (799, 16).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (774, 15).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (730, 13).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (708, 11).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (691, 11).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (675, 11).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (661, 11).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (647, 11).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (635, 13).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (625, 14).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (617, 14).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (611, 15).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (609, 15).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (608, 15).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (605, 14).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (600, 12).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (590, 9).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (585, 7).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (572, 4).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (560, 0).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (548, -3).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (534, -6).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (517, -10).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (493, -16).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (479, -20).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (448, -27).
+2024-11-04 21:14:17 - AppLogger - DEBUG - Window moved to (418, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (359, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (324, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (284, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (247, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (203, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (184, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (174, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (165, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (163, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (162, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (160, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (159, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (156, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (150, -31).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (144, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (134, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (122, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (110, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (98, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (92, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (88, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (84, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (83, -30).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (83, -29).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (84, -27).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (86, -23).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (89, -19).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (89, -18).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (91, -16).
+2024-11-04 21:14:18 - AppLogger - DEBUG - Window moved to (91, -15).
+2024-11-04 21:14:18 - AppLogger - INFO - Stopped dragging the window.
+2024-11-04 21:14:20 - AppLogger - INFO - Escape key pressed. Closing the window.
+2024-11-04 21:14:20 - AppLogger - INFO - Closing the window...
