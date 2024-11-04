@@ -60,6 +60,3 @@ This is the repository for the Group Project in the Course COMP S350F Software E
    项目演示期间的问答 (20%)
    - 所有学生都将参加演讲（即使他们没有演讲内容）
    - 带上您的笔记本电脑，以便在演示后提交答案（不提交纸质材料）
-
-
-penn testing for git clone!
