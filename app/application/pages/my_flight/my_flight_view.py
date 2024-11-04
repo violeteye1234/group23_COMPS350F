@@ -1,5 +1,5 @@
 import tkinter as tk
-from pages.page_view import PageView
+from utils.page_view import PageView
 
 class MyFlightPageView(PageView):
     def __init__(self, parent):

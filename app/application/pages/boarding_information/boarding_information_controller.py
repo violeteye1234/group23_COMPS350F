@@ -1,4 +1,4 @@
-from pages.page_controller import PageController
+from utils.page_controller import PageController
 from .boarding_information_view import BoardingInformationPageView
 
 class BoardingInformationPageController(PageController):

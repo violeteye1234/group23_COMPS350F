@@ -1,5 +1,5 @@
 import tkinter as tk
-from ..page_view import PageView
+from utils.page_view import PageView
 from utils.canvas_button import CanvasButton # type: ignore
 from tkinter import PhotoImage
 

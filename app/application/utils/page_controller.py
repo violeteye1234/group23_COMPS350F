@@ -1,4 +1,4 @@
-from pages.page_view import PageView
+from utils.page_view import PageView
 
 class PageController:
     def __init__(self, root, parent_container):

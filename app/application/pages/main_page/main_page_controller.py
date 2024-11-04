@@ -1,5 +1,5 @@
 # main_page_controller.py
-from pages.page_controller import PageController
+from utils.page_controller import PageController
 from .main_page_view import MainPageView
 from pages.about.about_controller import AboutPageController
 from pages.baggage_detail.baggage_detail_controller import BaggageDetailPageController

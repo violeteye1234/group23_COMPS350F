@@ -1,4 +1,4 @@
-from pages.page_controller import PageController
+from utils.page_controller import PageController
 from .notification_setting_view import NotificationSettingPageView
 
 class NotificationSettingPageController(PageController):

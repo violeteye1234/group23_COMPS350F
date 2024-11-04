@@ -8,8 +8,8 @@ class PageView(tk.Frame):
         self.parent = parent
         self.controller = None
 
-        self.project_dir = Path(__file__).resolve().parent
-        self.image_path = self.project_dir
+        self.project_dir = Path(__file__).resolve().parent.parent
+        self.image_path = self.project_dir / "pages"
     
     def set_controller(self, controller):
         self.controller = controller

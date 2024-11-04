@@ -1,7 +1,7 @@
 # pages/login/login_view.py
 
 import tkinter as tk
-from ..page_view import PageView
+from utils.page_view import PageView
 
 class LoginPageView(PageView):
     def __init__(self, parent):

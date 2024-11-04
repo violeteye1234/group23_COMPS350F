@@ -1,4 +1,4 @@
-from pages.page_controller import PageController
+from utils.page_controller import PageController
 from .flight_detail_view import FlightDetailPageView
 
 class FlightDetailPageController(PageController):

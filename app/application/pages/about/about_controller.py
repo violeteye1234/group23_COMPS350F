@@ -1,4 +1,4 @@
-from pages.page_controller import PageController
+from utils.page_controller import PageController
 from .about_view import AboutPageView
 
 class AboutPageController(PageController):

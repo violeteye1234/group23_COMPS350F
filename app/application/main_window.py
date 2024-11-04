@@ -3,7 +3,7 @@
 import tkinter as tk
 from typing import Any, Dict, Optional
 from models.logger import get_logger
-from pages.page_controller import PageController
+from utils.page_controller import PageController
 from pages import LoginPageController, RegisterPageController, MainPageController
 
 class MainWindow(tk.Tk):

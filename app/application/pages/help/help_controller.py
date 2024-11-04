@@ -1,4 +1,4 @@
-from pages.page_controller import PageController
+from utils.page_controller import PageController
 from .help_view import HelpPageView
 
 class HelpPageController(PageController):

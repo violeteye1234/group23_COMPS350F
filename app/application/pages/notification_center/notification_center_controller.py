@@ -1,4 +1,4 @@
-from pages.page_controller import PageController
+from utils.page_controller import PageController
 from .notification_center_view import NotificationCenterPageView
 
 class NotificationCenterPageController(PageController):

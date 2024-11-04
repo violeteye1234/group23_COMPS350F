@@ -1,4 +1,4 @@
-from pages.page_controller import PageController
+from utils.page_controller import PageController
 from .my_baggage_view import MyBaggagePageView
 
 class MyBaggagePageController(PageController):

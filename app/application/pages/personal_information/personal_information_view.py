@@ -1,5 +1,5 @@
 import tkinter as tk
-from pages.page_view import PageView
+from utils.page_view import PageView
 
 class PersonalInformationPageView(PageView):
     def __init__(self, parent):
