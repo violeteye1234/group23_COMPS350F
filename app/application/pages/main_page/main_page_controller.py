@@ -41,6 +41,7 @@ class MainPageController(PageController):
             "profile"                : ProfilePageController               ,
             "register"               : RegisterPageController              
         }
+        self.switch_page("dashboard")
 
     def switch_page(self, page_name):
         if self.current_content_controller:

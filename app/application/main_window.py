@@ -28,12 +28,14 @@ class MainWindow(tk.Tk):
         self.current_page_name: Optional[str] = None
         self._startx: int = 0
         self._starty: int = 0
+        
+        # Common Model
+        # TODO: build a database model instance
+        # TODO: build a user model instance
 
         # 設置容器
         self.container = tk.Frame(self)
         self.container.pack(side="top", fill="both", expand=True)
-        # self.container.grid_rowconfigure(0, weight=1)
-        # self.container.grid_columnconfigure(0, weight=1)
 
         # 初始化頁面
         self.init_pages()

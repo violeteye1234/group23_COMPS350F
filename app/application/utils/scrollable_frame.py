@@ -1,9 +1,6 @@
 import tkinter as tk
 from tkinter import Frame, Canvas, Scrollbar
 
-import tkinter as tk
-from tkinter import Frame, Canvas, Scrollbar
-
 class ScrollableFrame(Frame):
     def __init__(self, container, *args, **kwargs):
         super().__init__(container, *args, **kwargs)
@@ -37,12 +34,17 @@ class ScrollableFrame(Frame):
         self.current_child = new_frame
         self.current_window = self.canvas.create_window(0, 0, window=self.current_child, anchor="nw")
 
-        # 绑定 <Configure> 事件来动态调整滚动区域
-        self.current_child.bind("<Configure>", self._resize_scroll_region)
+
+        self.current_child.canvas.bind("<Configure>", self._resize_scroll_region)
+
+        
+        self.scrollbar_vert.lift()
+        self.scrollbar_horiz.lift()
 
     def _resize_scroll_region(self, event=None):
-        # 动态调整滚动区域
+        # 设置滚动区域为所有内容的边界框
         self.canvas.configure(scrollregion=self.canvas.bbox("all"))
+
 
     def clear(self):
         # 清空 Canvas 中的内容
@@ -51,4 +53,3 @@ class ScrollableFrame(Frame):
             self.current_child.destroy()
             self.current_child = None
             self.canvas.configure(scrollregion=(0, 0, 0, 0))
-
