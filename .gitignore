@@ -1,0 +1,9 @@
+**/.conda/
+.mypy_cache
+__pycache__
+Tkinter-Designer-master
+**/planing
+tkinter_designer_output
+note.txt
+read_structure.py
+example.py
