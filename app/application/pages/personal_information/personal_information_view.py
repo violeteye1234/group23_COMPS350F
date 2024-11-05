@@ -11,7 +11,7 @@ class PersonalInformationPageView(PageView):
     
     def render(self):
         self.canvas.create_text(69, 32, anchor="nw", text="Personal Information", fill="#282828", font=("Roboto Black", 36 * -1))
-        self.pack(fill="both",expand=True)
+        self.parent.set_frame(self)
     
     def update(self):
         pass

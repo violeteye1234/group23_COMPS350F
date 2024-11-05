@@ -11,10 +11,11 @@ class AboutPageView(PageView):
         self.canvas = tk.Canvas(self, height = 712.5, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
         self.canvas.pack(fill="both", expand=True)
 
-    
     def render(self):
         self.canvas.create_text(69, 32, anchor="nw", text="About", fill="#282828", font=("Roboto Black", 36 * -1))
-        self.pack(fill="both",expand=True)
+        for i in range(60):
+            tk.Label(self.canvas, text=f"Frame 1 - Item {i + 1}", bg="lightblue").pack(anchor="w", padx=10, pady=2)
+        self.parent.set_frame(self)
     
     def update(self):
         pass

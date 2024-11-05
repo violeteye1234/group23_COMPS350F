@@ -1,6 +1,6 @@
 import tkinter as tk
 from utils.page_view import PageView
-from utils.canvas_button import CanvasButton # type: ignore
+from utils import CanvasButton, ScrollableFrame
 from tkinter import PhotoImage
 
 class MainPageView(PageView):
@@ -12,17 +12,6 @@ class MainPageView(PageView):
         self.canvas.pack(fill="both", expand=True)
     
     def render(self):
-
-        # button_3 = CanvasButton(self.canvas,  1348.0, 37.0, self.image_path / "image_3.png",      lambda: self.controller.switch_page("profile"))
-        # button_4 = CanvasButton(self.canvas,  1257.0, 37.0, self.image_path / "image_4.png",      lambda: self.controller.switch_page("help"))
-        # button_5 = CanvasButton(self.canvas,  1159.0, 37.0, self.image_path / "image_5.png",      lambda: self.controller.switch_page("about"))
-        # button_7 = CanvasButton(self.canvas,  125.0, 121.0, self.image_path / "image_7.png",      lambda: self.controller.switch_page("dashboard"))
-        # button_8 = CanvasButton(self.canvas,  125.0, 261.0, self.image_path / "image_8.png",      lambda: self.controller.switch_page("boarding_information"))
-        # button_9 = CanvasButton(self.canvas,  125.0, 331.0, self.image_path / "image_9.png",      lambda: self.controller.switch_page("my_flight"))
-        # button_10 = CanvasButton(self.canvas,  125.0, 401.0, self.image_path / "image_10.png",    lambda: self.controller.switch_page("my_baggage"))
-        # button_12 = CanvasButton(self.canvas,  125.0, 471.0, self.image_path / "image_12.png",    lambda: self.controller.logout())
-        # button_13 = CanvasButton(self.canvas,  125.0, 191.0, self.image_path / "image_13.png",    lambda: self.controller.switch_page("notification_center"))
-
         self.image_image_1 = PhotoImage(file=self.image_path / "image_1.png")
         self.image_1 = self.canvas.create_image(540.0, 27.0, image=self.image_image_1)
 
@@ -42,11 +31,10 @@ class MainPageView(PageView):
         button_11 = CanvasButton(self.canvas,  93.5, 352.5, self.image_path / "image_11.png",   lambda: self.controller.logout())
         button_12 = CanvasButton(self.canvas,  93.5, 142.5, self.image_path / "image_12.png",   lambda: self.controller.switch_page("notification_center"))
 
-        self.content_frame = tk.Frame(self.canvas, width=892.5, height=712.5, bg="#FFF0F0")
+        self.content_frame = ScrollableFrame(self.canvas, width=892.5, height=712.5, bg="#FFF0F0")
         self.content_frame.pack_propagate(False)
         self.canvas.create_window(187.5, 55.5, window=self.content_frame, anchor='nw')
 
-        
 
     def update(self):
         pass
