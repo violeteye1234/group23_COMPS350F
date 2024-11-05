@@ -13,7 +13,7 @@ class MainWindow(tk.Tk):
         self.logger.info("Initializing MainWindow")
 
         # 設置視窗屬性
-        self.geometry("1440x1024")
+        self.geometry("1080x768")
         self.overrideredirect(True)
         self.resizable(True, True)
         self.wm_attributes('-transparentcolor', '#123456')
