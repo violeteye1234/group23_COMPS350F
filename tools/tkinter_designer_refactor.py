@@ -2,8 +2,8 @@ import re
 import os
 
 # 定義目錄路徑
-filename = r"tkinter_designer_output\build\gui.py"
-
+filename = r"D:\Software Engineer 350 GP\group23_COMPS350F\tkinter_designer_output\build\build\gui.py"
+#filename = r"D:\Software Engineer 350 GP\group23_COMPS350F\tkinter_designer_output\build\gui.py"
 # 定義正則表達式和替換模式
 patterns = [
     (r'(image_image_.*) = PhotoImage\(\s*file=relative_to_assets\((.*)\)\)', r'\1 = PhotoImage(file=relative_to_assets(\2))'),
