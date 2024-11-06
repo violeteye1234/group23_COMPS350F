@@ -12628,3 +12628,9 @@
 2024-11-06 07:37:25 - AppLogger - DEBUG - Added 'Login' to page history.
 2024-11-06 07:37:26 - AppLogger - INFO - Escape key pressed. Closing the window.
 2024-11-06 07:37:26 - AppLogger - INFO - Closing the window...
+2024-11-06 21:46:16 - AppLogger - INFO - Initializing MainWindow
+2024-11-06 21:46:16 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-06 21:46:16 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-06 21:46:33 - AppLogger - INFO - Initializing MainWindow
+2024-11-06 21:46:33 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-06 21:46:33 - AppLogger - INFO - Page 'Register' initialized.
