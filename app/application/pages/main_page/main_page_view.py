@@ -18,6 +18,7 @@ class MainPageView(PageView):
         self.image_image_2 = PhotoImage(file=self.image_path / "image_2.png")
         self.image_2 = self.canvas.create_image(93.0, 435.5, image=self.image_image_2)
         
+        
         self.canvas.create_text(443.0, 12.75, anchor="nw", text="12:57", fill="#EBEBEB", font=("Roboto Black", 36 * -1))
 
         button_3 = CanvasButton(self.canvas,  95.25, 27.0, self.image_path / "image_3.png",     lambda: self.controller.switch_page("dashboard"))

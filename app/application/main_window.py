@@ -68,6 +68,7 @@ class MainWindow(tk.Tk):
         page_controller = self.pages[page_name]
         page_controller.render()
         page_controller.view.pack(fill="both", expand=True)
+
         self.current_page_name = page_name
 
         if note_page and self.current_page_name:
@@ -77,6 +78,7 @@ class MainWindow(tk.Tk):
     def login(self, id: str, password: str) -> None:
         self.logger.info(f"Login as {id}.")
         self.show_page("Main")
+        
 
     def is_pressed_top(self, event):
         return self.winfo_x() + self.winfo_width()-60 >= event.x_root >= self.winfo_x() and self.winfo_y() + 30 >= event.y_root >= self.winfo_y()
