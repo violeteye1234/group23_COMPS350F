@@ -28,6 +28,15 @@ class LoginPageView(PageView):
             command=lambda: self.controller.go_to_register()
         )
         self.canvas.create_window(540, 350, window=self.register_button, width=200, height=50)
+
+        
+        # 创建"Ground staff"按钮
+        self.ground_staff = tk.Button(
+            self.canvas,
+            text = "GS login",
+            command = lambda: self.controller.go_to_gs()
+        )
+        self.canvas.create_window(540, 400, window = self.ground_staff, width = 200, height = 50)
     
     def render(self):
         self.pack(fill='both', expand=True)

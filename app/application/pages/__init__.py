@@ -16,6 +16,7 @@ from .notification_setting.notification_setting_controller import NotificationSe
 from .personal_information.personal_information_controller import PersonalInformationPageController
 from .profile.profile_controller import ProfilePageController
 from .register.register_controller import RegisterPageController
+from .login_groundstaff.login_gs_controller import LoginGS_PageController
 
 from .about.about_view import AboutPageView
 from .baggage_detail.baggage_detail_view import BaggageDetailPageView
@@ -33,6 +34,7 @@ from .notification_setting.notification_setting_view import NotificationSettingP
 from .personal_information.personal_information_view import PersonalInformationPageView
 from .profile.profile_view import ProfilePageView
 from .register.register_view import RegisterPageView
+from .login_groundstaff.login_gs_view import LoginPageViewGS
 
 __all__ = [
     'AboutPageController',
@@ -42,6 +44,7 @@ __all__ = [
     'FlightDetailPageController',
     'HelpPageController',
     'LoginPageController',
+    'LoginGS_PageController',
     'MainPageController',
     'MapPageController',
     'MyBaggagePageController',
@@ -59,6 +62,7 @@ __all__ = [
     'FlightDetailPageView',
     'HelpPageView',
     'LoginPageView',
+    'LoginPageViewGS',
     'MainPageView',
     'MapPageView',
     'MyBaggagePageView',
