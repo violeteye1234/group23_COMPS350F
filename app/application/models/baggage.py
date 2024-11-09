@@ -1,5 +1,6 @@
 # models/baggage.py
 
+
 class Baggage:
     def __init__(self, baggage_id, user_id, flight_number, status, current_location, activity_history):
         self.baggage_id = baggage_id
