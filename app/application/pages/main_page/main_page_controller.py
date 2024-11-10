@@ -16,6 +16,7 @@ from pages.notification_setting.notification_setting_controller import Notificat
 from pages.personal_information.personal_information_controller import PersonalInformationPageController
 from pages.profile.profile_controller import ProfilePageController
 from pages.register.register_controller import RegisterPageController
+import time
 
 class MainPageController(PageController):
     def __init__(self, root, parent_container = None):
@@ -42,6 +43,7 @@ class MainPageController(PageController):
             "register"               : RegisterPageController              
         }
         
+        
 
     def switch_page(self, page_name):
         if self.current_content_controller:
@@ -58,8 +60,15 @@ class MainPageController(PageController):
             self.current_content_controller.cleanup()
             self.current_content_controller = None
             self.view.clear_content()
-            
-
         
     def logout(self) -> None:
         self.root.show_page('Login')
+        
+    def update_clock(self) -> None:
+        current_time = time.strftime("%H:%M")
+        self.view.canvas.itemconfig(self.view.clock, text=current_time) # type: ignore
+        self.view.canvas.after(1000, self.update_clock) # type: ignore
+
+    def render(self):
+        super().render()
+        self.update_clock()

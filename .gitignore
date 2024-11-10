@@ -9,3 +9,4 @@ read_structure.py
 example.py
 app.log
 tkinter_designer_refactor.py
+app/logs/app.log
