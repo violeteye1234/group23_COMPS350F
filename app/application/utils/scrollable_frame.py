@@ -14,11 +14,6 @@ class ScrollableFrame(Frame):
         self.canvas.configure(yscrollcommand=self.scrollbar_vert.set)
         self.scrollbar_vert.pack(side="right", fill="y")
 
-        # 设置水平滚动条
-        self.scrollbar_horiz = Scrollbar(self, orient="horizontal", command=self.canvas.xview)
-        self.canvas.configure(xscrollcommand=self.scrollbar_horiz.set)
-        self.scrollbar_horiz.pack(side="bottom", fill="x")
-
         # 当前显示的子框架
         self.current_child = None
         self.current_window = None

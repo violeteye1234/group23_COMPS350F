@@ -4,10 +4,10 @@ from tkinter import PhotoImage
 
 class HelpPageView(PageView):
     def __init__(self, parent):
-        super().__init__(parent, height = 712.5, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
-        self.image_path = self.image_path / "main_page/images/"
+        super().__init__(parent, height = 1701, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
+        self.image_path = self.image_path / "help/images/"
         
-        self.canvas = tk.Canvas(self, height = 712.5, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
+        self.canvas = tk.Canvas(self, height = 1701, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
         self.canvas.pack(fill="both", expand=True)
     
     def render(self):
@@ -31,6 +31,7 @@ class HelpPageView(PageView):
 
         self.image_image_7 = PhotoImage(file=self.image_path / "image_7.png")
         self.image_7 = self.canvas.create_image(444.75, 884.75, image=self.image_image_7)
+        
         self.parent.set_frame(self)
     
     def update(self):

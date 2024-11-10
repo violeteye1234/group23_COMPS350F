@@ -139,4 +139,3 @@ if __name__ == "__main__":
     app = MainWindow()
     app.show_page('Login')
     app.mainloop()
-    unittest.main()
