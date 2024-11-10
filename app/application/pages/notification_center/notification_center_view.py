@@ -33,17 +33,13 @@ class NotificationCenterPageView(PageView):
         resized_image3.save(original_image_path3) # 覆盖原始图片
 
 
-        #button_1 = CanvasButton(self.canvas, 420, 120, self.image_path / "image_3.png",
-                               # lambda: self.controller.go_to_my_baggage(),self.image_path / "image_2.png")
-        button_1 = CanvasButton(self.canvas, 420, 120, self.image_path / "image_3.png",lambda: self.controller.root.page_controller.switch_page("my_baggage"),self.image_path / "image_2.png")
-        #button_2 = CanvasButton(self.canvas, 420, 220, self.image_path / "image_3.png",
-                               # lambda: self.controller.go_to_my_baggage(),self.image_path / "image_2.png")
+        button_1 = CanvasButton(self.canvas, 420, 120, self.image_path / "image_3.png",
+                                lambda: self.controller.root.page_controller.switch_page("my_baggage"),self.image_path / "image_2.png")
+        button_2 = CanvasButton(self.canvas, 420, 220, self.image_path / "image_3.png",
+                                lambda: self.controller.root.page_controller.switch_page("my_baggage"),self.image_path / "image_2.png")
         self.parent.set_frame(self)
 
         
 
     def update(self):
-        #self.content_frame = ScrollableFrame(self.canvas, width=892.5, height=712.5, bg="#FFF0F0")
-        #self.content_frame.pack_propagate(False)
-        #self.canvas.create_window(187.5, 55.5, window=self.content_frame, anchor='nw')
         pass

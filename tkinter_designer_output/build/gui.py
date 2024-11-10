@@ -11,11 +11,7 @@ from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 
 
 OUTPUT_PATH = Path(__file__).parent
-<<<<<<< Updated upstream
 ASSETS_PATH = OUTPUT_PATH / Path(r"D:\S350F\group23_COMPS350F-main1\group23_COMPS350F\tkinter_designer_output\build\assets\frame0")
-=======
-ASSETS_PATH = OUTPUT_PATH / Path(r"E:\GithubClone\group23_COMPS350F\tkinter_designer_output\build\assets\frame0")
->>>>>>> Stashed changes
 
 
 def relative_to_assets(path: str) -> Path:
@@ -24,26 +20,15 @@ def relative_to_assets(path: str) -> Path:
 
 window = Tk()
 
-<<<<<<< Updated upstream
-window.geometry("1440x1498")
-window.configure(bg = "#F5F5F5")
-=======
-window.geometry("890x1740")
+window.geometry("1230x1152")
 window.configure(bg = "#FFFFFF")
->>>>>>> Stashed changes
 
 
 canvas = Canvas(
     window,
-<<<<<<< Updated upstream
-    bg = "#F5F5F5",
-    height = 1498,
-    width = 1440,
-=======
     bg = "#FFFFFF",
-    height = 1740,
-    width = 890,
->>>>>>> Stashed changes
+    height = 1152,
+    width = 1230,
     bd = 0,
     highlightthickness = 0,
     relief = "ridge"
@@ -53,79 +38,113 @@ canvas.place(x = 0, y = 0)
 image_image_1 = PhotoImage(
     file=relative_to_assets("image_1.png"))
 image_1 = canvas.create_image(
-<<<<<<< Updated upstream
-    523.0,
-    135.0,
-=======
-    89.25,
-    45.5,
->>>>>>> Stashed changes
+    287.0,
+    29.0,
     image=image_image_1
 )
 
 image_image_2 = PhotoImage(
     file=relative_to_assets("image_2.png"))
 image_2 = canvas.create_image(
-<<<<<<< Updated upstream
-    847.0,
-    263.0,
-=======
-    599.25,
-    45.75,
->>>>>>> Stashed changes
+    516.0,
+    203.0,
     image=image_image_2
 )
 
 image_image_3 = PhotoImage(
     file=relative_to_assets("image_3.png"))
 image_3 = canvas.create_image(
-<<<<<<< Updated upstream
-    847.0,
-    377.0,
-=======
-    444.75,
-    243.0,
->>>>>>> Stashed changes
+    516.0,
+    309.0,
     image=image_image_3
 )
 
 image_image_4 = PhotoImage(
     file=relative_to_assets("image_4.png"))
 image_4 = canvas.create_image(
-<<<<<<< Updated upstream
-    1324.0,
-    241.0,
-    image=image_image_4
-)
-=======
-    444.75,
-    564.5,
+    516.0,
+    415.0,
     image=image_image_4
 )
 
 image_image_5 = PhotoImage(
     file=relative_to_assets("image_5.png"))
 image_5 = canvas.create_image(
-    444.75,
-    1194.0,
+    516.0,
+    521.0,
     image=image_image_5
 )
 
 image_image_6 = PhotoImage(
     file=relative_to_assets("image_6.png"))
 image_6 = canvas.create_image(
-    444.75,
-    1505.5,
+    516.0,
+    627.0,
     image=image_image_6
 )
 
 image_image_7 = PhotoImage(
     file=relative_to_assets("image_7.png"))
 image_7 = canvas.create_image(
-    444.75,
-    884.75,
+    516.0,
+    793.0,
     image=image_image_7
 )
->>>>>>> Stashed changes
+
+image_image_8 = PhotoImage(
+    file=relative_to_assets("image_8.png"))
+image_8 = canvas.create_image(
+    516.0,
+    899.0,
+    image=image_image_8
+)
+
+image_image_9 = PhotoImage(
+    file=relative_to_assets("image_9.png"))
+image_9 = canvas.create_image(
+    515.0,
+    126.0,
+    image=image_image_9
+)
+
+image_image_10 = PhotoImage(
+    file=relative_to_assets("image_10.png"))
+image_10 = canvas.create_image(
+    515.0,
+    710.0,
+    image=image_image_10
+)
+
+image_image_11 = PhotoImage(
+    file=relative_to_assets("image_11.png"))
+image_11 = canvas.create_image(
+    516.0,
+    1005.0,
+    image=image_image_11
+)
+
+image_image_12 = PhotoImage(
+    file=relative_to_assets("image_12.png"))
+image_12 = canvas.create_image(
+    516.0,
+    1111.0,
+    image=image_image_12
+)
+
+image_image_13 = PhotoImage(
+    file=relative_to_assets("image_13.png"))
+image_13 = canvas.create_image(
+    1190.0,
+    442.0,
+    image=image_image_13
+)
+
+image_image_14 = PhotoImage(
+    file=relative_to_assets("image_14.png"))
+image_14 = canvas.create_image(
+    1190.0,
+    352.0,
+    image=image_image_14
+)
 window.resizable(False, False)
 window.mainloop()
