@@ -14,6 +14,10 @@ class ProfilePageView(PageView):
         self.image_image_1 = PhotoImage(file=self.image_path / "image_1.png")
         self.image_1 = self.canvas.create_image(185, 45, image=self.image_image_1)
 
+        self.image_image_ = PhotoImage(file=self.image_path / "image_1.png")
+        self.image_1 = self.canvas.create_image(185, 45, image=self.image_image_1)
+
+
         
     
     def render(self):

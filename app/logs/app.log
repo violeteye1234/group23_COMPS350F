@@ -335,3 +335,311 @@
 2024-11-11 00:47:16 - AppLogger - INFO - Showing page profile
 2024-11-11 00:47:16 - AppLogger - INFO - Showing page notification_setting
 2024-11-11 00:47:18 - AppLogger - INFO - Showing page profile
+2024-11-11 00:54:24 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 00:54:24 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 00:54:24 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 00:54:24 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 00:54:24 - AppLogger - DEBUG - Set application window style.
+2024-11-11 00:54:24 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 00:54:24 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 00:54:25 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 00:54:25 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 00:54:25 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 00:54:26 - AppLogger - INFO - Showing page profile
+2024-11-11 00:54:27 - AppLogger - INFO - Showing page personal_information
+2024-11-11 00:55:02 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 00:55:02 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 00:55:02 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 00:55:02 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 00:55:02 - AppLogger - DEBUG - Set application window style.
+2024-11-11 00:55:02 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 00:55:02 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 00:55:03 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 00:55:03 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 00:55:03 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 00:55:03 - AppLogger - INFO - Started dragging the window.
+2024-11-11 00:55:03 - AppLogger - DEBUG - Window moved to (-1, 0).
+2024-11-11 00:55:03 - AppLogger - INFO - Showing page profile
+2024-11-11 00:55:03 - AppLogger - INFO - Stopped dragging the window.
+2024-11-11 00:55:04 - AppLogger - INFO - Showing page personal_information
+2024-11-11 00:56:19 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 00:56:19 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 00:56:19 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 00:56:19 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 00:56:19 - AppLogger - DEBUG - Set application window style.
+2024-11-11 00:56:19 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 00:56:19 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 00:56:20 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 00:56:20 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 00:56:20 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 00:56:21 - AppLogger - INFO - Showing page profile
+2024-11-11 00:56:22 - AppLogger - INFO - Showing page personal_information
+2024-11-11 00:56:38 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 00:56:38 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 00:56:38 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 00:56:38 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 00:56:38 - AppLogger - DEBUG - Set application window style.
+2024-11-11 00:56:38 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 00:56:38 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 00:56:39 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 00:56:39 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 00:56:39 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 00:56:39 - AppLogger - INFO - Showing page profile
+2024-11-11 00:56:40 - AppLogger - INFO - Showing page personal_information
+2024-11-11 00:56:52 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 00:56:52 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 00:56:52 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 00:56:52 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 00:56:52 - AppLogger - DEBUG - Set application window style.
+2024-11-11 00:56:52 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 00:56:52 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 00:56:53 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 00:56:53 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 00:56:53 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 00:56:54 - AppLogger - INFO - Started dragging the window.
+2024-11-11 00:56:54 - AppLogger - INFO - Showing page profile
+2024-11-11 00:56:54 - AppLogger - INFO - Stopped dragging the window.
+2024-11-11 00:56:55 - AppLogger - INFO - Showing page personal_information
+2024-11-11 00:57:09 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 00:57:09 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 00:57:09 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 00:57:09 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 00:57:09 - AppLogger - DEBUG - Set application window style.
+2024-11-11 00:57:09 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 00:57:09 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 00:57:09 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 00:57:09 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 00:57:09 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 00:57:10 - AppLogger - INFO - Showing page profile
+2024-11-11 00:57:10 - AppLogger - INFO - Showing page personal_information
+2024-11-11 00:57:33 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 00:57:33 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 00:57:33 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 00:57:33 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 00:57:33 - AppLogger - DEBUG - Set application window style.
+2024-11-11 00:57:33 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 00:57:33 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 00:57:33 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 00:57:33 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 00:57:33 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 00:57:35 - AppLogger - INFO - Started dragging the window.
+2024-11-11 00:57:35 - AppLogger - INFO - Showing page profile
+2024-11-11 00:57:35 - AppLogger - INFO - Stopped dragging the window.
+2024-11-11 00:57:35 - AppLogger - INFO - Showing page personal_information
+2024-11-11 00:58:41 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 00:58:41 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 00:58:41 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 00:58:41 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 00:58:41 - AppLogger - DEBUG - Set application window style.
+2024-11-11 00:58:41 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 00:58:41 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 00:58:41 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 00:58:41 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 00:58:41 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 00:58:42 - AppLogger - INFO - Started dragging the window.
+2024-11-11 00:58:42 - AppLogger - INFO - Showing page profile
+2024-11-11 00:58:42 - AppLogger - INFO - Stopped dragging the window.
+2024-11-11 00:58:42 - AppLogger - INFO - Showing page personal_information
+2024-11-11 00:58:58 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 00:58:58 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 00:58:58 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 00:58:58 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 00:58:58 - AppLogger - DEBUG - Set application window style.
+2024-11-11 00:58:58 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 00:58:58 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 00:58:59 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 00:58:59 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 00:58:59 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 00:59:00 - AppLogger - INFO - Showing page profile
+2024-11-11 00:59:00 - AppLogger - INFO - Showing page personal_information
+2024-11-11 00:59:10 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 00:59:10 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 00:59:10 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 00:59:10 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 00:59:10 - AppLogger - DEBUG - Set application window style.
+2024-11-11 00:59:10 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 00:59:10 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 00:59:11 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 00:59:11 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 00:59:11 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 00:59:12 - AppLogger - INFO - Showing page profile
+2024-11-11 00:59:12 - AppLogger - INFO - Showing page personal_information
+2024-11-11 00:59:22 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 00:59:22 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 00:59:22 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 00:59:22 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 00:59:22 - AppLogger - DEBUG - Set application window style.
+2024-11-11 00:59:22 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 00:59:22 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 00:59:23 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 00:59:23 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 00:59:23 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 00:59:23 - AppLogger - INFO - Showing page profile
+2024-11-11 00:59:24 - AppLogger - INFO - Showing page personal_information
+2024-11-11 01:00:37 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 01:00:37 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 01:00:37 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 01:00:37 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 01:00:37 - AppLogger - DEBUG - Set application window style.
+2024-11-11 01:00:37 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 01:00:37 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 01:00:37 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 01:00:37 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 01:00:37 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 01:00:38 - AppLogger - INFO - Showing page profile
+2024-11-11 01:00:38 - AppLogger - INFO - Showing page personal_information
+2024-11-11 01:01:01 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 01:01:01 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 01:01:01 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 01:01:01 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 01:01:01 - AppLogger - DEBUG - Set application window style.
+2024-11-11 01:01:01 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 01:01:01 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 01:01:02 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 01:01:02 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 01:01:02 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 01:01:03 - AppLogger - INFO - Showing page profile
+2024-11-11 01:01:03 - AppLogger - INFO - Showing page notification_setting
+2024-11-11 01:01:05 - AppLogger - INFO - Showing page profile
+2024-11-11 01:01:15 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 01:01:15 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 01:01:15 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 01:01:15 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 01:01:15 - AppLogger - DEBUG - Set application window style.
+2024-11-11 01:01:15 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 01:01:15 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 01:01:15 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 01:01:15 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 01:01:15 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 01:01:16 - AppLogger - INFO - Showing page profile
+2024-11-11 01:01:16 - AppLogger - INFO - Showing page personal_information
+2024-11-11 01:01:18 - AppLogger - INFO - Showing page profile
+2024-11-11 01:01:19 - AppLogger - INFO - Started dragging the window.
+2024-11-11 01:01:19 - AppLogger - INFO - Showing page profile
+2024-11-11 01:01:19 - AppLogger - INFO - Stopped dragging the window.
+2024-11-11 01:01:20 - AppLogger - INFO - Showing page personal_information
+2024-11-11 01:01:36 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 01:01:36 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 01:01:36 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 01:01:36 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 01:01:36 - AppLogger - DEBUG - Set application window style.
+2024-11-11 01:01:36 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 01:01:36 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 01:01:37 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 01:01:37 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 01:01:37 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 01:01:37 - AppLogger - INFO - Showing page profile
+2024-11-11 01:01:38 - AppLogger - INFO - Showing page personal_information
+2024-11-11 01:01:52 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 01:01:52 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 01:01:52 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 01:01:52 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 01:01:52 - AppLogger - DEBUG - Set application window style.
+2024-11-11 01:01:52 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 01:01:52 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 01:01:52 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 01:01:52 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 01:01:52 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 01:01:53 - AppLogger - INFO - Showing page profile
+2024-11-11 01:01:54 - AppLogger - INFO - Showing page personal_information
+2024-11-11 01:02:11 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 01:02:11 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 01:02:11 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 01:02:11 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 01:02:11 - AppLogger - DEBUG - Set application window style.
+2024-11-11 01:02:11 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 01:02:11 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 01:02:12 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 01:02:12 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 01:02:12 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 01:02:13 - AppLogger - INFO - Started dragging the window.
+2024-11-11 01:02:13 - AppLogger - INFO - Showing page profile
+2024-11-11 01:02:13 - AppLogger - INFO - Stopped dragging the window.
+2024-11-11 01:02:13 - AppLogger - INFO - Showing page personal_information
+2024-11-11 01:02:25 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 01:02:25 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 01:02:25 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 01:02:25 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 01:02:25 - AppLogger - DEBUG - Set application window style.
+2024-11-11 01:02:25 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 01:02:25 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 01:02:26 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 01:02:26 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 01:02:26 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 01:02:27 - AppLogger - INFO - Showing page profile
+2024-11-11 01:02:28 - AppLogger - INFO - Showing page personal_information
+2024-11-11 01:02:47 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 01:02:47 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 01:02:47 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 01:02:47 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 01:02:47 - AppLogger - DEBUG - Set application window style.
+2024-11-11 01:02:47 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 01:02:47 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 01:02:48 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 01:02:48 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 01:02:48 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 01:02:49 - AppLogger - INFO - Showing page profile
+2024-11-11 01:02:50 - AppLogger - INFO - Showing page personal_information
+2024-11-11 01:03:01 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 01:03:01 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 01:03:01 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 01:03:01 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 01:03:01 - AppLogger - DEBUG - Set application window style.
+2024-11-11 01:03:01 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 01:03:01 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 01:03:01 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 01:03:01 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 01:03:01 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 01:03:04 - AppLogger - INFO - Started dragging the window.
+2024-11-11 01:03:04 - AppLogger - INFO - Showing page profile
+2024-11-11 01:03:04 - AppLogger - INFO - Stopped dragging the window.
+2024-11-11 01:03:04 - AppLogger - INFO - Showing page personal_information
+2024-11-11 01:03:07 - AppLogger - INFO - Showing page notification_setting
+2024-11-11 01:03:11 - AppLogger - INFO - Started dragging the window.
+2024-11-11 01:03:11 - AppLogger - INFO - Showing page profile
+2024-11-11 01:03:11 - AppLogger - INFO - Stopped dragging the window.
+2024-11-11 01:03:30 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 01:03:30 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 01:03:30 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 01:03:30 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 01:03:30 - AppLogger - DEBUG - Set application window style.
+2024-11-11 01:03:30 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 01:03:30 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 01:03:31 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 01:03:31 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 01:03:31 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 01:03:32 - AppLogger - INFO - Showing page profile
+2024-11-11 01:03:32 - AppLogger - INFO - Showing page personal_information
+2024-11-11 01:03:35 - AppLogger - INFO - Started dragging the window.
+2024-11-11 01:03:35 - AppLogger - INFO - Stopped dragging the window.
+2024-11-11 01:03:37 - AppLogger - INFO - Started dragging the window.
+2024-11-11 01:03:37 - AppLogger - INFO - Stopped dragging the window.
+2024-11-11 01:03:37 - AppLogger - INFO - Started dragging the window.
+2024-11-11 01:03:37 - AppLogger - INFO - Stopped dragging the window.
+2024-11-11 01:03:37 - AppLogger - INFO - Started dragging the window.
+2024-11-11 01:03:38 - AppLogger - INFO - Stopped dragging the window.
+2024-11-11 01:03:54 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 01:03:54 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 01:03:55 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 01:03:55 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 01:03:55 - AppLogger - DEBUG - Set application window style.
+2024-11-11 01:03:55 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 01:03:55 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 01:03:55 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 01:03:55 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 01:03:55 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 01:03:56 - AppLogger - INFO - Showing page profile
+2024-11-11 01:03:58 - AppLogger - INFO - Showing page personal_information
+2024-11-11 01:04:16 - AppLogger - INFO - Initializing MainWindow
+2024-11-11 01:04:16 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-11 01:04:16 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-11 01:04:16 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-11 01:04:16 - AppLogger - DEBUG - Set application window style.
+2024-11-11 01:04:16 - AppLogger - INFO - Showing page 'Login'.
+2024-11-11 01:04:16 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-11 01:04:17 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-11 01:04:17 - AppLogger - INFO - Showing page 'Main'.
+2024-11-11 01:04:17 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-11 01:04:18 - AppLogger - INFO - Showing page notification_center
+2024-11-11 01:04:21 - AppLogger - INFO - Showing page profile
+2024-11-11 01:04:24 - AppLogger - INFO - Showing page notification_setting
