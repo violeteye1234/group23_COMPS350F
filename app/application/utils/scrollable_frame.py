@@ -29,12 +29,9 @@ class ScrollableFrame(Frame):
         self.current_child = new_frame
         self.current_window = self.canvas.create_window(0, 0, window=self.current_child, anchor="nw")
 
-
         self.current_child.canvas.bind("<Configure>", self._resize_scroll_region)
 
-        
         self.scrollbar_vert.lift()
-        self.scrollbar_horiz.lift()
 
     def _resize_scroll_region(self, event=None):
         # 设置滚动区域为所有内容的边界框

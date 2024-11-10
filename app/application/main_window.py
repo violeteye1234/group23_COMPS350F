@@ -69,9 +69,9 @@ class MainWindow(tk.Tk):
         if self.current_page_name and self.current_page_name in self.pages:
             self.pages[self.current_page_name].view.pack_forget()
 
-        page_controller = self.pages[page_name]
-        page_controller.render()
-        page_controller.view.pack(fill="both", expand=True)
+        self.page_controller = self.pages[page_name]
+        self.page_controller.render()
+        self.page_controller.view.pack(fill="both", expand=True)
 
         self.current_page_name = page_name
 
