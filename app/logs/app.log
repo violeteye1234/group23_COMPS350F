@@ -18321,3 +18321,115 @@
 2024-11-10 09:20:11 - AppLogger - INFO - Showing page my_baggage
 2024-11-10 09:20:12 - AppLogger - INFO - Escape key pressed. Closing the window.
 2024-11-10 09:20:12 - AppLogger - INFO - Closing the window...
+2024-11-10 21:57:44 - AppLogger - INFO - Initializing MainWindow
+2024-11-10 21:57:44 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-10 21:57:44 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-10 21:57:44 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-10 21:57:44 - AppLogger - INFO - Page 'GS_login' initialized.
+2024-11-10 21:57:44 - AppLogger - DEBUG - Set application window style.
+2024-11-10 21:57:44 - AppLogger - INFO - Showing page 'Login'.
+2024-11-10 21:57:44 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-10 21:57:45 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-10 21:57:45 - AppLogger - INFO - Showing page 'Main'.
+2024-11-10 21:57:45 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-10 21:57:46 - AppLogger - INFO - Showing page notification_center
+2024-11-10 21:57:46 - AppLogger - INFO - Showing page 'Main'.
+2024-11-10 21:57:46 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-10 21:58:06 - AppLogger - INFO - Initializing MainWindow
+2024-11-10 21:58:06 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-10 21:58:06 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-10 21:58:06 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-10 21:58:06 - AppLogger - INFO - Page 'GS_login' initialized.
+2024-11-10 21:58:06 - AppLogger - DEBUG - Set application window style.
+2024-11-10 21:58:06 - AppLogger - INFO - Showing page 'Login'.
+2024-11-10 21:58:06 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-10 21:58:06 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-10 21:58:06 - AppLogger - INFO - Showing page 'Main'.
+2024-11-10 21:58:06 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-10 21:58:07 - AppLogger - INFO - Showing page notification_center
+2024-11-10 21:58:07 - AppLogger - INFO - Showing page 'Baggage'.
+2024-11-10 21:58:42 - AppLogger - INFO - Initializing MainWindow
+2024-11-10 21:58:42 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-10 21:58:42 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-10 21:58:42 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-10 21:58:42 - AppLogger - INFO - Page 'GS_login' initialized.
+2024-11-10 21:58:42 - AppLogger - DEBUG - Set application window style.
+2024-11-10 21:58:42 - AppLogger - INFO - Showing page 'Login'.
+2024-11-10 21:58:42 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-10 21:58:43 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-10 21:58:43 - AppLogger - INFO - Showing page 'Main'.
+2024-11-10 21:58:43 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-10 21:58:44 - AppLogger - INFO - Showing page notification_center
+2024-11-10 21:58:44 - AppLogger - INFO - Showing page 'my_baggage'.
+2024-11-10 22:00:27 - AppLogger - INFO - Initializing MainWindow
+2024-11-10 22:00:27 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-10 22:00:27 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-10 22:00:27 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-10 22:00:27 - AppLogger - INFO - Page 'GS_login' initialized.
+2024-11-10 22:00:27 - AppLogger - DEBUG - Set application window style.
+2024-11-10 22:00:27 - AppLogger - INFO - Showing page 'Login'.
+2024-11-10 22:00:27 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-10 22:00:27 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-10 22:00:27 - AppLogger - INFO - Showing page 'Main'.
+2024-11-10 22:00:27 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-10 22:00:28 - AppLogger - INFO - Showing page notification_center
+2024-11-10 22:00:28 - AppLogger - INFO - Showing page 'notification_center'.
+2024-11-10 22:01:38 - AppLogger - INFO - Initializing MainWindow
+2024-11-10 22:01:38 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-10 22:01:38 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-10 22:01:38 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-10 22:01:38 - AppLogger - INFO - Page 'GS_login' initialized.
+2024-11-10 22:01:38 - AppLogger - DEBUG - Set application window style.
+2024-11-10 22:01:38 - AppLogger - INFO - Showing page 'Login'.
+2024-11-10 22:01:38 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-10 22:01:39 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-10 22:01:39 - AppLogger - INFO - Showing page 'Main'.
+2024-11-10 22:01:39 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-10 22:01:39 - AppLogger - INFO - Showing page notification_center
+2024-11-10 22:01:39 - AppLogger - INFO - Showing page 'Login'.
+2024-11-10 22:01:39 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-10 22:01:57 - AppLogger - INFO - Initializing MainWindow
+2024-11-10 22:01:57 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-10 22:01:57 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-10 22:01:57 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-10 22:01:57 - AppLogger - INFO - Page 'GS_login' initialized.
+2024-11-10 22:01:57 - AppLogger - DEBUG - Set application window style.
+2024-11-10 22:01:57 - AppLogger - INFO - Showing page 'Login'.
+2024-11-10 22:01:57 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-10 22:01:58 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-10 22:01:58 - AppLogger - INFO - Showing page 'Main'.
+2024-11-10 22:01:58 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-10 22:01:58 - AppLogger - INFO - Showing page notification_center
+2024-11-10 22:01:59 - AppLogger - INFO - Showing page 'Main'.
+2024-11-10 22:01:59 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-10 22:02:30 - AppLogger - INFO - Initializing MainWindow
+2024-11-10 22:02:30 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-10 22:02:30 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-10 22:02:30 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-10 22:02:30 - AppLogger - INFO - Page 'GS_login' initialized.
+2024-11-10 22:02:30 - AppLogger - DEBUG - Set application window style.
+2024-11-10 22:02:30 - AppLogger - INFO - Showing page 'Login'.
+2024-11-10 22:02:30 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-10 22:02:31 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-10 22:02:31 - AppLogger - INFO - Showing page 'Main'.
+2024-11-10 22:02:31 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-10 22:02:33 - AppLogger - INFO - Showing page notification_center
+2024-11-10 22:02:35 - AppLogger - INFO - Showing page 'Main'.
+2024-11-10 22:02:35 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-10 22:02:37 - AppLogger - INFO - Showing page my_baggage
+2024-11-10 22:02:38 - AppLogger - INFO - Showing page my_baggage
+2024-11-10 22:02:39 - AppLogger - INFO - Showing page my_baggage
+2024-11-10 22:05:17 - AppLogger - INFO - Initializing MainWindow
+2024-11-10 22:05:17 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-10 22:05:17 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-10 22:05:17 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-10 22:05:17 - AppLogger - INFO - Page 'GS_login' initialized.
+2024-11-10 22:05:17 - AppLogger - INFO - Page 'my_baggage' initialized.
+2024-11-10 22:05:17 - AppLogger - DEBUG - Set application window style.
+2024-11-10 22:05:17 - AppLogger - INFO - Showing page 'Login'.
+2024-11-10 22:05:17 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-10 22:05:18 - AppLogger - INFO - Attempting login with username: 123, password: 123
+2024-11-10 22:05:18 - AppLogger - INFO - Showing page 'Main'.
+2024-11-10 22:05:18 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-10 22:05:19 - AppLogger - INFO - Showing page notification_center
+2024-11-10 22:05:19 - AppLogger - INFO - Showing page 'my_baggage'.

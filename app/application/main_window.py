@@ -4,10 +4,7 @@ import tkinter as tk
 from typing import Any, Dict, Optional
 from models.logger import get_logger
 from utils.page_controller import PageController
-from pages import LoginPageController, RegisterPageController, MainPageController, LoginGS_PageController
-
-#testing
-import unittest
+from pages import LoginPageController, RegisterPageController, MainPageController
 
 class MainWindow(tk.Tk):
     def __init__(self, logger=get_logger(), *args: Any, **kwargs: Any) -> None:
@@ -56,8 +53,7 @@ class MainWindow(tk.Tk):
         pages = {
             'Login': LoginPageController,
             'Register': RegisterPageController,
-            'Main': MainPageController,
-            'GS_login' : LoginGS_PageController
+            'Main': MainPageController
         }
         for name, ControllerClass in pages.items():
             controller = ControllerClass(self, self.container)
@@ -69,9 +65,9 @@ class MainWindow(tk.Tk):
         if self.current_page_name and self.current_page_name in self.pages:
             self.pages[self.current_page_name].view.pack_forget()
 
-        self.page_controller = self.pages[page_name]
-        self.page_controller.render()
-        self.page_controller.view.pack(fill="both", expand=True)
+        page_controller = self.pages[page_name]
+        page_controller.render()
+        page_controller.view.pack(fill="both", expand=True)
 
         self.current_page_name = page_name
 
@@ -82,9 +78,6 @@ class MainWindow(tk.Tk):
     def login(self, id: str, password: str) -> None:
         self.logger.info(f"Login as {id}.")
         self.show_page("Main")
-
-    def go_to_gs(self):
-        self.show_page("GS_login")
         
 
     def is_pressed_top(self, event):

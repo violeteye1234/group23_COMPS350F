@@ -6,3 +6,7 @@ class NotificationCenterPageController(PageController):
         super().__init__(root, parent_container)
         self.view = NotificationCenterPageView(parent_container)
         self.view_set_controller()
+
+
+    #def go_to_my_baggage(self):
+       # self.root.show_page('my_baggage')
