@@ -15,7 +15,7 @@ class LoginPageController(PageController):
         self.root.show_page('Register')
 
     def go_to_gs(self):
-        self.root.show_page('GS_login')
+        self.root.show_page('GS login')
     
     def cleanup(self):
         self.view.destroy()

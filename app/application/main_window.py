@@ -4,7 +4,7 @@ import tkinter as tk
 from typing import Any, Dict, Optional
 from models.logger import get_logger
 from utils.page_controller import PageController
-from pages import LoginPageController, RegisterPageController, MainPageController
+from pages import LoginPageController, RegisterPageController, MainPageController, LoginGS_PageController
 
 class MainWindow(tk.Tk):
     def __init__(self, logger=get_logger(), *args: Any, **kwargs: Any) -> None:
@@ -53,8 +53,10 @@ class MainWindow(tk.Tk):
         pages = {
             'Login': LoginPageController,
             'Register': RegisterPageController,
-            'Main': MainPageController
+            'Main': MainPageController,
+            'GS login': LoginGS_PageController
         }
+
         for name, ControllerClass in pages.items():
             controller = ControllerClass(self, self.container)
             self.pages[name] = controller
