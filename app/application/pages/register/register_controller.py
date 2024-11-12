@@ -1,6 +1,6 @@
 from utils.page_controller import PageController
 from .register_view import RegisterPageView
-from models.user_model import UserModel  # 导入UserModel
+# from models.user_model import UserModel  # 导入UserModel
 import tkinter as tk
 
 class RegisterPageController(PageController):
@@ -11,7 +11,7 @@ class RegisterPageController(PageController):
         self.view.render()
         
         # 创建UserModel实例
-        self.user_model = UserModel(db_path="path/to/your/database.db")
+        #self.user_model = UserModel(db_path="path/to/your/database.db")
 
     def register(self, full_name: str, phone: str, email: str, password: str, confirm_password: str):
         self.root.logger.info(f"Attempting to register with full name: {full_name}, phone: {phone}, email: {email}, password: {password}, confirm password: {confirm_password}")

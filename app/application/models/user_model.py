@@ -1,4 +1,8 @@
 # user_model.py
+
+# keep terry work here.
+
+'''
 import sqlite3
 from pathlib import Path
 
@@ -10,7 +14,7 @@ class UserModel:
     def _create_user_table(self):
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
-            cursor.execute('''
+            cursor.execute(
                 CREATE TABLE IF NOT EXISTS users (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     full_name TEXT NOT NULL,
@@ -18,22 +22,23 @@ class UserModel:
                     email TEXT NOT NULL UNIQUE,
                     password TEXT NOT NULL
                 )
-            ''')
+            )
             conn.commit()
 
     def add_user(self, full_name, phone, email, password):
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
-            cursor.execute('''
+            cursor.execute(
                 INSERT INTO users (full_name, phone, email, password)
                 VALUES (?, ?, ?, ?)
-            ''', (full_name, phone, email, password))
+            , (full_name, phone, email, password))
             conn.commit()
 
     def get_user_by_email(self, email):
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
-            cursor.execute('''
+            cursor.execute(
                 SELECT * FROM users WHERE email = ?
-            ''', (email,))
+            , (email,))
             return cursor.fetchone()
+'''
