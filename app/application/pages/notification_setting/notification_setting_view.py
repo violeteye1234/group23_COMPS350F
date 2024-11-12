@@ -6,9 +6,9 @@ from PIL import Image
 
 class NotificationSettingPageView(PageView):
     def __init__(self, parent):
-        super().__init__(parent, height = 712.5, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
+        super().__init__(parent, height = 1023, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
         self.image_path = self.image_path / "notification_setting/images/"
-        self.canvas = tk.Canvas(self, height = 712.5, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
+        self.canvas = tk.Canvas(self, height = 1023, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
         self.canvas.pack(fill="both", expand=True)
         self.button_images = [tk.PhotoImage(file=self.image_path / "image_14.png"), tk.PhotoImage(file=self.image_path / "image_13.png")]
         self.current_image_index_button1 = 0

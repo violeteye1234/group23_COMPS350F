@@ -1,5 +1,7 @@
 # models/notification.py
 
+# so you have to had a notification table in the database
+
 class Notification:
     def __init__(self, notification_id, user_id, title, message, datetime, is_read=False):
         self.notification_id = notification_id
@@ -9,9 +11,8 @@ class Notification:
         self.datetime = datetime
         self.is_read = is_read
         
-    def get_notifications(self) -> list:
+    def get_notifications(self) -> list: # type: ignore
         pass
-
         
     def check_flight(self) -> None:
         pass
