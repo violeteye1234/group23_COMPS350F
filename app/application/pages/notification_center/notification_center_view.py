@@ -14,8 +14,6 @@ class NotificationCenterPageView(PageView):
         #self.current_content_controller = None
         
 
-        
-
     def render(self):
         self.image_image_1 = PhotoImage(file=self.image_path / "image_1.png")
         self.image_1 = self.canvas.create_image(150, 40, image=self.image_image_1)
