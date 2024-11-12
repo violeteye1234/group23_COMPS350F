@@ -32,20 +32,20 @@ class Database:
         self.set_database() #ensure database connected
         query = "SELECT user_id, username, email FROM users WHERE email = :email" #SQL query to select user information by email
         self.cursor.execute(query, email=email) #execute email 
-        row = self.cursor.fetchone() #fetch the first row
-        user = User(row[0], row[1], row[2]) if row else None
+        row = self.cursor.fetchone() #fetch the first row from result set
+        user = User(row[0], row[1], row[2]) if row else None #user object created if row returned else none
         return user
     
     def get_flights(self, email:str) -> list[MyFlight]:
-        self.set_database()
-        query = "SELECT flight_id, flight_details FROM flights WHERE user_email = :email"
-        self.cursor.execute(query, email=email)
-        flights = [MyFlight(row[0], row[1]) for row in self.cursor.fetchall()]
+        self.set_database()#connected
+        query = "SELECT flight_id, flight_details FROM flights WHERE user_email = :email" #SQL
+        self.cursor.execute(query, email=email) #execute query with email
+        flights = [MyFlight(row[0], row[1]) for row in self.cursor.fetchall()] #fetch all rows and create mybaggage objects
         return flights
     
     def get_baggages(self, email:str) -> list[MyBaggage]:
         self.set_database()
-        query = "SELECT baggage_id, baggage_details FROM baggages WHERE user_email = :email"
+        query = "SELECT baggage_id, baggage_details FROM baggages WHERE user_email = :email" 
         self.cursor.execute(query, email=email)
         baggages = [MyBaggage(row[0], row[1]) for row in self.cursor.fetchall()]
         return baggages
@@ -72,12 +72,12 @@ class Database:
             self.connection.close()
         self.connection = None
         self.cursor = None
+#example 
+db = Database()  #create oinstance
 
-db = Database()
-
-# Execute a custom SQL command
-result = db.execute_sql("UPDATE users SET status = 'active' WHERE user_id = 123")
-print(result)
+# Execute SQL 
+result = db.execute_sql("UPDATE users SET status = 'active' WHERE user_id = __")
+print(result) #"SQL command executed successfully."
 
 # Close the connection
 db.close_connection()
