@@ -1,9 +1,8 @@
 # A testing framework for Canvas_button.py
-
 import unittest
 import tkinter as tk
 from unittest.mock import Mock, patch
-from canvas_button_bata import CanvasButton
+from canvas_button_beta import CanvasButton
 #from tkinter import PhotoImage
 
 class CanvasButtonTest(unittest.TestCase):
@@ -14,17 +13,14 @@ class CanvasButtonTest(unittest.TestCase):
         self.canvas = tk.Canvas(self.root, width=100, height=100)
         self.canvas.pack()
 
-        # mock the command function
+        # 模拟command function
         self.mock_command = Mock()
 
-        # init canvasbutton       default
-        #self.image_path = self.image_path / "login_groundstaff/images/"
-        #self.image_image_1 = PhotoImage(file=self.image_path / "image_1.png")
-        #self.button = CanvasButton(self.canvas, 50, 50, self.image_image_1, self.mock_command)
+        # init canvasbutton并设置default value
         self.button = CanvasButton(self.canvas, 50, 50, r"D:\Software Engineer 350 GP\group23_COMPS350F\app\application\utils\test_canvas_button\image_1.png", self.mock_command)
 
     def test_flash(self):
-        # Patch the after method to simulate the delay
+        # after方法模拟延迟
         with patch.object(self.canvas, 'after', wraps=self.canvas.after) as mock_after:
             self.button.flash()
             # 检查button是否隐藏
