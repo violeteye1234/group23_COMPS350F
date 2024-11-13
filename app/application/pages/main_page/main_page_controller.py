@@ -72,3 +72,4 @@ class MainPageController(PageController):
     def render(self):
         super().render()
         self.update_clock()
+        self.switch_page("dashboard")
