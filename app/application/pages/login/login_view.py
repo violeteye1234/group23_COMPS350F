@@ -14,10 +14,21 @@ class LoginPageView(PageView):
     
     def create_widgets(self):
         # 創建 "Login" 按鈕
+        
+        '''
         self.login_button = tk.Button(
             self.canvas,
             text="Login",
             command=lambda: self.controller.login("123", "123")  # 使用 lambda 傳遞參數
+        )
+        self.canvas.create_window(540, 300, window=self.login_button, width=200, height=50)
+        
+        '''
+        # create login button
+        self.login_button = tk.Button(
+            self.canvas,
+            text="Login",
+            command=lambda: self.controller.login_default()
         )
         self.canvas.create_window(540, 300, window=self.login_button, width=200, height=50)
         

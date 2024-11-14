@@ -27,9 +27,9 @@ class DashboardPageView(PageView):
         self.image_image_5 = PhotoImage(file=self.image_path / "image_5.png")
         self.image_5 = self.canvas.create_image(645.75, 531.5, image=self.image_image_5)
 
-        button_6 = CanvasButton(self.canvas,  731.5, 615.75, self.image_path / "image_6.png", lambda: self.controller.root.page_controller.switch_page("dashboard"))
-        button_7 = CanvasButton(self.canvas,  330.25, 615.75, self.image_path / "image_7.png", lambda: self.controller.root.page_controller.switch_page("dashboard"))
-        button_8 = CanvasButton(self.canvas,  722.5, 279.5, self.image_path / "image_8.png", lambda: self.controller.root.page_controller.switch_page("my_flight"))
+        CanvasButton(self.canvas,  731.5, 615.75, self.image_path / "image_6.png", lambda: self.controller.root.page_controller.switch_page("my_baggage"))
+        CanvasButton(self.canvas,  330.25, 615.75, self.image_path / "image_7.png", lambda: self.controller.root.page_controller.switch_page("my_flight"))
+        CanvasButton(self.canvas,  722.5, 279.5, self.image_path / "image_8.png", lambda: self.controller.root.page_controller.switch_page("dashboard"))# 不知道干什么
         
         self.parent.set_frame(self)
     

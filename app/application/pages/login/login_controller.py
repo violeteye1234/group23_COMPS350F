@@ -10,6 +10,9 @@ class LoginPageController(PageController):
     def login(self, username: str, password: str):
         self.root.logger.info(f"Attempting login with username: {username}, password: {password}")
         self.root.show_page('Main')
+
+    def login_default(self):
+        self.root.show_page('GS login')
     
     def go_to_register(self):
         self.root.show_page('Register')
