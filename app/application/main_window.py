@@ -1,5 +1,3 @@
-# main_window.py
-
 import tkinter as tk
 from typing import Any, Dict, Optional
 from models.logger import get_logger
@@ -12,13 +10,13 @@ class MainWindow(tk.Tk):
         self.logger = logger
         self.logger.info("Initializing MainWindow")
 
-        # 設置視窗屬性
+        # Set Windows Properties
         self.geometry("1080x768")
         self.overrideredirect(True)
         self.resizable(True, True)
         self.wm_attributes('-transparentcolor', '#123456')
 
-        # 初始化變數
+        # Initialize Variables
         self.hasstyle: bool = False
         self.dragging: bool = False
         self.now_alpha: float = 1.0
@@ -33,22 +31,22 @@ class MainWindow(tk.Tk):
         # TODO: build a database model instance
         # TODO: build a user model instance
 
-        # 設置容器
+        # Set up Container
         self.container = tk.Frame(self)
         self.container.pack(side="top", fill="both", expand=True)
 
-        # 初始化頁面
+        # Initialize Pages
         self.init_pages()
 
-        # 設置應用程式視窗樣式
+        # Set up Application Window Style
         self.set_appwindow()
 
-        # 綁定事件
+        # Binding Events
         self.bind('<ButtonPress-1>', self.start_move)
         self.bind('<ButtonRelease-1>', self.stop_move)
         self.bind('<B1-Motion>', self.on_move)
         self.bind('<Escape>', self.on_key)
-
+    #Initialize different page controllers in a dictionary
     def init_pages(self):
         pages = {
             'Login': LoginPageController,
@@ -57,20 +55,24 @@ class MainWindow(tk.Tk):
             'GS login': LoginGS_PageController
         }
 
+        #loop through each page to create an instance of its controller
         for name, ControllerClass in pages.items():
             controller = ControllerClass(self, self.container)
             self.pages[name] = controller
             self.logger.info(f"Page '{name}' initialized.")
 
     def show_page(self, page_name: str, note_page: bool = True) -> None:
+        #logs the action of showing a specific page
         self.logger.info(f"Showing page '{page_name}'.")
         if self.current_page_name and self.current_page_name in self.pages:
             self.pages[self.current_page_name].view.pack_forget()
 
+        #set controller and render the new page
         self.page_controller = self.pages[page_name]
         self.page_controller.render()
         self.page_controller.view.pack(fill="both", expand=True)
 
+        #update the current page name
         self.current_page_name = page_name
 
         if note_page and self.current_page_name:
@@ -78,14 +80,18 @@ class MainWindow(tk.Tk):
             self.logger.debug(f"Added '{self.current_page_name}' to page history.")
 
     def login(self, id: str, password: str) -> None:
+        #login attempt with the given ID
         self.logger.info(f"Login as {id}.")
+        #Show main page after successful login
         self.show_page("Main")
         
 
     def is_pressed_top(self, event):
+        #check to see if the mouse event occurred in the top area of the window for dragging
         return self.winfo_x() + self.winfo_width()-60 >= event.x_root >= self.winfo_x() and self.winfo_y() + 30 >= event.y_root >= self.winfo_y()
 
     def start_move(self, event: tk.Event) -> None:
+        #Initiates the dragging of the window if the top area is pressed
         if self.is_pressed_top(event):
             self.dragging = True
             self._startx = event.x
@@ -93,11 +99,13 @@ class MainWindow(tk.Tk):
             self.logger.info("Started dragging the window.")
 
     def stop_move(self, event: tk.Event) -> None:
+        #stops the dragging of the window when the mouse is released
         if self.dragging:
             self.dragging = False
             self.logger.info("Stopped dragging the window.")
 
     def on_move(self, event: tk.Event) -> None:
+        #updates the window postion while dragging
         if self.dragging:
             x = self.winfo_x() + event.x - self._startx
             y = self.winfo_y() + event.y - self._starty
@@ -105,15 +113,18 @@ class MainWindow(tk.Tk):
             self.logger.debug(f"Window moved to ({x}, {y}).")
 
     def on_key(self, event: tk.Event) -> None:
+        #handling key pressed events, also closing the window when Escape key is pressed
         if event.keysym == "Escape":
             self.logger.info("Escape key pressed. Closing the window.")
             self.on_destroy()
 
     def on_destroy(self) -> None:
+        #Logging the action of closing the window and quitting the application
         self.logger.info("Closing the window...")
         self.quit()
 
     def set_appwindow(self) -> None:
+        #setting window style to be an application window
         try:
             import ctypes
             GWL_EXSTYLE = -20
@@ -131,6 +142,7 @@ class MainWindow(tk.Tk):
             self.logger.error(f"Failed to set app window style: {e}")
 
 if __name__ == "__main__":
+    #Initialising main window and showing the login page
     app = MainWindow()
     app.show_page('Login')
     app.mainloop()

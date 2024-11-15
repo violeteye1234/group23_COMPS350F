@@ -47,7 +47,7 @@ import cx_Oracle
 import os
 
 # please write your own Oracle client path
-os.environ["PATH"] = r"C:\oracle client\instantclient-basic-windows.x64-23.6.0.24.10\instantclient_23_6" + ";" + os.environ["PATH"]
+# os.environ["PATH"] = r"C:\oracle client\instantclient-basic-windows.x64-23.6.0.24.10\instantclient_23_6" + ";" + os.environ["PATH"]
 
 dsn = cx_Oracle.makedsn('oracleacademy.ouhk.edu.hk', 8998, sid='db1011')
 connection = cx_Oracle.connect(user='s1305732', password='13057320', dsn=dsn)

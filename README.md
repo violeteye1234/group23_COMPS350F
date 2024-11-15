@@ -25,8 +25,14 @@ The HKMU Aiport Management System is a Software Engineering Project for COMPS350
  ## Getting Started
  ```
 #Required Dependencies:
+- Python 3.x
+- tkinter
+- cx_Oracle
 
-#Required Accounts:
+#Accounts:
+Login
+- Username: 123
+- Password: 123
 ```
 
 ## Installation 
@@ -34,5 +40,18 @@ The HKMU Aiport Management System is a Software Engineering Project for COMPS350
 #Please clone the repository:
 git clone https://github.com/violeteye1234/group23_COMPS350F.git
 
-#go to which file and run which file etc etc. 
+Please install Oracle Client 64 bit from: https://www.oracle.com/hk/database/technologies/instant-client/downloads.html
+
+--- MacOSX Users -----
+Upon installation, please extract it and follow the instructions from the ReadMe File present
+
+--- Windows Users ----
+Upon Installation:
+1) Copy all the .dll files from instantclient directory (Usually in D Drive Downloads)
+2) Paste it to your Python directory (Usually in C Drive)
+
+--- Linux Users ---
+tbc
+
+Once all ready, please run main_window.py
 ```
