@@ -31,7 +31,7 @@ class Database:
     
     def close_connection(self) -> None:
         pass
-'''
+
 
 # for coding part test there program on window system, please common all of this file.
 # keep sandeep work here
@@ -121,6 +121,72 @@ db = Database()  #create oinstance
 # Execute SQL 
 result = db.execute_sql("UPDATE users SET status = 'active' WHERE user_id = __")
 print(result) #"SQL command executed successfully."
+
+# Close the connection
+db.close_connection()
+'''
+
+from models.user import User
+from models.my_flight import MyFlight
+from models.my_baggage import MyBaggage
+from models.notification import Notification
+from typing import Any
+import cx_Oracle 
+import os
+
+# Please replace with your own Oracle client path
+# os.environ["PATH"] = r"C:\oracle client\instantclient-basic-windows.x64-23.6.0.24.10\instantclient_23_6" + ";" + os.environ["PATH"]
+
+dsn = cx_Oracle.makedsn('oracleacademy.ouhk.edu.hk', 8998, sid='db1011')
+connection = cx_Oracle.connect(user='s1305732', password='13057320', dsn=dsn)
+print("Successfully connected to Oracle database!")
+cursor = connection.cursor()
+query = "SELECT * FROM table_name"  # Change table_name
+
+class Database:
+    def __init__(self):
+        self.connection = None
+        self.cursor = None
+
+    def set_database(self):
+        if not self.connection:
+            dsn = cx_Oracle.makedsn('oracleacademy.ouhk.edu.hk', 8998, sid='db1011')
+            self.connection = cx_Oracle.connect(user='s1305732', password='13057320', dsn=dsn)
+            self.cursor = self.connection.cursor()
+
+    def get_user_info(self, email: str) -> User:
+        self.set_database()  # Ensure database is connected
+        query = "SELECT userid, fullname, email FROM users WHERE email = :email"  # SQL query to select user information by email
+        self.cursor.execute(query, email=email)  # Execute query with email
+        row = self.cursor.fetchone()  # Fetch the first row from result set
+        user = User(row[0], row[1], row[2]) if row else None  # Create user object if row returned, else None
+        return user
+    
+    def execute_sql(self, sql_command: str, **bind_vars) -> str:
+        self.set_database()
+        self.cursor.execute(sql_command, bind_vars)
+        self.connection.commit()
+        return "SQL command executed successfully."
+    
+    def create_connection(self) -> None:
+        self.set_database()
+    
+    def close_connection(self) -> None:
+        if self.cursor:
+            self.cursor.close()
+        if self.connection:
+            self.connection.close()
+        self.connection = None
+        self.cursor = None
+
+# Example usage
+db = Database()  # Create instance
+
+# Execute SQL
+user_id = 1  # Example user ID
+sql_command = "UPDATE users SET status = 'active' WHERE userid = :user_id"
+result = db.execute_sql(sql_command, user_id=user_id)
+print(result)  # "SQL command executed successfully."
 
 # Close the connection
 db.close_connection()
