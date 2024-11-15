@@ -2396,3 +2396,161 @@
 2024-11-14 22:32:38 - AppLogger - INFO - Showing page dashboard
 2024-11-14 22:32:39 - AppLogger - INFO - Showing page my_baggage
 2024-11-14 22:32:40 - AppLogger - INFO - Showing page dashboard
+2024-11-14 23:27:18 - AppLogger - INFO - Initializing MainWindow
+2024-11-14 23:27:18 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-14 23:27:18 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-14 23:27:18 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-14 23:27:18 - AppLogger - INFO - Page 'GS login' initialized.
+2024-11-14 23:27:18 - AppLogger - DEBUG - Set application window style.
+2024-11-14 23:27:18 - AppLogger - INFO - Showing page 'Login'.
+2024-11-14 23:27:18 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-14 23:27:19 - AppLogger - INFO - Showing page 'GS login'.
+2024-11-14 23:27:19 - AppLogger - DEBUG - Added 'GS login' to page history.
+2024-11-14 23:27:29 - AppLogger - INFO - Showing page 'Main'.
+2024-11-14 23:27:29 - AppLogger - INFO - Showing page dashboard
+2024-11-14 23:27:29 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-14 23:27:32 - AppLogger - INFO - Showing page notification_center
+2024-11-15 11:59:56 - AppLogger - INFO - Initializing MainWindow
+2024-11-15 11:59:56 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-15 11:59:57 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-15 11:59:57 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-15 11:59:57 - AppLogger - INFO - Page 'GS login' initialized.
+2024-11-15 11:59:57 - AppLogger - DEBUG - Set application window style.
+2024-11-15 11:59:57 - AppLogger - INFO - Showing page 'Login'.
+2024-11-15 11:59:57 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-15 11:59:59 - AppLogger - INFO - Showing page 'GS login'.
+2024-11-15 11:59:59 - AppLogger - DEBUG - Added 'GS login' to page history.
+2024-11-15 12:00:05 - AppLogger - INFO - Showing page 'Main'.
+2024-11-15 12:00:05 - AppLogger - INFO - Showing page dashboard
+2024-11-15 12:00:05 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-15 14:14:01 - AppLogger - INFO - Initializing MainWindow
+2024-11-15 14:14:01 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-15 14:14:01 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-15 14:14:01 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-15 14:14:01 - AppLogger - INFO - Page 'GS login' initialized.
+2024-11-15 14:14:01 - AppLogger - DEBUG - Set application window style.
+2024-11-15 14:14:01 - AppLogger - INFO - Showing page 'Login'.
+2024-11-15 14:14:01 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-15 14:14:03 - AppLogger - INFO - Showing page 'GS login'.
+2024-11-15 14:14:03 - AppLogger - DEBUG - Added 'GS login' to page history.
+2024-11-15 14:14:12 - AppLogger - INFO - Showing page 'Main'.
+2024-11-15 14:14:12 - AppLogger - INFO - Showing page dashboard
+2024-11-15 14:14:12 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-15 14:14:14 - AppLogger - INFO - Showing page notification_center
+2024-11-15 14:14:15 - AppLogger - INFO - Showing page boarding_information
+2024-11-15 14:14:34 - AppLogger - INFO - Initializing MainWindow
+2024-11-15 14:14:34 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-15 14:14:34 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-15 14:14:34 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-15 14:14:34 - AppLogger - INFO - Page 'GS login' initialized.
+2024-11-15 14:14:34 - AppLogger - DEBUG - Set application window style.
+2024-11-15 14:14:34 - AppLogger - INFO - Showing page 'Login'.
+2024-11-15 14:14:34 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-15 14:14:36 - AppLogger - INFO - Showing page 'GS login'.
+2024-11-15 14:14:36 - AppLogger - DEBUG - Added 'GS login' to page history.
+2024-11-15 14:14:41 - AppLogger - INFO - Showing page 'Main'.
+2024-11-15 14:14:41 - AppLogger - INFO - Showing page dashboard
+2024-11-15 14:14:41 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-15 14:14:42 - AppLogger - INFO - Showing page notification_center
+2024-11-15 14:14:43 - AppLogger - INFO - Showing page boarding_information
+2024-11-15 14:14:45 - AppLogger - INFO - Showing page my_flight
+2024-11-15 14:14:46 - AppLogger - INFO - Showing page my_baggage
+2024-11-15 14:15:20 - AppLogger - INFO - Showing page notification_center
+2024-11-15 14:15:22 - AppLogger - INFO - Showing page boarding_information
+2024-11-15 14:26:53 - AppLogger - INFO - Initializing MainWindow
+2024-11-15 14:26:53 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-15 14:26:53 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-15 14:26:53 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-15 14:26:53 - AppLogger - INFO - Page 'GS login' initialized.
+2024-11-15 14:26:53 - AppLogger - DEBUG - Set application window style.
+2024-11-15 14:26:53 - AppLogger - INFO - Showing page 'Login'.
+2024-11-15 14:26:53 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-15 14:26:56 - AppLogger - INFO - Showing page 'GS login'.
+2024-11-15 14:26:56 - AppLogger - DEBUG - Added 'GS login' to page history.
+2024-11-15 14:27:02 - AppLogger - INFO - Showing page 'Main'.
+2024-11-15 14:27:02 - AppLogger - INFO - Showing page dashboard
+2024-11-15 14:27:02 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-15 14:27:04 - AppLogger - INFO - Showing page notification_center
+2024-11-15 14:27:05 - AppLogger - INFO - Showing page boarding_information
+2024-11-15 14:27:07 - AppLogger - INFO - Showing page my_flight
+2024-11-15 14:27:08 - AppLogger - INFO - Showing page boarding_information
+2024-11-15 14:27:19 - AppLogger - INFO - Initializing MainWindow
+2024-11-15 14:27:19 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-15 14:27:19 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-15 14:27:19 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-15 14:27:19 - AppLogger - INFO - Page 'GS login' initialized.
+2024-11-15 14:27:19 - AppLogger - DEBUG - Set application window style.
+2024-11-15 14:27:19 - AppLogger - INFO - Showing page 'Login'.
+2024-11-15 14:27:19 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-15 14:27:20 - AppLogger - INFO - Showing page 'GS login'.
+2024-11-15 14:27:20 - AppLogger - DEBUG - Added 'GS login' to page history.
+2024-11-15 14:27:26 - AppLogger - INFO - Showing page 'Main'.
+2024-11-15 14:27:26 - AppLogger - INFO - Showing page dashboard
+2024-11-15 14:27:26 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-15 14:27:28 - AppLogger - INFO - Showing page notification_center
+2024-11-15 14:27:29 - AppLogger - INFO - Showing page boarding_information
+2024-11-15 14:31:00 - AppLogger - INFO - Initializing MainWindow
+2024-11-15 14:31:00 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-15 14:31:00 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-15 14:31:00 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-15 14:31:00 - AppLogger - INFO - Page 'GS login' initialized.
+2024-11-15 14:31:00 - AppLogger - DEBUG - Set application window style.
+2024-11-15 14:31:00 - AppLogger - INFO - Showing page 'Login'.
+2024-11-15 14:31:00 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-15 14:31:02 - AppLogger - INFO - Showing page 'GS login'.
+2024-11-15 14:31:02 - AppLogger - DEBUG - Added 'GS login' to page history.
+2024-11-15 14:31:09 - AppLogger - INFO - Showing page 'Main'.
+2024-11-15 14:31:09 - AppLogger - INFO - Showing page dashboard
+2024-11-15 14:31:09 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-15 14:31:11 - AppLogger - INFO - Showing page boarding_information
+2024-11-15 14:47:45 - AppLogger - INFO - Initializing MainWindow
+2024-11-15 14:47:45 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-15 14:47:45 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-15 14:47:45 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-15 14:47:45 - AppLogger - INFO - Page 'GS login' initialized.
+2024-11-15 14:47:45 - AppLogger - DEBUG - Set application window style.
+2024-11-15 14:47:45 - AppLogger - INFO - Showing page 'Login'.
+2024-11-15 14:47:45 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-15 14:47:46 - AppLogger - INFO - Showing page 'GS login'.
+2024-11-15 14:47:46 - AppLogger - DEBUG - Added 'GS login' to page history.
+2024-11-15 14:47:53 - AppLogger - INFO - Showing page 'Main'.
+2024-11-15 14:47:53 - AppLogger - INFO - Showing page dashboard
+2024-11-15 14:47:53 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-15 14:47:55 - AppLogger - INFO - Showing page boarding_information
+2024-11-15 15:09:16 - AppLogger - INFO - Initializing MainWindow
+2024-11-15 15:09:16 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-15 15:09:16 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-15 15:09:16 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-15 15:09:16 - AppLogger - INFO - Page 'GS login' initialized.
+2024-11-15 15:09:16 - AppLogger - DEBUG - Set application window style.
+2024-11-15 15:09:16 - AppLogger - INFO - Showing page 'Login'.
+2024-11-15 15:09:16 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-15 15:09:17 - AppLogger - INFO - Showing page 'GS login'.
+2024-11-15 15:09:17 - AppLogger - DEBUG - Added 'GS login' to page history.
+2024-11-15 15:09:23 - AppLogger - INFO - Showing page 'Main'.
+2024-11-15 15:09:23 - AppLogger - INFO - Showing page dashboard
+2024-11-15 15:09:23 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-15 15:09:25 - AppLogger - INFO - Showing page notification_center
+2024-11-15 15:09:26 - AppLogger - INFO - Showing page boarding_information
+2024-11-15 15:09:30 - AppLogger - INFO - Showing page boarding_information
+2024-11-15 15:09:30 - AppLogger - INFO - Showing page boarding_information
+2024-11-15 15:09:31 - AppLogger - INFO - Showing page boarding_information
+2024-11-15 15:13:00 - AppLogger - INFO - Initializing MainWindow
+2024-11-15 15:13:00 - AppLogger - INFO - Page 'Login' initialized.
+2024-11-15 15:13:00 - AppLogger - INFO - Page 'Register' initialized.
+2024-11-15 15:13:00 - AppLogger - INFO - Page 'Main' initialized.
+2024-11-15 15:13:00 - AppLogger - INFO - Page 'GS login' initialized.
+2024-11-15 15:13:00 - AppLogger - DEBUG - Set application window style.
+2024-11-15 15:13:00 - AppLogger - INFO - Showing page 'Login'.
+2024-11-15 15:13:00 - AppLogger - DEBUG - Added 'Login' to page history.
+2024-11-15 15:13:02 - AppLogger - INFO - Showing page 'GS login'.
+2024-11-15 15:13:02 - AppLogger - DEBUG - Added 'GS login' to page history.
+2024-11-15 15:13:08 - AppLogger - INFO - Showing page 'Main'.
+2024-11-15 15:13:08 - AppLogger - INFO - Showing page dashboard
+2024-11-15 15:13:08 - AppLogger - DEBUG - Added 'Main' to page history.
+2024-11-15 15:13:10 - AppLogger - INFO - Showing page boarding_information
+2024-11-15 15:21:25 - AppLogger - INFO - Showing page boarding_information
+2024-11-15 15:21:27 - AppLogger - INFO - Showing page boarding_information
+2024-11-15 15:21:27 - AppLogger - INFO - Showing page boarding_information
+2024-11-15 15:21:28 - AppLogger - INFO - Showing page boarding_information
+2024-11-15 15:21:28 - AppLogger - INFO - Showing page boarding_information

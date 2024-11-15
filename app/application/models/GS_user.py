@@ -11,4 +11,4 @@ class gs_user:
         pass
 
     def get_password(self):
-        pass
+        pass 

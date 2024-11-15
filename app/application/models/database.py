@@ -1,5 +1,5 @@
 # models/database.py
-# models/database.py
+'''
 from models.user import User
 from models.my_flight import MyFlight
 from models.my_baggage import MyBaggage
@@ -31,11 +31,11 @@ class Database:
     
     def close_connection(self) -> None:
         pass
-
+'''
 
 # for coding part test there program on window system, please common all of this file.
 # keep sandeep work here
-'''
+
 from models.user import User
 from models.my_flight import MyFlight
 from models.my_baggage import MyBaggage
@@ -44,6 +44,10 @@ from typing import Any
 
 
 import cx_Oracle 
+import os
+
+# please write your own Oracle client path
+os.environ["PATH"] = r"C:\oracle client\instantclient-basic-windows.x64-23.6.0.24.10\instantclient_23_6" + ";" + os.environ["PATH"]
 
 dsn = cx_Oracle.makedsn('oracleacademy.ouhk.edu.hk', 8998, sid='db1011')
 connection = cx_Oracle.connect(user='s1305732', password='13057320', dsn=dsn)
@@ -120,4 +124,3 @@ print(result) #"SQL command executed successfully."
 
 # Close the connection
 db.close_connection()
-'''
