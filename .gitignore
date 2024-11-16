@@ -7,10 +7,9 @@ tkinter_designer_output
 note.txt
 read_structure.py
 example.py
-app.log
+app/logs/app.log
 tkinter_designer_refactor.py
 app/logs/app.log
 tkinter_designer_output/build/gui.py
 app/application/tempCodeRunnerFile.py
-/tkinter_designer_output
-/app/logs
+/tkinter_designer_outputs
