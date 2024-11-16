@@ -19,7 +19,7 @@ class Login1PageController(PageController):
         
         if email == correct_email and password == correct_password:
             self.root.logger.info("Login successful!")
-            # 可以在这里添加跳转到主页面的逻辑，例如：
+            # 这里添加跳转到主页面的逻辑
             self.root.show_page('Main')
         else:
             self.root.logger.error("Login failed! Invalid email or password.")
