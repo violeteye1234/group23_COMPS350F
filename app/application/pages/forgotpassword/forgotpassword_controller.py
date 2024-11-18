@@ -1,5 +1,6 @@
 from utils.page_controller import PageController
 from .forgotpassword_view import ForgotPasswordPageView
+from models.user_model import UserModel  # 导入UserModel
 import tkinter as tk
 from tkinter import messagebox
 
@@ -9,24 +10,27 @@ class ForgotPasswordPageController(PageController):
         self.view = ForgotPasswordPageView(parent_container)
         self.view.set_controller(self)
         self.view.render()
+        
+        # 创建UserModel实例
+        self.user_model = UserModel()
 
     def submit_forgot_password(self, email: str, new_password: str, confirm_password: str):
         self.root.logger.info(f"Attempting to reset password for email: {email}")
-        
-        # 固定的电子邮件
-        correct_email = "123"
-        
-        if email != correct_email:
-            self.root.logger.error("Reset password failed! Invalid email address.")
-            messagebox.showerror("Reset Password Failed", "Invalid email address. Please try again.")
-            return
         
         if new_password != confirm_password:
             self.root.logger.error("Reset password failed! Passwords do not match.")
             messagebox.showerror("Reset Password Failed", "Passwords do not match. Please try again.")
             return
         
-        # 这里添加实际的密码重置逻辑，例如更新数据库中的密码
+        # 检查邮箱是否存在
+        user = self.user_model.get_user_by_email(email)
+        if not user:
+            self.root.logger.error("Reset password failed! Invalid email address.")
+            messagebox.showerror("Reset Password Failed", "Invalid email address. Please try again.")
+            return
+
+        # 更新用户密码
+        self.user_model.update_password(email, new_password)
         self.root.logger.info("Reset password successful!")
         messagebox.showinfo("Password Reset", "Your password has been reset successfully.")
         self.root.show_page('Login')
@@ -37,3 +41,4 @@ class ForgotPasswordPageController(PageController):
     def cleanup(self):
         self.view.destroy()
         self.view = None
+        self.user_model.close()
