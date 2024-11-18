@@ -1,44 +1,76 @@
 # user_model.py
-
-# keep terry work here.
-
-'''
-import sqlite3
-from pathlib import Path
+import cx_Oracle
+import hashlib
+import logging
 
 class UserModel:
-    def __init__(self, db_path):
-        self.db_path = db_path
-        self._create_user_table()
+    def __init__(self):
+        self.connection = None
+        self.cursor = None
+        self.set_database()
+        self.logger = logging.getLogger(__name__)
 
-    def _create_user_table(self):
-        with sqlite3.connect(self.db_path) as conn:
-            cursor = conn.cursor()
-            cursor.execute(
-                CREATE TABLE IF NOT EXISTS users (
-                    id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    full_name TEXT NOT NULL,
-                    phone TEXT NOT NULL,
-                    email TEXT NOT NULL UNIQUE,
-                    password TEXT NOT NULL
-                )
-            )
-            conn.commit()
+    def set_database(self):
+        try:
+            if not self.connection:
+                dsn = cx_Oracle.makedsn('oracleacademy.ouhk.edu.hk', 8998, sid='db1011')
+                self.connection = cx_Oracle.connect(user='s1305732', password='13057320', dsn=dsn)
+                self.cursor = self.connection.cursor()
+        except cx_Oracle.DatabaseError as e:
+            self.logger.error(f"Database connection error: {e}")
+            raise
+
+    def hash_password(self, password):
+        return hashlib.sha256(password.encode()).hexdigest()
 
     def add_user(self, full_name, phone, email, password):
-        with sqlite3.connect(self.db_path) as conn:
-            cursor = conn.cursor()
-            cursor.execute(
-                INSERT INTO users (full_name, phone, email, password)
-                VALUES (?, ?, ?, ?)
-            , (full_name, phone, email, password))
-            conn.commit()
+        try:
+            self.set_database()
+            hashed_password = self.hash_password(password)
+            query = "INSERT INTO Users (FullName, PhoneNumber, Email, PassWord) VALUES (:1, :2, :3, :4)"
+            values = (full_name, phone, email, hashed_password)
+            self.cursor.execute(query, values)
+            self.connection.commit()
+        except cx_Oracle.DatabaseError as e:
+            self.logger.error(f"Error adding user: {e}")
+            raise
 
     def get_user_by_email(self, email):
-        with sqlite3.connect(self.db_path) as conn:
-            cursor = conn.cursor()
-            cursor.execute(
-                SELECT * FROM users WHERE email = ?
-            , (email,))
-            return cursor.fetchone()
-'''
+        try:
+            self.set_database()
+            query = "SELECT * FROM Users WHERE Email = :1"
+            self.cursor.execute(query, (email,))
+            return self.cursor.fetchone()
+        except cx_Oracle.DatabaseError as e:
+            self.logger.error(f"Error fetching user by email: {e}")
+            raise
+
+    def get_user_by_email_and_password(self, email, password):
+        try:
+            self.set_database()
+            hashed_password = self.hash_password(password)
+            query = "SELECT * FROM Users WHERE Email = :1 AND PassWord = :2"
+            self.cursor.execute(query, (email, hashed_password))
+            return self.cursor.fetchone()
+        except cx_Oracle.DatabaseError as e:
+            self.logger.error(f"Error fetching user by email and password: {e}")
+            raise
+
+    def update_password(self, email, new_password):
+        try:
+            self.set_database()
+            hashed_password = self.hash_password(new_password)
+            query = "UPDATE Users SET PassWord = :1 WHERE Email = :2"
+            self.cursor.execute(query, (hashed_password, email))
+            self.connection.commit()
+        except cx_Oracle.DatabaseError as e:
+            self.logger.error(f"Error updating password: {e}")
+            raise
+
+    def close(self):
+        if self.cursor:
+            self.cursor.close()
+        if self.connection:
+            self.connection.close()
+        self.connection = None
+        self.cursor = None
