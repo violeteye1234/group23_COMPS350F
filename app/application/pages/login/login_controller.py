@@ -12,13 +12,10 @@ class LoginPageController(PageController):
         self.root.show_page('Main')
 
     def login_default(self):
-        self.root.show_page('GS login')
+        self.root.show_page('Login1')
     
     def go_to_register(self):
         self.root.show_page('Register')
-
-    def go_to_gs(self):
-        self.root.show_page('GS login')
     
     def cleanup(self):
         self.view.destroy()
