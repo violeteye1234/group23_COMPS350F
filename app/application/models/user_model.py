@@ -1,5 +1,5 @@
 import cx_Oracle
-from config import Config
+from .config import Config
 
 class UserModel:
     def __init__(self):
