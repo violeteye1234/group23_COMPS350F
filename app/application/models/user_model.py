@@ -1,3 +1,4 @@
+# user_model.py
 import cx_Oracle
 import hashlib
 import logging
@@ -73,4 +74,3 @@ class UserModel:
             self.connection.close()
         self.connection = None
         self.cursor = None
-
