@@ -1,44 +1,33 @@
-# user_model.py
-
-# keep terry work here.
-
-'''
-import sqlite3
-from pathlib import Path
+import cx_Oracle
+from config import Config
 
 class UserModel:
-    def __init__(self, db_path):
-        self.db_path = db_path
-        self._create_user_table()
-
-    def _create_user_table(self):
-        with sqlite3.connect(self.db_path) as conn:
-            cursor = conn.cursor()
-            cursor.execute(
-                CREATE TABLE IF NOT EXISTS users (
-                    id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    full_name TEXT NOT NULL,
-                    phone TEXT NOT NULL,
-                    email TEXT NOT NULL UNIQUE,
-                    password TEXT NOT NULL
-                )
-            )
-            conn.commit()
+    def __init__(self):
+        dsn_tns = cx_Oracle.makedsn(Config.ORACLE_HOST, Config.ORACLE_PORT, service_name=Config.ORACLE_SID)
+        self.conn = cx_Oracle.connect(user=Config.ORACLE_USER, password=Config.ORACLE_PASSWORD, dsn=dsn_tns)
+        self.cursor = self.conn.cursor()
 
     def add_user(self, full_name, phone, email, password):
-        with sqlite3.connect(self.db_path) as conn:
-            cursor = conn.cursor()
-            cursor.execute(
-                INSERT INTO users (full_name, phone, email, password)
-                VALUES (?, ?, ?, ?)
-            , (full_name, phone, email, password))
-            conn.commit()
+        query = "INSERT INTO Users (FullName, PhoneNumber, Email, PassWord) VALUES (:1, :2, :3, :4)"
+        values = (full_name, phone, email, password)
+        self.cursor.execute(query, values)
+        self.conn.commit()
 
     def get_user_by_email(self, email):
-        with sqlite3.connect(self.db_path) as conn:
-            cursor = conn.cursor()
-            cursor.execute(
-                SELECT * FROM users WHERE email = ?
-            , (email,))
-            return cursor.fetchone()
-'''
+        query = "SELECT * FROM Users WHERE Email = :1"
+        self.cursor.execute(query, (email,))
+        return self.cursor.fetchone()
+
+    def get_user_by_email_and_password(self, email, password):
+        query = "SELECT * FROM Users WHERE Email = :1 AND PassWord = :2"
+        self.cursor.execute(query, (email, password))
+        return self.cursor.fetchone()
+
+    def update_password(self, email, new_password):
+        query = "UPDATE Users SET PassWord = :1 WHERE Email = :2"
+        self.cursor.execute(query, (new_password, email))
+        self.conn.commit()
+
+    def close(self):
+        self.cursor.close()
+        self.conn.close()
