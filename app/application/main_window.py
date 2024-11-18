@@ -4,7 +4,7 @@ import tkinter as tk
 from typing import Any, Dict, Optional
 from models.logger import get_logger
 from utils.page_controller import PageController
-from pages import LoginPageController, RegisterPageController, MainPageController,Login1PageController
+from pages import LoginPageController, RegisterPageController, MainPageController,Login1PageController,ForgotPasswordPageController
 
 
 class MainWindow(tk.Tk):
@@ -55,7 +55,8 @@ class MainWindow(tk.Tk):
             'Login': LoginPageController,
             'Register': RegisterPageController,
             'Main': MainPageController,
-            'Login1': Login1PageController
+            'Login1': Login1PageController,
+            'ForgotPassword': ForgotPasswordPageController
         }
         for name, ControllerClass in pages.items():
             controller = ControllerClass(self, self.container)
