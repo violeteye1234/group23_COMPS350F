@@ -16,6 +16,9 @@ class LoginPageController(PageController):
     
     def go_to_register(self):
         self.root.show_page('Register')
+
+    def jump_to_main(self):
+        self.root.show_page('Main')
     
     def cleanup(self):
         self.view.destroy()

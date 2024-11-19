@@ -52,6 +52,17 @@ class ForgotPasswordPageView(PageView):
             self.on_submit_button_click
         )
 
+        # create "Back" button
+        self.register_button = tk.Button(
+            self.canvas,
+            text="Back",
+            command=lambda: self.controller.back_to_login(),
+            bg="#3399FF",
+            fg="white"
+        )
+        self.canvas.create_window(100, 600, window=self.register_button, width=150, height=50)
+
+
     def on_submit_button_click(self):
         email = self.email_entry.get()
         new_password = self.new_password_entry.get()

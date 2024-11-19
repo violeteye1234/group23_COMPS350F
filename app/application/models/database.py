@@ -178,15 +178,81 @@ class Database:
             self.connection.close()
         self.connection = None
         self.cursor = None
+    
+    # Create library to store the user data
+    def get_user_data(self, email: str) -> dict:
+        self.set_database()
+        user_data = {}
 
-# Example usage
-db = Database()  # Create instance
+        # get data from users table
+        query = "SELECT userid, fullname, email, phonenumber, status FROM users WHERE email = :email"
+        self.cursor.execute(query, email = email)
+        user_row = self.cursor.fetchone()
+        if user_row:
+            user_data['users'] = {
+                'userid': user_row[0],
+                'fullname': user_row[1],
+                'email': user_row[2],
+                'phonenumber': user_row[3],
+                'status': user_row[4]
+            }
 
-# Execute SQL
-user_id = 1  # Example user ID
-sql_command = "UPDATE users SET status = 'active' WHERE userid = :user_id"
-result = db.execute_sql(sql_command, user_id=user_id)
-print(result)  # "SQL command executed successfully."
+            # get data from bookings table
+            query = "SELECT bookingid, flightid, bookingdate FROM bookings WHERE userid = :userid"
+            self.cursor.execute(query, userid = user_row[0])
+            bookings = self.cursor.fetchall()
+            user_data['bookings'] = []
+            flight_ids = []
+            for booking in bookings:
+                user_data['bookings'].append({
+                    'bookingid': booking[0],
+                    'flightid': booking[1],
+                    'bookingdata': booking[2]
+                })
+                flight_ids.append(booking[1])
 
-# Close the connection
-db.close_connection()
+            # get data from flights table
+            user_data['flights'] = []
+            for filght_id in flight_ids:
+                query = "SELECT flightnumber, departureairport, arrivalairport,  departuretime, arrivaltime, gate, status FROM flights WHERE flightid = :flightid"
+                self.cursor.execute(query, flightid = filght_id)
+                flight = self.cursor.fetchone()
+                if flight:
+                    user_data['flights'].append({
+                        'flightnumber': flight[0],
+                        'departureairport': flight[1],
+                        'arrivalairport': flight[2],
+                        'departuretime': flight[3],
+                        'arrivaltime': flight[4],
+                        'gate': flight[5],
+                        'status': flight[6]
+                    })
+
+            # get data form baggage table
+            query = "SELECT baggageid, flightid, userid, baggageweight, baggagenumber, status FROM baggage WHERE userid = :userid"
+            self.cursor.execute(query, userid=user_row[0])
+            baggages = self.cursor.fetchall()
+            user_data['baggages'] = []
+            for baggage in baggages:
+                user_data['baggages'].append({
+                    'baggageid': baggage[0],
+                    'flightid': baggage[1],
+                    'userid': baggage[2],
+                    'baggageweight': baggage[3],
+                    'baggagenumber': baggage[4],
+                    'status': baggage[5]
+                })
+
+            #get data from flightseats table
+            user_data['flightseats'] = []
+            for flight_id in flight_ids:
+                query = "SELECT seatid, seatnumber, seatstatus FROM flightseats WHERE flightid = :flightid"
+                self.cursor.execute(query, flightid=flight_id)
+                seats = self.cursor.fetchall()
+                for seat in seats:
+                    user_data['flightseats'].append({
+                        'seatid': seat[0],
+                        'seatnumber': seat[1],
+                        'seatstatus': seat[2]
+                    })
+        return user_data

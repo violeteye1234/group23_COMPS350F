@@ -39,6 +39,14 @@ class LoginPageView(PageView):
             command=lambda: self.controller.go_to_register()
         )
         self.canvas.create_window(540, 350, window=self.register_button, width=200, height=50)
+
+        # create "test" button
+        self.register_button = tk.Button(
+            self.canvas,
+            text="test",
+            command=lambda: self.controller.jump_to_main()
+        )
+        self.canvas.create_window(540, 400, window=self.register_button, width=200, height=50)
     
     def render(self):
         self.pack(fill='both', expand=True)

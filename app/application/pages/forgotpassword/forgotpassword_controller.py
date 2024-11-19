@@ -36,7 +36,7 @@ class ForgotPasswordPageController(PageController):
         self.root.show_page('Login')
 
     def back_to_login(self):
-        self.root.show_page('Login')
+        self.root.show_page('Login1')
 
     def cleanup(self):
         self.view.destroy()
