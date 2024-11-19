@@ -10,6 +10,8 @@ class Login1PageController(PageController):
         self.view = Login1PageView(parent_container)
         self.view.set_controller(self)
         self.view.render()
+        # 加一个variable 其他page可以get到
+
         
         # 创建UserModel实例
         self.user_model = UserModel()
@@ -22,6 +24,10 @@ class Login1PageController(PageController):
         
         if user:
             self.root.logger.info("Login successful!")
+
+            # name = username 拿到主页信息
+
+
             # 这里添加跳转到主页面的逻辑
             self.root.show_page('Main')
         else:

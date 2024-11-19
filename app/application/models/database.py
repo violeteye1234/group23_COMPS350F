@@ -178,6 +178,57 @@ class Database:
             self.connection.close()
         self.connection = None
         self.cursor = None
+    '''
+    这一部分还在建立 for database library 不要使用 会有bug
+    def get_user_data_by_name(self, email: str) -> dict:
+        self.set_database()
+        user_data = {}
+
+        # get data from users table
+        query = "SELECT userid, fullname, email, phonenumber, status FROM users WHERE email = :email"
+        self.cursor.execute(query, email = email)
+        user_row = self.cursor.fetchone()
+        if user_row:
+            user_data['users'] = {
+                'userid': user_row[0],
+                'fullname': user_row[1],
+                'email': user_row[2],
+                'phonenumber': user_row[3],
+                'status': user_row[4]
+            }
+
+            # get data from bookings table
+            query = "SELECT bookingid, userid, flightid, bookingdate FROM bookings WHERE userid = :userid"
+            self.cursor.execute(query, userid = user_row[0])
+            flights = self.cursor.fetchall()
+            user_data['flights'] = [flight[0] for flight in flights]
+
+            # get data from flights table
+            query = "SELECT flightid, flightnumb, departureairport, arrivalairport,  departuretime, arrivaltime, gate, status FROM flights WHERE flightid = :flightid"
+            self.cursor.execute(query, userid=user_row[0])
+            flights = self.cursor.fetchall()
+            user_data['flights'] = [flight[0] for flight in flights]
+
+            # Fetch baggage information
+            query = "SELECT baggage FROM baggages WHERE userid = :userid"
+            self.cursor.execute(query, userid=user_row[0])
+            baggages = self.cursor.fetchall()
+            user_data['baggages'] = [baggage[0] for baggage in baggages]
+
+        return user_data
+
+# Example usage
+db = Database()  # Create instance
+
+# Fetch user data by name
+name = "John Doe"  # Example name
+user_data = db.get_user_data_by_name(name)
+print(user_data)  # Print the fetched data
+
+# Close the connection
+db.close_connection()
+
+'''
 
 # Example usage
 db = Database()  # Create instance
