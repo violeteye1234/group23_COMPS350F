@@ -179,7 +179,7 @@ class Database:
         self.connection = None
         self.cursor = None
     
-    #这一部分还在建立 for database library 不要使用 会有bug
+    # Create library to store the user data
     def get_user_data(self, email: str) -> dict:
         self.set_database()
         user_data = {}
