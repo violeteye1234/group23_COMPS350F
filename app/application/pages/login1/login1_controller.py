@@ -1,6 +1,7 @@
 from utils.page_controller import PageController
 from .login1_view import Login1PageView
-from models.user_model import UserModel  # 导入UserModel
+from models.user_model import UserModel
+from models.database import Database
 import tkinter as tk
 from tkinter import messagebox
 
@@ -10,9 +11,10 @@ class Login1PageController(PageController):
         self.view = Login1PageView(parent_container)
         self.view.set_controller(self)
         self.view.render()
-        # 加一个variable 其他page可以get到
 
-        
+        # 加一个variable 其他page可以get到
+        self.user_data = None
+
         # 创建UserModel实例
         self.user_model = UserModel()
 
@@ -24,9 +26,9 @@ class Login1PageController(PageController):
         
         if user:
             self.root.logger.info("Login successful!")
-
-            # name = username 拿到主页信息
-
+            # pass email to method
+            self.user_data = Database().get_user_data(email)
+            print(self.user_data)
 
             # 这里添加跳转到主页面的逻辑
             self.root.show_page('Main')

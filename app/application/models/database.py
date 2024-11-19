@@ -178,9 +178,9 @@ class Database:
             self.connection.close()
         self.connection = None
         self.cursor = None
-    '''
-    这一部分还在建立 for database library 不要使用 会有bug
-    def get_user_data_by_name(self, email: str) -> dict:
+    
+    #这一部分还在建立 for database library 不要使用 会有bug
+    def get_user_data(self, email: str) -> dict:
         self.set_database()
         user_data = {}
 
@@ -198,46 +198,61 @@ class Database:
             }
 
             # get data from bookings table
-            query = "SELECT bookingid, userid, flightid, bookingdate FROM bookings WHERE userid = :userid"
+            query = "SELECT bookingid, flightid, bookingdate FROM bookings WHERE userid = :userid"
             self.cursor.execute(query, userid = user_row[0])
-            flights = self.cursor.fetchall()
-            user_data['flights'] = [flight[0] for flight in flights]
+            bookings = self.cursor.fetchall()
+            user_data['bookings'] = []
+            flight_ids = []
+            for booking in bookings:
+                user_data['bookings'].append({
+                    'bookingid': booking[0],
+                    'flightid': booking[1],
+                    'bookingdata': booking[2]
+                })
+                flight_ids.append(booking[1])
 
             # get data from flights table
-            query = "SELECT flightid, flightnumb, departureairport, arrivalairport,  departuretime, arrivaltime, gate, status FROM flights WHERE flightid = :flightid"
-            self.cursor.execute(query, userid=user_row[0])
-            flights = self.cursor.fetchall()
-            user_data['flights'] = [flight[0] for flight in flights]
+            user_data['flights'] = []
+            for filght_id in flight_ids:
+                query = "SELECT flightnumber, departureairport, arrivalairport,  departuretime, arrivaltime, gate, status FROM flights WHERE flightid = :flightid"
+                self.cursor.execute(query, flightid = filght_id)
+                flight = self.cursor.fetchone()
+                if flight:
+                    user_data['flights'].append({
+                        'flightnumber': flight[0],
+                        'departureairport': flight[1],
+                        'arrivalairport': flight[2],
+                        'departuretime': flight[3],
+                        'arrivaltime': flight[4],
+                        'gate': flight[5],
+                        'status': flight[6]
+                    })
 
-            # Fetch baggage information
-            query = "SELECT baggage FROM baggages WHERE userid = :userid"
+            # get data form baggage table
+            query = "SELECT baggageid, flightid, userid, baggageweight, baggagenumber, status FROM baggage WHERE userid = :userid"
             self.cursor.execute(query, userid=user_row[0])
             baggages = self.cursor.fetchall()
-            user_data['baggages'] = [baggage[0] for baggage in baggages]
+            user_data['baggages'] = []
+            for baggage in baggages:
+                user_data['baggages'].append({
+                    'baggageid': baggage[0],
+                    'flightid': baggage[1],
+                    'userid': baggage[2],
+                    'baggageweight': baggage[3],
+                    'baggagenumber': baggage[4],
+                    'status': baggage[5]
+                })
 
+            #get data from flightseats table
+            user_data['flightseats'] = []
+            for flight_id in flight_ids:
+                query = "SELECT seatid, seatnumber, seatstatus FROM flightseats WHERE flightid = :flightid"
+                self.cursor.execute(query, flightid=flight_id)
+                seats = self.cursor.fetchall()
+                for seat in seats:
+                    user_data['flightseats'].append({
+                        'seatid': seat[0],
+                        'seatnumber': seat[1],
+                        'seatstatus': seat[2]
+                    })
         return user_data
-
-# Example usage
-db = Database()  # Create instance
-
-# Fetch user data by name
-name = "John Doe"  # Example name
-user_data = db.get_user_data_by_name(name)
-print(user_data)  # Print the fetched data
-
-# Close the connection
-db.close_connection()
-
-'''
-
-# Example usage
-db = Database()  # Create instance
-
-# Execute SQL
-user_id = 1  # Example user ID
-sql_command = "UPDATE users SET status = 'active' WHERE userid = :user_id"
-result = db.execute_sql(sql_command, user_id=user_id)
-print(result)  # "SQL command executed successfully."
-
-# Close the connection
-db.close_connection()
