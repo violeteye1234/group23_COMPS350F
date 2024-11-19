@@ -28,22 +28,24 @@ class NotificationCenterPageView(PageView):
         resized_image3 = original_image3.resize(desired_size3)
         resized_image3.save(original_image_path3) # 覆盖原始图片
 
-
         x_position = 420
         y_position = 120
-        data = 'BFFB'
+        
+        data = 'BFFBBFBBF'
+        MYBAGGAGE = "My Baggage"
+        MYFLIGHT="My Flight"
+
         for item in data:
             if item == 'B':
                 button = CanvasButton(self.canvas, x_position, y_position, self.image_path / "image_3.png",
                                       lambda: self.controller.root.page_controller.switch_page("my_baggage"),
-                                      self.image_path / "image_2.png",text="My Baggage", font_size=16)
+                                      self.image_path / "image_2.png",text=MYBAGGAGE, font_size=16)
                 y_position += 100  # Increase Y position for the next button
             elif item == 'F':
                 button = CanvasButton(self.canvas, x_position, y_position, self.image_path / "image_3.png",
                                       lambda: self.controller.root.page_controller.switch_page("my_flight"),
-                                      self.image_path / "image_2.png",text="My Flight", font_size=16)
+                                      self.image_path / "image_2.png",text=MYFLIGHT, font_size=16)
                 y_position += 100  # Increase Y position
-
 
 
         self.parent.set_frame(self)
