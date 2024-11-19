@@ -3,7 +3,7 @@ import tkinter as tk
 class CanvasButton:
     flash_delay = 100  # Milliseconds.
 
-    def __init__(self, canvas, x, y, image_path_normal, command,image_path_hover=None, state=tk.NORMAL, tags=None):
+    def __init__(self, canvas, x, y, image_path_normal, command, image_path_hover=None, state=tk.NORMAL, tags=None, text="", font_size=12,text_width=800):
         self.canvas = canvas
         self.btn_image_normal = tk.PhotoImage(file=image_path_normal)
         self.btn_image_hover = tk.PhotoImage(file=image_path_hover) if image_path_hover else None
@@ -12,7 +12,10 @@ class CanvasButton:
         canvas.tag_bind(self.canvas_btn_img_obj, "<ButtonRelease-1>", lambda event: (self.flash(), command()))
         self.canvas.tag_bind(self.canvas_btn_img_obj, "<Enter>", self.on_enter)
         self.canvas.tag_bind(self.canvas_btn_img_obj, "<Leave>", self.on_leave)
+        
 
+        # Add text label to the button with custom font size
+        self.text_obj = canvas.create_text(x, y, text=text, font=("Arial", font_size), fill="black", state=state, tags=tags,width=text_width)
 
     def flash(self):
         self.set_state(tk.HIDDEN)
@@ -22,10 +25,8 @@ class CanvasButton:
         self.canvas.itemconfigure(self.canvas_btn_img_obj, state=state)
 
     def on_enter(self, event):
-        self.is_hovering = True
         if self.btn_image_hover:
             self.canvas.itemconfig(self.canvas_btn_img_obj, image=self.btn_image_hover)
 
     def on_leave(self, event):
-        self.is_hovering = False
         self.canvas.itemconfig(self.canvas_btn_img_obj, image=self.btn_image_normal)
