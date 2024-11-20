@@ -26,13 +26,12 @@ class PersonalInformationPageView(PageView):
         email = self.user_data['users']['email']
         phone_number = self.user_data['users']['phonenumber']
         self.default_data = [fullname, email, phone_number]
+    
         
     def render(self):
-        button_1 = CanvasButton(self.canvas, 250, 400, self.image_path / "image_3.png",
+        button_1 = CanvasButton(self.canvas, 400, 400, self.image_path / "image_3.png",
                                 lambda: self.controller.root.page_controller.switch_page("profile"))
         
-        button_2 = CanvasButton(self.canvas, 600, 400, self.image_path / "image_4.png",
-                                self.update_default_data)
         
         self.entries = []
         positions = [(580, 193), (643, 232), (649, 269)]
@@ -45,14 +44,6 @@ class PersonalInformationPageView(PageView):
         
         self.parent.set_frame(self)
     
-    def update_default_data(self):
-        for i, entry in enumerate(self.entries):
-            new_data = entry.get()
-            self.default_data[i] = new_data
-            entry.delete(0, tk.END)
-            entry.insert(0, new_data)
-
-        self.default_data = [entry.get() for entry in self.entries]
 
     def update(self):
         pass
