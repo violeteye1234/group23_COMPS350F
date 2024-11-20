@@ -2,6 +2,7 @@ import tkinter as tk
 from utils.page_view import PageView
 from tkinter import PhotoImage
 from utils.canvas_button import CanvasButton
+from models.sharedata import SharedData
 
 class PersonalInformationPageView(PageView):
     def __init__(self, parent):
@@ -20,14 +21,17 @@ class PersonalInformationPageView(PageView):
         self.image_image_5 = PhotoImage(file=self.image_path / "image_5.png")
         self.image_5 = self.canvas.create_image(185, 230, image=self.image_image_5)
 
-        self.default_data = ["Default Data1", "Default Data2", "Default Data3"]
+        self.user_data = SharedData.user_data
+        fullname = self.user_data['users']['fullname']
+        email = self.user_data['users']['email']
+        phone_number = self.user_data['users']['phonenumber']
+        self.default_data = [fullname, email, phone_number]
+    
         
     def render(self):
-        button_1 = CanvasButton(self.canvas, 250, 400, self.image_path / "image_3.png",
+        button_1 = CanvasButton(self.canvas, 400, 400, self.image_path / "image_3.png",
                                 lambda: self.controller.root.page_controller.switch_page("profile"))
         
-        button_2 = CanvasButton(self.canvas, 600, 400, self.image_path / "image_4.png",
-                                self.update_default_data)
         
         self.entries = []
         positions = [(580, 193), (643, 232), (649, 269)]
@@ -40,14 +44,6 @@ class PersonalInformationPageView(PageView):
         
         self.parent.set_frame(self)
     
-    def update_default_data(self):
-        for i, entry in enumerate(self.entries):
-            new_data = entry.get()
-            self.default_data[i] = new_data
-            entry.delete(0, tk.END)
-            entry.insert(0, new_data)
-
-        self.default_data = [entry.get() for entry in self.entries]
 
     def update(self):
         pass
