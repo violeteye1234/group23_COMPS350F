@@ -11,8 +11,8 @@ class NotificationCenterPageController(PageController):
         self.view_set_controller()
 
         # 假设飞机起飞时间和降落时间
-        takeoff_time = datetime.strptime("23:00", "%H:%M")
-        landing_time = datetime.strptime("23:59", "%H:%M")
+        takeoff_time = datetime.strptime("1:00", "%H:%M")
+        landing_time = datetime.strptime("2:59", "%H:%M")
         
         current_time = datetime.now()
         current_time = current_time.strftime("%H:%M")
