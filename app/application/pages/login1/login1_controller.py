@@ -32,7 +32,7 @@ class Login1PageController(PageController):
             self.root.logger.info("Login successful!")
             # pass email to method
             self.user_data = Database().get_user_data(email)
-            #print(self.user_data)
+            # pass user_data to sharedata model
             SharedData.user_data = self.user_data
 
             # 这里添加跳转到主页面的逻辑

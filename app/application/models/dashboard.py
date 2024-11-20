@@ -1,7 +1,5 @@
 # dashboard model
-from pages.login1.login1_controller import Login1PageController
-
-
+'''
 class DashboardModel:
     def __init__(self):
         self.pagedata = {
@@ -18,12 +16,25 @@ class DashboardModel:
     def set_baggages(self, baggages):
         self.pagedata['baggages'] = baggages
 
-
     def get_data(self):
-        return self.pagedata
+         return self.pagedata
+
 
     def get_flight_by_id(self, flight_id):
         for flight in self.pagedata['flights']:
             if flight['flightid'] == flight_id:
                 return flight
         return None
+
+    def get_flight_data(self, table_name, index, field_name):
+        flight_data = self.pagedata[table_name][index][field_name]
+        # departure_time = flight_data.get('departuretime', 'N/A')
+        #flight_data = datetime.now()
+        #flight_data = datetime.timedelta(hours=flight_data.hour, minutes=flight_data.minute)
+        time = flight_data
+        return time
+
+  
+        #flight_data = datetime.timedelta(hours=flight_data.hour, minutes=flight_data.minute)
+
+'''

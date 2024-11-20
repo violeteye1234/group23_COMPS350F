@@ -1,15 +1,26 @@
 import tkinter as tk
 from utils.page_view import PageView
 from tkinter import PhotoImage
-from utils.canvas_button import CanvasButton
+from models.sharedata import SharedData
 
 class BoardingInformationPageView(PageView):
     def __init__(self, parent):
-        super().__init__(parent, height = 800.5, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
+        super().__init__(parent, height = 829, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
         self.image_path = self.image_path / "boarding_information/images/"
         
-        self.canvas = tk.Canvas(self, height = 800.5, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
+        self.canvas = tk.Canvas(self, height = 829, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
         self.canvas.pack(fill="both", expand=True)
+
+        self.user_data = SharedData.user_data
+        #self.data = self.controller.data
+        
+        self.flightnumber = self.user_data['flights'][0]['flightnumber']
+        self.status = self.user_data['flights'][0]['status']
+        self.gate = self.user_data['flights'][0]['gate']
+        self.departuretime = self.user_data['flights'][0]['departuretime']
+        self.departureairport = self.user_data['flights'][0]['departureairport']
+        self.arrivalairport = self.user_data['flights'][0]['arrivalairport']
+        self.seat = self.user_data['flightseats'][0]['seatnumber']
     
     def render(self):
         self.image_image_1 = PhotoImage(file=self.image_path / "image_1.png")
@@ -21,14 +32,29 @@ class BoardingInformationPageView(PageView):
         self.image_image_3 = PhotoImage(file=self.image_path / "image_3.png")
         self.image_3 = self.canvas.create_image(444.75, 269.25, image=self.image_image_3)
 
-        self.image_image_4 = PhotoImage(file=self.image_path / "image_4.png")
-        self.image_4 = self.canvas.create_image(444.75, 579.25, image=self.image_image_4)
 
-        self.image_image_5 = PhotoImage(file=self.image_path / "image_5.png")
-        self.image_5 = self.canvas.create_image(444.75, 752.25, image=self.image_image_5)
 
-        CanvasButton(self.canvas, 178.75, 666.75, self.image_path / "image_6.png", lambda: self.controller.root.page_controller.switch_page("boarding_information"))
-        CanvasButton(self.canvas, 178.75, 374.25, self.image_path / "image_7.png", lambda: self.controller.root.page_controller.switch_page("boarding_information"))
+        # create text
+        self.flightnumber_label = tk.Label(self, text= self.flightnumber, font=('Helvetica', 12, 'bold'), bg="#D9D9D9")
+        self.flightnumber_label.place(x=132.5, y=135.5)
+
+        self.flightstatus_label = tk.Label(self, text= self.status, font=('Helvetica', 12, 'bold'), bg="#D9D9D9")
+        self.flightstatus_label.place(x=234.25, y=135.5)
+
+        self.departureairport_label = tk.Label(self, text= self.departureairport, font=('Helvetica', 12, 'bold'), bg="#D9D9D9")
+        self.departureairport_label.place(x=450.25, y=120.5)
+
+        self.arrivalairport_label = tk.Label(self, text= self.arrivalairport, font=('Helvetica', 12, 'bold'), bg="#D9D9D9")
+        self.arrivalairport_label.place(x=636.25, y=120.5)
+
+        self.gate_label = tk.Label(self, text= self.gate, font=('Helvetica', 12, 'bold'), bg="#D9D9D9")
+        self.gate_label.place(x=263.25, y=184.5)
+
+        self.departuretime_label = tk.Label(self, text= self.departuretime, font=('Helvetica', 12, 'bold'), bg="#D9D9D9")
+        self.departuretime_label.place(x=215.25, y=213.5)
+
+        self.seat_label = tk.Label(self, text= self.seat, font=('Helvetica', 12, 'bold'), bg="#D9D9D9")
+        self.seat_label.place(x=263.25, y=241.5)
 
         self.parent.set_frame(self)
     
