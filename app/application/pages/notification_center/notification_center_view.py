@@ -33,7 +33,7 @@ class NotificationCenterPageView(PageView):
         MYFLIGHT_boarding = f"Your Flight is boarding at {self.controller.half_hour_ago}                                                                                                    Please board the plane as soon as possible" 
 
         if self.controller.time_until_takeoff > 60 or self.controller.time_until_takeoff < 0 or self.controller.time_later_landing < 0:
-            i = 0
+            i = 2
         elif self.controller.time_until_takeoff <= 60 and self.controller.time_until_takeoff > 30:
     # 代码块，处理时间介于30到60分钟之间的情况
             i = 1
