@@ -11,19 +11,20 @@ class NotificationCenterPageController(PageController):
         self.view_set_controller()
 
         # 假设飞机起飞时间和降落时间
-        takeoff_time = datetime.strptime("18:00", "%H:%M")
-        landing_time = datetime.strptime("19:00", "%H:%M")
+        takeoff_time = datetime.strptime("23:00", "%H:%M")
+        landing_time = datetime.strptime("23:59", "%H:%M")
         
         current_time = datetime.now()
+        current_time = current_time.strftime("%H:%M")
 
         one_hour_ago = takeoff_time - timedelta(minutes=60)  # 行李检查 飞机起飞前一小时
         half_hour_ago = takeoff_time - timedelta(minutes=30)  # 登机 飞机起飞前半小时
         a_quarter_later = landing_time + timedelta(minutes=15)  # 行李到达 飞机降落后15分钟
 
-        time_until_takeoff = (takeoff_time - current_time).total_seconds() / 60
-        time_later_landing = (current_time - landing_time).total_seconds() / 60
+        current_time_obj = datetime.strptime(current_time, "%H:%M")
+        time_until_takeoff = (takeoff_time - current_time_obj).total_seconds() / 60
+        time_later_landing = (current_time_obj - landing_time).total_seconds() / 60
 
-        current_time = current_time.strftime("%H:%M")
         takeoff_time = takeoff_time.strftime("%H:%M")
         landing_time = landing_time.strftime("%H:%M")
         one_hour_ago = one_hour_ago.strftime("%H:%M")
