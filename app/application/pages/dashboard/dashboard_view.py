@@ -27,7 +27,19 @@ class DashboardPageView(PageView):
         CanvasButton(self.canvas,  722.5, 279.5, self.image_path / "image_6.png", lambda: self.controller.root.page_controller.switch_page("dashboard"))
 
         self.parent.set_frame(self)
-    
+    '''
+    def insert_data(self, data):
+        flight = data.get('flight', {})
+        flight_info = f"Flight Number: {flight.get('flightnumber', 'N/A')}\n" \
+                      f"Departure: {flight.get('departureairport', 'N/A')}\n" \
+                      f"Arrival: {flight.get('arrivalairport', 'N/A')}\n" \
+                      f"Departure Time: {flight.get('departuretime', 'N/A')}\n" \
+                      f"Arrival Time: {flight.get('arrivaltime', 'N/A')}\n" \
+                      f"Gate: {flight.get('gate', 'N/A')}\n" \
+                      f"Status: {flight.get('status', 'N/A')}"
+        
+        self.canvas.create_text(446.5, 400, text=flight_info, fill="black", font=('Helvetica 12 bold'))
+    '''
     def update(self):
         pass
 

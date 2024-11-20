@@ -229,7 +229,7 @@ class Database:
                     })
 
             # get data form baggage table
-            query = "SELECT baggageid, flightid, userid, baggageweight, baggagenumber, status FROM baggage WHERE userid = :userid"
+            query = "SELECT baggageid, flightid, userid, baggageweight, baggagenumber, status, baggagetime FROM baggage WHERE userid = :userid"
             self.cursor.execute(query, userid=user_row[0])
             baggages = self.cursor.fetchall()
             user_data['baggages'] = []
@@ -240,7 +240,8 @@ class Database:
                     'userid': baggage[2],
                     'baggageweight': baggage[3],
                     'baggagenumber': baggage[4],
-                    'status': baggage[5]
+                    'status': baggage[5],
+                    'baggagetime': baggage[6],
                 })
 
             #get data from flightseats table

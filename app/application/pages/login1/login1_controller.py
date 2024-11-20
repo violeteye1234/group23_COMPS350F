@@ -4,16 +4,20 @@ from models.user_model import UserModel
 from models.database import Database
 import tkinter as tk
 from tkinter import messagebox
+from models.sharedata import SharedData
 
 class Login1PageController(PageController):
+    
     def __init__(self, root, parent_container):
         super().__init__(root, parent_container)
+        self.parent_container = parent_container
         self.view = Login1PageView(parent_container)
         self.view.set_controller(self)
         self.view.render()
 
         # 加一个variable 其他page可以get到
         self.user_data = None
+
 
         # 创建UserModel实例
         self.user_model = UserModel()
@@ -28,7 +32,8 @@ class Login1PageController(PageController):
             self.root.logger.info("Login successful!")
             # pass email to method
             self.user_data = Database().get_user_data(email)
-            print(self.user_data)
+            #print(self.user_data)
+            SharedData.user_data = self.user_data
 
             # 这里添加跳转到主页面的逻辑
             self.root.show_page('Main')
