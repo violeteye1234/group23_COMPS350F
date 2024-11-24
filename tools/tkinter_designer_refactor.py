@@ -1,10 +1,10 @@
 import re
 import os
 
-# 定義目錄路徑
+#Define directory path
 filename = r"D:\Software Engineer 350 GP\group23_COMPS350F\tkinter_designer_output\build\build\gui.py"
 #filename = r"D:\Software Engineer 350 GP\group23_COMPS350F\tkinter_designer_output\build\gui.py"
-# 定義正則表達式和替換模式
+# Define regular expressions and replacement patterns
 patterns = [
     (r'(image_image_.*) = PhotoImage\(\s*file=relative_to_assets\((.*)\)\)', r'\1 = PhotoImage(file=relative_to_assets(\2))'),
     (r'(image_.*) = canvas.create_image\(\s*(.*),\s*(.*),\s*image=(.*)\s*\)', r'\1 = canvas.create_image(\2, \3, image=\4)'),
@@ -16,17 +16,17 @@ patterns = [
 ]
 
 
-# 處理每個文件
+# Process each file
 if filename.endswith(".py"):
     with open(filename, "r", encoding="utf-8") as file:
         content = file.read()
     
-    # 對每個正則表達式進行替換
+    # Replace each regular expression
     for pattern, replacement in patterns:
         content = re.sub(pattern, replacement, content)
     
-    # 寫回文件
+    # Write back file
     with open(filename, "w", encoding="utf-8") as file:
         file.write(content)
 
-print("所有文件已完成替換處理。")
+print("All files have been replaced.")
