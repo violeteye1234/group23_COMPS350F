@@ -5,15 +5,18 @@ from models.sharedata import SharedData
 
 class BoardingInformationPageView(PageView):
     def __init__(self, parent):
+        # Initialize the BoardingInformationPageView with specified dimensions and background color
         super().__init__(parent, height = 829, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
-        self.image_path = self.image_path / "boarding_information/images/"
+        self.image_path = self.image_path / "boarding_information/images/" # Set the path for boarding information images
         
+        # Create a canvas to hold images and labels
         self.canvas = tk.Canvas(self, height = 829, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
-        self.canvas.pack(fill="both", expand=True)
+        self.canvas.pack(fill="both", expand=True) # Pack the canvas to fill the parent frame
 
+        # Access shared user data
         self.user_data = SharedData.user_data
-        #self.data = self.controller.data
-        
+
+        # Extract flight details from user data
         self.flightnumber = self.user_data['flights'][0]['flightnumber']
         self.status = self.user_data['flights'][0]['status']
         self.gate = self.user_data['flights'][0]['gate']
@@ -23,18 +26,23 @@ class BoardingInformationPageView(PageView):
         self.seat = self.user_data['flightseats'][0]['seatnumber']
     
     def render(self):
+        # Load and display images and labels on the canvas
+        
+        # Load and place the first image
         self.image_image_1 = PhotoImage(file=self.image_path / "image_1.png")
         self.image_1 = self.canvas.create_image(201.75, 45.0, image=self.image_image_1)
 
+        # Load and place the second image
         self.image_image_2 = PhotoImage(file=self.image_path / "image_2.png")
         self.image_2 = self.canvas.create_image(599.25, 45.75, image=self.image_image_2)
 
+        # Load and place the third image
         self.image_image_3 = PhotoImage(file=self.image_path / "image_3.png")
         self.image_3 = self.canvas.create_image(444.75, 269.25, image=self.image_image_3)
 
 
 
-        # create text
+        # Create and place labels for flight information
         self.flightnumber_label = tk.Label(self, text= self.flightnumber, font=('Helvetica', 12, 'bold'), bg="#D9D9D9")
         self.flightnumber_label.place(x=132.5, y=135.5)
 
@@ -56,7 +64,9 @@ class BoardingInformationPageView(PageView):
         self.seat_label = tk.Label(self, text= self.seat, font=('Helvetica', 12, 'bold'), bg="#D9D9D9")
         self.seat_label.place(x=263.25, y=241.5)
 
+        # Set this frame as the current frame in the parent container
         self.parent.set_frame(self)
     
     def update(self):
+        # Placeholder method for future updates to the view
         pass
