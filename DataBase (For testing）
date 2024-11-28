@@ -1,1 +1,133 @@
+CREATE TABLE Flights (
+    FlightID NUMBER ,
+    FlightNumber VARCHAR2(10) NOT NULL UNIQUE,
+    DepartureAirport VARCHAR2(50) NOT NULL,
+    ArrivalAirport VARCHAR2(50) NOT NULL,
+    DepartureTime TIMESTAMP NOT NULL,
+    ArrivalTime TIMESTAMP NOT NULL,
+    Gate VARCHAR2(10),
+    Status VARCHAR2(20) NOT NULL   
+);
+ 
+CREATE TABLE Baggage (
+    BaggageID NUMBER ,
+    FlightID NUMBER,
+    PassengerID NUMBER,
+    BaggageWeight NUMBER(10, 2),  
+    BaggageNumber VARCHAR2(50) NOT NULL UNIQUE,
+    Status VARCHAR2(20) NOT NULL
+);
 
+CREATE TABLE FlightSeats (
+    SeatID NUMBER ,
+    FlightID NUMBER,
+    SeatNumber VARCHAR2(10) NOT NULL,
+    SeatStatus VARCHAR2(20) NOT NULL
+);
+ CREATE TABLE Users (
+    UserID NUMBER ,
+    FullName VARCHAR2(100) NOT NULL,
+    Email VARCHAR2(100) NOT NULL UNIQUE,
+    PhoneNumber VARCHAR2(20),
+    PassWord VARCHAR2(255) NOT NULL
+);
+CREATE TABLE Baggage (
+    BaggageID NUMBER ,
+    FlightID NUMBER,
+    PassengerID NUMBER,
+    BaggageWeight NUMBER(10, 2),  -- Luggage weight, accurate to two decimal places
+    BaggageNumber VARCHAR2(50) NOT NULL UNIQUE,
+    Status VARCHAR2(20) NOT NULL  -- Baggage status
+);
+ 
+CREATE TABLE Bookings (
+    BookingID NUMBER,
+    UserID NUMBER,
+    FlightID NUMBER,
+    BookingDate TIMESTAMP NOT NULL
+);
+---User table
+INSERT INTO Users (userid,FullName, Email, PhoneNumber, PassWord)
+VALUES ('1','Alice Johnson', 'alice@example.com', '1234567890', 'password123');
+
+INSERT INTO Users (userid,FullName, Email, PhoneNumber, PassWord)
+VALUES ('2','Bob Smith', 'bob@example.com', '0987654321', 'securepassword');
+
+INSERT INTO Users (userid,FullName, Email, PhoneNumber, PassWord)
+VALUES ('3','Charlie Brown', 'charlie@example.com', '1122334455', 'charlie123');
+
+INSERT INTO Users (userid,FullName, Email, PhoneNumber, PassWord)
+VALUES ('4','Diana Evans', 'diana@example.com', '5566778899', 'dianapass');
+
+INSERT INTO Users (userid,FullName, Email, PhoneNumber, PassWord)
+VALUES ('5','Edward White', 'edward@example.com', '1098765432', 'edwardspass');
+
+--Flight info
+INSERT INTO Flights (FlightID, FlightNumber, DepartureAirport, ArrivalAirport, DepartureTime, ArrivalTime, Gate, Status)
+VALUES (1, 'FL101', 'New York', 'Los Angeles', TIMESTAMP '2023-10-01 08:00:00', TIMESTAMP '2023-10-01 11:00:00', 'A1', 'Scheduled');
+ 
+INSERT INTO Flights (FlightID, FlightNumber, DepartureAirport, ArrivalAirport, DepartureTime, ArrivalTime, Gate, Status)
+VALUES (2, 'FL102', 'Los Angeles', 'New York', TIMESTAMP '2023-10-01 12:00:00', TIMESTAMP '2023-10-01 15:00:00', 'B2', 'Scheduled');
+
+----Baggage table
+-- First row data insertion
+INSERT INTO Baggage (BaggageID, FlightID, PassengerID, BaggageWeight, BaggageNumber, Status)
+VALUES (1, 1, 1, 20.5, 'BAG001', 'Checked');
+ 
+-- Second row data insertion
+INSERT INTO Baggage (BaggageID, FlightID, PassengerID, BaggageWeight, BaggageNumber, Status)
+VALUES (2, 1, 2, 15.0, 'BAG002', 'Checked');
+ 
+-- Third row data insertion
+INSERT INTO Baggage (BaggageID, FlightID, PassengerID, BaggageWeight, BaggageNumber, Status)
+VALUES (3, 2, 3, 30.0, 'BAG003', 'Checked');
+ 
+-- Fourth 
+INSERT INTO Baggage (BaggageID, FlightID, PassengerID, BaggageWeight, BaggageNumber, Status)
+VALUES (4, 2, 4, 25.7, 'BAG004', 'Checked');
+ 
+-- Fifth
+INSERT INTO Baggage (BaggageID, FlightID, PassengerID, BaggageWeight, BaggageNumber, Status)
+VALUES (5, 1, 5, 18.9, 'BAG005', 'Checked');
+
+---FlightSeats Table
+
+INSERT INTO FlightSeats (SeatID, FlightID, SeatNumber, SeatStatus)
+VALUES (1, 1, '1A', 'Available');
+ 
+
+INSERT INTO FlightSeats (SeatID, FlightID, SeatNumber, SeatStatus)
+VALUES (2, 1, '1B', 'Booked');
+ 
+
+INSERT INTO FlightSeats (SeatID, FlightID, SeatNumber, SeatStatus)
+VALUES (3, 2, '2A', 'Available');
+ 
+
+INSERT INTO FlightSeats (SeatID, FlightID, SeatNumber, SeatStatus)
+VALUES (4, 2, '2B', 'Booked');
+ 
+
+INSERT INTO FlightSeats (SeatID, FlightID, SeatNumber, SeatStatus)
+VALUES (5, 1, '1C', 'Available');
+
+----Booking data
+
+INSERT INTO Bookings (BookingID, UserID, FlightID, BookingDate)
+VALUES (1, 1, 1, TIMESTAMP '2023-09-15 09:00:00');
+ 
+
+INSERT INTO Bookings (BookingID, UserID, FlightID, BookingDate)
+VALUES (2, 2, 1, TIMESTAMP '2023-09-16 10:00:00');
+ 
+
+INSERT INTO Bookings (BookingID, UserID, FlightID, BookingDate)
+VALUES (3, 3, 2, TIMESTAMP '2023-09-17 11:00:00');
+ 
+
+INSERT INTO Bookings (BookingID, UserID, FlightID, BookingDate)
+VALUES (4, 4, 2, TIMESTAMP '2023-09-18 12:00:00');
+ 
+
+INSERT INTO Bookings (BookingID, UserID, FlightID, BookingDate)
+VALUES (5, 5, 1, TIMESTAMP '2023-09-19 13:00:00');
