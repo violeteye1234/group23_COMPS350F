@@ -1,5 +1,6 @@
 # pages/__init__.py
 
+# Importing all the controllers for different pages in the application
 from .about.about_controller import AboutPageController
 from .baggage_detail.baggage_detail_controller import BaggageDetailPageController
 from .boarding_information.boarding_information_controller import BoardingInformationPageController
@@ -19,6 +20,7 @@ from .register.register_controller import RegisterPageController
 from .login1.login1_controller import Login1PageController
 from .forgotpassword.forgotpassword_controller import ForgotPasswordPageController
 
+# Importing all the views for different pages in the application
 from .about.about_view import AboutPageView
 from .baggage_detail.baggage_detail_view import BaggageDetailPageView
 from .boarding_information.boarding_information_view import BoardingInformationPageView
@@ -38,6 +40,7 @@ from .register.register_view import RegisterPageView
 from .login1.login1_view import Login1PageView
 from .forgotpassword.forgotpassword_view import ForgotPasswordPageView
 
+# Specifying the public API of this module
 __all__ = [
     'AboutPageController',
     'BaggageDetailPageController',

@@ -1,16 +1,22 @@
-import tkinter as tk
-from utils.page_view import PageView
-from tkinter import PhotoImage
+import tkinter as tk  # Import tkinter for GUI components
+from utils.page_view import PageView  # Import base class for page views
+from tkinter import PhotoImage  # Import PhotoImage for handling images
 
+# Define the HelpPageView class, inheriting from PageView
 class HelpPageView(PageView):
     def __init__(self, parent):
-        super().__init__(parent, height = 1701, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
+        # Initialize the parent class with specified dimensions and background color
+        super().__init__(parent, height=1701, width=892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
+        
+        # Set the path for images used in the help page
         self.image_path = self.image_path / "help/images/"
         
-        self.canvas = tk.Canvas(self, height = 1701, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
-        self.canvas.pack(fill="both", expand=True)
+        # Create a canvas for the layout of the help page
+        self.canvas = tk.Canvas(self, height=1701, width=892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
+        self.canvas.pack(fill="both", expand=True)  # Pack the canvas to fill the parent container
     
     def render(self):
+        # Load and display images on the canvas at specified positions
         self.image_image_1 = PhotoImage(file=self.image_path / "image_1.png")
         self.image_1 = self.canvas.create_image(89.25, 45.5, image=self.image_image_1)
 
@@ -32,7 +38,9 @@ class HelpPageView(PageView):
         self.image_image_7 = PhotoImage(file=self.image_path / "image_7.png")
         self.image_7 = self.canvas.create_image(444.75, 884.75, image=self.image_image_7)
         
+        # Set the current frame to the parent container
         self.parent.set_frame(self)
     
     def update(self):
+        # Placeholder for update logic (currently does nothing)
         pass
