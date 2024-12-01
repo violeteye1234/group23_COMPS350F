@@ -27,7 +27,7 @@ class MainPageController(PageController):
         self.root = root  # Store the root reference
         self.view = MainPageView(root.container)  # Create the main page view
         self.current_content_controller = None  # Initialize current content controller to None
-        self.view.set_controller()  # Set the view's controller
+        self.view_set_controller()  # Set the view's controller
 
         # Dictionary to map page names to their respective controllers
         self.pages = {
