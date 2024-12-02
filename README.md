@@ -7,7 +7,7 @@
 - [Installation](#installation)
 
 ## Overview
-The HKMU Aiport Management System is a Software Engineering Project for COMPS350F Software Engineering. Under the hardwork and determination of 9 students from Bachelors of Science with Honors in Computer Science, Data Science and AI. The aim of creating an efficient Airport Management System is to implement new features that current Airport Management System as well as increase our domain knowledge within the area of interest. 
+The HKMU Aiport Management System is a Software Engineering Project for COMPS350F Software Engineering. Under the hardwork and determination of 9 students from Bachelors of Science with Honors in Computer Science, Data Science and AI. The aim of creating an efficient Airport Management System is to implement new features that current Airport Management System as well as increase our domain knowledge within the area of interest. Research was conducted through attending Masterclasses hosted by Cathay Pacific and Hong Kong International Airport to find current painpoints within the user experience and seeking ways of improvement. 
 
 ## Features
 - Secure User Login and Registration Page
@@ -31,8 +31,8 @@ The HKMU Aiport Management System is a Software Engineering Project for COMPS350
 
 #Accounts:
 Login
-- Username: 123
-- Password: 123
+- Username: alice@example.com
+- Password: 1234
 ```
 
 ## Installation 
@@ -42,16 +42,11 @@ git clone https://github.com/violeteye1234/group23_COMPS350F.git
 
 Please install Oracle Client 64 bit from: https://www.oracle.com/hk/database/technologies/instant-client/downloads.html
 
---- MacOSX Users -----
-Upon installation, please extract it and follow the instructions from the ReadMe File present
-
 --- Windows Users ----
 Upon Installation:
 1) Copy all the .dll files from instantclient directory (Usually in D Drive Downloads)
 2) Paste it to your Python directory (Usually in C Drive)
 
---- Linux Users ---
-tbc
-
 Once all ready, please run main_window.py
 ```
+Since this project is runnable for Windows users only, for non-windows users, you may watch the demo video uploaded (demo.mp4) to see how the application runs. 
