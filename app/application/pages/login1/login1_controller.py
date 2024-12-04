@@ -15,17 +15,17 @@ class Login1PageController(PageController):
         self.view.set_controller(self)
         self.view.render()
 
-        # 加一个variable 其他page可以get到
+        # Add a variable so that other pages can get it
         self.user_data = None
 
 
-        # 创建UserModel实例
+        # Creating a UserModel Instance
         self.user_model = UserModel()
 
     def login(self, email: str, password: str):
         self.root.logger.info(f"Attempting to login with email: {email}, password: {password}")
         
-        # 从数据库中检索用户信息
+        # Retrieving user information from the database
         user = self.user_model.get_user_by_email_and_password(email, password)
         
         if user:
@@ -35,11 +35,11 @@ class Login1PageController(PageController):
             # pass user_data to sharedata model
             SharedData.user_data = self.user_data
 
-            # 这里添加跳转到主页面的逻辑
+            # Add the logic of jumping to the main page here
             self.root.show_page('Main')
         else:
             self.root.logger.error("Login failed! Invalid email or password.")
-            # 弹窗显示错误信息
+            # Pop-up window displays error message
             messagebox.showerror("Login Failed", "Invalid email or password. Please try again.")
 
     def register(self):

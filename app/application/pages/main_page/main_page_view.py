@@ -5,21 +5,28 @@ from tkinter import PhotoImage
 
 class MainPageView(PageView):
     def __init__(self, parent):
+        # Initialize the MainPageView with specified dimensions and background color
         super().__init__(parent, height = 768, width = 768, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
+        
+        # Set the path to images for the main page
         self.image_path = self.image_path / "main_page/images/"
         
+        # Create a canvas to hold images and buttons
         self.canvas = tk.Canvas(self, height = 768, width = 768, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
         self.canvas.pack(fill="both", expand=True)
     
     def render(self):
+        # Load and display images on the canvas at specified coordinates
         self.image_image_1 = PhotoImage(file=self.image_path / "image_1.png")
         self.image_1 = self.canvas.create_image(540.0, 27.0, image=self.image_image_1)
 
         self.image_image_2 = PhotoImage(file=self.image_path / "image_2.png")
         self.image_2 = self.canvas.create_image(93.0, 435.5, image=self.image_image_2)
         
+        # Create a clock display on the canvas
         self.clock = self.canvas.create_text(443.0, 12.75, anchor="nw", text="12:57", fill="#EBEBEB", font=("Roboto Black", 36 * -1))
 
+        # Create buttons for navigation, each with a specific action
         button_3 = CanvasButton(self.canvas,  95.25, 27.0, self.image_path / "image_3.png",     lambda: self.controller.switch_page("dashboard"))
         button_4 = CanvasButton(self.canvas,  1021.0, 27.0, self.image_path / "image_4.png",    lambda: self.controller.switch_page("profile"))
         button_5 = CanvasButton(self.canvas,  964.0, 27.25, self.image_path / "image_5.png",    lambda: self.controller.switch_page("help"))
@@ -31,7 +38,9 @@ class MainPageView(PageView):
         button_11 = CanvasButton(self.canvas,  93.5, 352.5, self.image_path / "image_11.png",   lambda: self.controller.logout())
         button_12 = CanvasButton(self.canvas,  93.5, 142.5, self.image_path / "image_12.png",   lambda: self.controller.switch_page("notification_center"))
 
+        # Create a scrollable frame for additional content
         self.content_frame = ScrollableFrame(self.canvas, width=892.5, height=712.5, bg="#FFF0F0")
+        # Prevent the frame from resizing to fit its contents
         self.content_frame.pack_propagate(False)
         self.canvas.create_window(187.5, 55.5, window=self.content_frame, anchor='nw')
 

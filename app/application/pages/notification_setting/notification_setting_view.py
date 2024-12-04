@@ -48,46 +48,46 @@ class NotificationSettingPageView(PageView):
         self.image_2 = self.canvas.create_image(420, 90, image=self.image_image_2)
 
         original_image_path2 = self.image_path / "image_2.png"
-        desired_size2 = (850, 81)  # 期望的图片大小
+        desired_size2 = (850, 81)  # Expected image size
         original_image2 = Image.open(original_image_path2)
         resized_image2 = original_image2.resize(desired_size2)
-        resized_image2.save(original_image_path2) # 覆盖原始图片
+        resized_image2.save(original_image_path2) # Overwrite the original image
 
         self.image_image_3 = PhotoImage(file=self.image_path / "image_2.png")
         self.image_3 = self.canvas.create_image(440, 150, image=self.image_image_3)
 
         original_image_path3 = self.image_path / "image_3.png"
-        desired_size3 = (850, 81)  # 期望的图片大小
+        desired_size3 = (850, 81)  # Expected image size
         original_image3 = Image.open(original_image_path3)
         resized_image3 = original_image3.resize(desired_size3)
-        resized_image3.save(original_image_path3) # 覆盖原始图片
+        resized_image3.save(original_image_path3) # Overwrite the original image
 
         self.image_image_4 = PhotoImage(file=self.image_path / "image_3.png")
         self.image_4 = self.canvas.create_image(440, 240, image=self.image_image_4)
 
         original_image_path4 = self.image_path / "image_4.png"
-        desired_size4 = (850, 81)  # 期望的图片大小
+        desired_size4 = (850, 81)  # Expected image size
         original_image4 = Image.open(original_image_path4)
         resized_image4 = original_image4.resize(desired_size4)
-        resized_image4.save(original_image_path4) # 覆盖原始图片
+        resized_image4.save(original_image_path4) # Overwrite the original image
 
         self.image_image_5 = PhotoImage(file=self.image_path / "image_4.png")
         self.image_5 = self.canvas.create_image(440, 330, image=self.image_image_5)
 
         original_image_path5 = self.image_path / "image_5.png"
-        desired_size5 = (850, 81)  # 期望的图片大小
+        desired_size5 = (850, 81)  # Expected image size
         original_image5 = Image.open(original_image_path5)
         resized_image5 = original_image5.resize(desired_size5)
-        resized_image5.save(original_image_path5) # 覆盖原始图片
+        resized_image5.save(original_image_path5) # Overwrite the original image
 
         self.image_image_6 = PhotoImage(file=self.image_path / "image_5.png")
         self.image_6 = self.canvas.create_image(440, 420, image=self.image_image_6)
 
         original_image_path6 = self.image_path / "image_6.png"
-        desired_size6 = (850, 81)  # 期望的图片大小
+        desired_size6 = (850, 81)  # Expected image size
         original_image6 = Image.open(original_image_path6)
         resized_image6 = original_image6.resize(desired_size6)
-        resized_image6.save(original_image_path6) # 覆盖原始图片
+        resized_image6.save(original_image_path6) # Overwrite the original image
 
         self.image_image_7= PhotoImage(file=self.image_path / "image_6.png")
         self.image_7 = self.canvas.create_image(440, 510, image=self.image_image_7)
@@ -96,67 +96,67 @@ class NotificationSettingPageView(PageView):
         self.image_8 = self.canvas.create_image(430, 570, image=self.image_image_8)
 
         original_image_path7 = self.image_path / "image_7.png"
-        desired_size7 = (850, 81)  # 期望的图片大小
+        desired_size7 = (850, 81)  # Expected image size
         original_image7 = Image.open(original_image_path7)
         resized_image7 = original_image7.resize(desired_size7)
-        resized_image7.save(original_image_path7) # 覆盖原始图片
+        resized_image7.save(original_image_path7) # Overwrite the original image
 
         self.image_image_9= PhotoImage(file=self.image_path / "image_7.png")
         self.image_9 = self.canvas.create_image(440, 630, image=self.image_image_9)
 
         original_image_path8 = self.image_path / "image_8.png"
-        desired_size8 = (850, 81)  # 期望的图片大小
+        desired_size8 = (850, 81)  # Expected image size
         original_image8 = Image.open(original_image_path8)
         resized_image8 = original_image8.resize(desired_size8)
-        resized_image8.save(original_image_path8) # 覆盖原始图片
+        resized_image8.save(original_image_path8) # Overwrite the original image
 
         self.image_image_10= PhotoImage(file=self.image_path / "image_8.png")
         self.image_10 = self.canvas.create_image(440, 720, image=self.image_image_10)
 
         original_image_path9 = self.image_path / "image_11.png"
-        desired_size9 = (850, 81)  # 期望的图片大小
+        desired_size9 = (850, 81)  # Expected image size
         original_image9 = Image.open(original_image_path9)
         resized_image9 = original_image9.resize(desired_size9)
-        resized_image9.save(original_image_path9) # 覆盖原始图片
+        resized_image9.save(original_image_path9) # Overwrite the original image
 
         self.image_image_11= PhotoImage(file=self.image_path / "image_11.png")
         self.image_11 = self.canvas.create_image(440, 810, image=self.image_image_11)
 
         original_image_path10 = self.image_path / "image_12.png"
-        desired_size10 = (850, 81)  # 期望的图片大小
+        desired_size10 = (850, 81)  # Expected image size
         original_image10 = Image.open(original_image_path10)
         resized_image10 = original_image10.resize(desired_size10)
-        resized_image10.save(original_image_path10) # 覆盖原始图片
+        resized_image10.save(original_image_path10) # Overwrite the original image
 
         self.image_image_12= PhotoImage(file=self.image_path / "image_12.png")
         self.image_12 = self.canvas.create_image(440, 900, image=self.image_image_12)
 
     def toggle_image_button1(self):
-        self.current_image_index_button1 = (self.current_image_index_button1 + 1) % len(self.button_images)  # 切换图片
+        self.current_image_index_button1 = (self.current_image_index_button1 + 1) % len(self.button_images)  # Switch image
         self.button1.config(image=self.button_images[self.current_image_index_button1])
     def toggle_image_button2(self):
-        self.current_image_index_button2 = (self.current_image_index_button2 + 1) % len(self.button_images)  # 切换图片
+        self.current_image_index_button2 = (self.current_image_index_button2 + 1) % len(self.button_images)  # Switch image
         self.button2.config(image=self.button_images[self.current_image_index_button2])
     def toggle_image_button3(self):
-        self.current_image_index_button3 = (self.current_image_index_button3 + 1) % len(self.button_images)  # 切换图片
+        self.current_image_index_button3 = (self.current_image_index_button3 + 1) % len(self.button_images)  # Switch image
         self.button3.config(image=self.button_images[self.current_image_index_button3])
     def toggle_image_button4(self):
-        self.current_image_index_button4 = (self.current_image_index_button4 + 1) % len(self.button_images)  # 切换图片
+        self.current_image_index_button4 = (self.current_image_index_button4 + 1) % len(self.button_images)  # Switch image
         self.button4.config(image=self.button_images[self.current_image_index_button4])
     def toggle_image_button5(self):
-        self.current_image_index_button5 = (self.current_image_index_button5 + 1) % len(self.button_images)  # 切换图片
+        self.current_image_index_button5 = (self.current_image_index_button5 + 1) % len(self.button_images)  # Switch image
         self.button5.config(image=self.button_images[self.current_image_index_button5])
     def toggle_image_button6(self):
-        self.current_image_index_button6 = (self.current_image_index_button6 + 1) % len(self.button_images)  # 切换图片
+        self.current_image_index_button6 = (self.current_image_index_button6 + 1) % len(self.button_images)  # Switch image
         self.button6.config(image=self.button_images[self.current_image_index_button6])
     def toggle_image_button7(self):
-        self.current_image_index_button7 = (self.current_image_index_button7 + 1) % len(self.button_images)  # 切换图片
+        self.current_image_index_button7 = (self.current_image_index_button7 + 1) % len(self.button_images)  # Switch image
         self.button7.config(image=self.button_images[self.current_image_index_button7])
     def toggle_image_button8(self):
-        self.current_image_index_button8 = (self.current_image_index_button8 + 1) % len(self.button_images)  # 切换图片
+        self.current_image_index_button8 = (self.current_image_index_button8 + 1) % len(self.button_images)  # Switch image
         self.button8.config(image=self.button_images[self.current_image_index_button8])
     def toggle_image_button9(self):
-        self.current_image_index_button9 = (self.current_image_index_button9 + 1) % len(self.button_images)  # 切换图片
+        self.current_image_index_button9 = (self.current_image_index_button9 + 1) % len(self.button_images)  # 切换Switch image图片
         self.button9.config(image=self.button_images[self.current_image_index_button9])
 
     def render(self):

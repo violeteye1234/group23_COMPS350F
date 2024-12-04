@@ -8,14 +8,20 @@ import re
 
 class MyFlightPageView(PageView):
     def __init__(self, parent):
+        # Initialize the MyFlightPageView with specified dimensions and background color
         super().__init__(parent, height = 712.5, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
+        
+        # Set the path to images for the flight page
         self.image_path = self.image_path / "my_flight/image/"
         
+        # Create a canvas to hold images and labels
         self.canvas = tk.Canvas(self, height = 712.5, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
         self.canvas.pack(fill="both", expand=True)
     
+        # Retrieve user data from shared data model
         self.user_data = SharedData.user_data
 
+        # Extract information for the first flight
         self.flightnumber0 = self.user_data['flights'][0]['flightnumber']
         self.departuretime0 = self.user_data['flights'][0]['departuretime']#.date()
         self.landingtime0 = self.user_data['flights'][0]['arrivaltime']#.date()
@@ -24,7 +30,7 @@ class MyFlightPageView(PageView):
         self.seat0 = self.user_data['flightseats'][0]['seatnumber']
 
 
-        if len(self.user_data['flights']) > 1:  # 确保至少有两个元素
+        if len(self.user_data['flights']) > 1:  # Make sure there are at least two elements
             flight_number = self.user_data['flights'][1]['flightnumber']
             if flight_number is not None or flight_number != "":
            
@@ -51,7 +57,7 @@ class MyFlightPageView(PageView):
 
 
           
-        if len(self.user_data['flights']) > 1:  # 确保至少有两个元素
+        if len(self.user_data['flights']) > 1:  # Make sure there are at least two elements
             flight_number = self.user_data['flights'][2]['flightnumber']
             if flight_number is not None or flight_number != "":
                 self.flightnumber2 = self.user_data['flights'][2]['flightnumber']
@@ -91,6 +97,8 @@ class MyFlightPageView(PageView):
 
         #self.canvas.create_text(69, 32, anchor="nw", text="My Flight", fill="#282828", font=("Roboto Black", 36 * -1))
         #self.parent.set_frame(self)
+
+        # Load and display images on the canvas at specified coordinates
         
         self.image_image_1 = PhotoImage(file=self.image_path / "image_11.png")
         self.image_1 = self.canvas.create_image(150, 40, image=self.image_image_1)
@@ -123,7 +131,7 @@ class MyFlightPageView(PageView):
         self.landingtime_label0 = tk.Label(self, text= self.landingtime0, font=('Helvetica', 14, 'bold'), bg="#D9D9D9",  fg="blue")
         self.landingtime_label0.place(x=450, y=240)
 #1      
-        if len(self.user_data['flights']) > 1:  # 确保至少有两个元素
+        if len(self.user_data['flights']) > 1:  # Make sure there are at least two elements
             flight_number = self.user_data['flights'][1]['flightnumber']
             if flight_number is not None or flight_number != "":
                 self.flightnumber_label1 = tk.Label(self, text= self.flightnumber1, font=('Helvetica', 12, 'bold'), bg="#D9D9D9")
@@ -143,7 +151,7 @@ class MyFlightPageView(PageView):
                 self.landingtime_label1 = tk.Label(self, text= self.landingtime1, font=('Helvetica', 14, 'bold'), bg="#D9D9D9",  fg="blue")
                 self.landingtime_label1.place(x=450, y=440)
 #2
-        if len(self.user_data['flights']) > 1:  # 确保至少有两个元素
+        if len(self.user_data['flights']) > 1:  # Make sure there are at least two elements
             flight_number = self.user_data['flights'][1]['flightnumber']
             if flight_number is not None or flight_number != "":
                 self.flightnumber_label2 = tk.Label(self, text= self.flightnumber2, font=('Helvetica', 12, 'bold'), bg="#D9D9D9")
@@ -164,7 +172,7 @@ class MyFlightPageView(PageView):
                 self.landingtime_label2.place(x=450, y=640)
 
 
-
+        # Create buttons for navigating to flight details
         CanvasButton(self.canvas, 600, 200, self.image_path / "image_55.png", lambda: self.controller.root.page_controller.switch_page("flight_detail"))        
         CanvasButton(self.canvas, 600, 400, self.image_path / "image_55.png", lambda: self.controller.root.page_controller.switch_page("flight_detail"))         
         CanvasButton(self.canvas, 600, 600, self.image_path / "image_55.png", lambda: self.controller.root.page_controller.switch_page("flight_detail"))         
@@ -172,10 +180,7 @@ class MyFlightPageView(PageView):
        # Flight_time = f" { self.takeoff_time,   self.landing_time } 
 
 
-
-
-
-
+        # Set the current frame in the parent container to this view
         self.parent.set_frame(self)
     
 

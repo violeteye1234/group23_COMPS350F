@@ -4,13 +4,18 @@ from tkinter import PhotoImage
 
 class HelpPageView(PageView):
     def __init__(self, parent):
+        # Initialize the HelpPageView with specified dimensions and background color
         super().__init__(parent, height = 1701, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
+        
+        # Set the path to images for the help view
         self.image_path = self.image_path / "help/images/"
         
+        # Create a canvas to hold images
         self.canvas = tk.Canvas(self, height = 1701, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
         self.canvas.pack(fill="both", expand=True)
     
     def render(self):
+        # Load and display images on the canvas at specified coordinates
         self.image_image_1 = PhotoImage(file=self.image_path / "image_1.png")
         self.image_1 = self.canvas.create_image(89.25, 45.5, image=self.image_image_1)
 
@@ -32,6 +37,7 @@ class HelpPageView(PageView):
         self.image_image_7 = PhotoImage(file=self.image_path / "image_7.png")
         self.image_7 = self.canvas.create_image(444.75, 884.75, image=self.image_image_7)
         
+        # Set the current frame in the parent container to this view
         self.parent.set_frame(self)
     
     def update(self):

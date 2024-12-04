@@ -13,7 +13,7 @@ class LoginPageView(PageView):
         self.create_widgets()
     
     def create_widgets(self):
-        # 創建 "Login" 按鈕
+        # Create a "Login" button
         
         '''
         self.login_button = tk.Button(
@@ -24,7 +24,6 @@ class LoginPageView(PageView):
         self.canvas.create_window(540, 300, window=self.login_button, width=200, height=50)
         
         '''
-        # create login button
         self.login_button = tk.Button(
             self.canvas,
             text="Login",
@@ -32,7 +31,7 @@ class LoginPageView(PageView):
         )
         self.canvas.create_window(540, 300, window=self.login_button, width=200, height=50)
         
-        # 創建 "Register" 按鈕
+        # Create a "Register" button
         self.register_button = tk.Button(
             self.canvas,
             text="Register",

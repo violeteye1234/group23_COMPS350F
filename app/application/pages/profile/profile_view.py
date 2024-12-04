@@ -9,8 +9,11 @@ class ProfilePageView(PageView):
         self.image_path = self.image_path / "profile/images/"
         self.canvas = tk.Canvas(self, height = 712.5, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
         self.canvas.pack(fill="both", expand=True)
+
+        # Current content controller (not yet set)
         self.current_content_controller = None
 
+        # Load and display images on the canvas
         self.image_image_1 = PhotoImage(file=self.image_path / "image_1.png")
         self.image_1 = self.canvas.create_image(185, 45, image=self.image_image_1)
 
@@ -21,10 +24,13 @@ class ProfilePageView(PageView):
         
     
     def render(self):
+        # Create buttons to navigate to personal information and notification settings
         button_1 = CanvasButton(self.canvas, 335, 120, self.image_path / "image_2.png",
                                 lambda: self.controller.root.page_controller.switch_page("personal_information"),self.image_path / "image_4.png")
         button_2 = CanvasButton(self.canvas, 335, 200, self.image_path / "image_3.png",
                                 lambda: self.controller.root.page_controller.switch_page("notification_setting"),self.image_path / "image_5.png")
+        
+        # Set the current frame in the parent container to this view
         self.parent.set_frame(self)
 
     

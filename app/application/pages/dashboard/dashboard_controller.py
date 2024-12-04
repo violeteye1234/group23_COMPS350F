@@ -1,4 +1,4 @@
-# dashboaed controller
+# dashboard controller
 from utils.page_controller import PageController
 from .dashboard_view import DashboardPageView
 from models.user_model import UserModel
@@ -11,9 +11,17 @@ import datetime
 
 class DashboardPageController(PageController):
     def __init__(self, root, parent_container):
+        # Initialize the DashboardPageController by calling the parent constructor
         super().__init__(root, parent_container)
+
+        # Store the parent container for future reference
         self.parent_container = parent_container
+
+        # Create an instance of DashboardPageView, passing the parent container
+
         self.view = DashboardPageView(parent_container)
+
+        # Set this controller as the controller for the DashboardPageView
         self.view.set_controller(self)
         # self.view.insert_data()
         #self.model = DashboardModel()

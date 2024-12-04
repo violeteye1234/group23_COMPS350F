@@ -1,5 +1,5 @@
 -- ================================
--- 創建 User 表
+-- Create User table
 -- ================================
 CREATE TABLE User (
     userID INT PRIMARY KEY AUTO_INCREMENT,
@@ -15,7 +15,7 @@ CREATE TABLE User (
 );
 
 -- ================================
--- 創建 Airport 表
+-- Create Airport table
 -- ================================
 CREATE TABLE Airport (
     airport_code VARCHAR(10) PRIMARY KEY,
@@ -24,7 +24,7 @@ CREATE TABLE Airport (
 );
 
 -- ================================
--- 創建 Airline 表
+-- Create Airline table
 -- ================================
 CREATE TABLE Airline (
     name VARCHAR(100) PRIMARY KEY,
@@ -32,7 +32,7 @@ CREATE TABLE Airline (
 );
 
 -- ================================
--- 創建 BoardingGate 表
+-- Create the BoardingGate table
 -- ================================
 CREATE TABLE BoardingGate (
     gate_number VARCHAR(20) PRIMARY KEY,
@@ -43,7 +43,7 @@ CREATE TABLE BoardingGate (
 );
 
 -- ================================
--- 創建 SeatMap 表
+-- Create SeatMap table
 -- ================================
 CREATE TABLE SeatMap (
     seat_map_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -54,7 +54,7 @@ CREATE TABLE SeatMap (
 );
 
 -- ================================
--- 創建 CheckinCounter 表
+-- Create CheckinCounter table
 -- ================================
 CREATE TABLE CheckinCounter (
     checkin_counter_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -65,7 +65,7 @@ CREATE TABLE CheckinCounter (
 );
 
 -- ================================
--- 創建 Flight 表
+-- Create Flight table
 -- ================================
 CREATE TABLE Flight (
     flight_number VARCHAR(20) PRIMARY KEY,
@@ -97,7 +97,7 @@ CREATE TABLE Flight (
 );
 
 -- ================================
--- 創建 UserFlights 表（User 與 Flight 的多對多關係）
+-- Create UserFlights table (many-to-many relationship between User and Flight)
 -- ================================
 CREATE TABLE UserFlights (
     userID INT,
@@ -112,7 +112,7 @@ CREATE TABLE UserFlights (
 );
 
 -- ================================
--- 創建 Baggage 表
+-- Create baggage table
 -- ================================
 CREATE TABLE Baggage (
     baggage_id VARCHAR(50) PRIMARY KEY,
@@ -136,7 +136,7 @@ CREATE TABLE Baggage (
 );
 
 -- ================================
--- 創建 FlightTrackingHistory 表
+-- Create the FlightTrackingHistory table
 -- ================================
 CREATE TABLE FlightTrackingHistory (
     flight_number VARCHAR(20),
@@ -149,7 +149,7 @@ CREATE TABLE FlightTrackingHistory (
 );
 
 -- ================================
--- 創建 BaggageActivityHistory 表
+-- Create BaggageActivityHistory table
 -- ================================
 CREATE TABLE BaggageActivityHistory (
     baggage_id VARCHAR(50),
@@ -161,7 +161,7 @@ CREATE TABLE BaggageActivityHistory (
 );
 
 -- ================================
--- 創建 Notification 表
+-- Create Notification table
 -- ================================
 CREATE TABLE Notification (
     notification_id INT PRIMARY KEY AUTO_INCREMENT,
@@ -181,7 +181,7 @@ CREATE TABLE Notification (
 );
 
 -- ================================
--- 創建 Settings 表
+-- Create Settings table
 -- ================================
 CREATE TABLE Settings (
     userID INT,
@@ -193,9 +193,9 @@ CREATE TABLE Settings (
 );
 
 -- ================================
--- 創建索引（可選）
+-- Create index (optional)
 -- ================================
--- 為經常查詢的外鍵建立索引以提高性能
+-- Index frequently queried foreign keys to improve performance
 CREATE INDEX idx_user_email ON User(email);
 CREATE INDEX idx_flight_departure ON Flight(departure_airport_code);
 CREATE INDEX idx_flight_arrival ON Flight(arrival_airport_code);

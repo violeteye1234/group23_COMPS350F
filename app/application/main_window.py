@@ -27,9 +27,6 @@ class MainWindow(tk.Tk):
         self._startx: int = 0
         self._starty: int = 0
         
-        # Common Model
-        # TODO: build a database model instance
-        # TODO: build a user model instance
 
         # Set up Container
         self.container = tk.Frame(self)

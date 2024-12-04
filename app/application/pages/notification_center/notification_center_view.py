@@ -17,16 +17,16 @@ class NotificationCenterPageView(PageView):
         self.image_1 = self.canvas.create_image(150, 40, image=self.image_image_1)
 
         original_image_path2 = self.image_path / "image_2.png"
-        desired_size2 = (800, 100)  # 期望的图片大小
+        desired_size2 = (800, 100)  # Expected image size
         original_image2 = Image.open(original_image_path2)
         resized_image2 = original_image2.resize(desired_size2)
-        resized_image2.save(original_image_path2) # 覆盖原始图片
+        resized_image2.save(original_image_path2) # Overwrite the original image
 
         original_image_path3 = self.image_path / "image_3.png"
-        desired_size3 = (800, 100)  # 期望的图片大小
+        desired_size3 = (800, 100)  # Expected image size
         original_image3 = Image.open(original_image_path3)
         resized_image3 = original_image3.resize(desired_size3)
-        resized_image3.save(original_image_path3) # 覆盖原始图片
+        resized_image3.save(original_image_path3) # Overwrite the original image
        
         MYBAGGAGE_check = f"Your Baggage is checking at {self.controller.one_hour_ago}                                                                        There is half an hour before boarding.                                                                         Please go through security as soon as possible."
         MYBAGGAGE_arrive =f"Your Baggage arrived at {self.controller.a_quarter_later}                                                                                                    Please pick it up as soon as possible"
@@ -35,13 +35,13 @@ class NotificationCenterPageView(PageView):
         if self.controller.time_until_takeoff > 60 or self.controller.time_until_takeoff < 0 or self.controller.time_later_landing < 0:
             i = 0
         elif self.controller.time_until_takeoff <= 60 and self.controller.time_until_takeoff > 30:
-    # 代码块，处理时间介于30到60分钟之间的情况
+    # Code block to handle the case where the time is between 30 and 60 minutes
             i = 1
         elif self.controller.time_until_takeoff <= 30 and self.controller.time_until_takeoff > 0:
-    # 代码块，处理时间介于0到30分钟之间的情况
+    # Code block, handles the case where the time is between 0 and 30 minutes
             i = 2
         if self.controller.time_later_landing >= 15:
-    # 处理时间大于等于15分钟的情况
+    # When the processing time is greater than or equal to 15 minutes
             i= 3
 
         if i == 0:

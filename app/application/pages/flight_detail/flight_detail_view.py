@@ -9,13 +9,20 @@ from models.sharedata import SharedData
 
 class FlightDetailPageView(PageView):
     def __init__(self, parent):
+        # Initialize the FlightDetailPageView with specified dimensions and background color
         super().__init__(parent, height = 712.5, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
+
+        # Set the path to images for the flight detail view
         self.image_path = self.image_path / "flight_detail/image/"
         
+        # Create a canvas to hold images and labels
         self.canvas = tk.Canvas(self, height = 712.5, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
         self.canvas.pack(fill="both", expand=True)
     
+        # Access user data from the shared data model
         self.user_data = SharedData.user_data
+
+        # Extract flight and seat details from the user data
         self.flightnumber = self.user_data['flights'][0]['flightnumber']
         self.departuretime = self.user_data['flights'][0]['departuretime']
         self.landingtime = self.user_data['flights'][0]['arrivaltime']#.date()       
@@ -26,16 +33,17 @@ class FlightDetailPageView(PageView):
         self.landingtime_date = self.user_data['flights'][0]['arrivaltime'].date()
 
     def render(self):
-        #self.canvas.create_text(69, 32, anchor="nw", text="Flight Detail", fill="#282828", font=("Roboto Black", 36 * -1))
+        # Load and display images on the canvas
         self.image_image_1 = PhotoImage(file=self.image_path / "image_1.png")
         self.image_1 = self.canvas.create_image(150, 40, image=self.image_image_1)
   
         self.image_image_2 = PhotoImage(file=self.image_path / "image_21.png")
         self.image_2 = self.canvas.create_image(150, 300, image=self.image_image_2)        
        
+        # Create a button to navigate to baggage page
         CanvasButton(self.canvas, 250, 600, self.image_path / "image_3.png", lambda: self.controller.root.page_controller.switch_page("my_baggage"))        
 
-        
+        # Create labels to display flight information
         self.flightnumber_label = tk.Label(self, text= self.flightnumber, font=('Helvetica', 35, 'bold'), bg="#D9D9D9", fg="blue")
         self.flightnumber_label.place(x=350, y= 10)
         
@@ -74,7 +82,7 @@ class FlightDetailPageView(PageView):
 
 
 
-
+        # Set the current frame in the parent container to this view
         self.parent.set_frame(self)
         
     def update(self):

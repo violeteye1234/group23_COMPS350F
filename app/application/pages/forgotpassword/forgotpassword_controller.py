@@ -11,7 +11,7 @@ class ForgotPasswordPageController(PageController):
         self.view.set_controller(self)
         self.view.render()
         
-        # 创建UserModel实例
+        # Creating a UserModel Instance
         self.user_model = UserModel()
 
     def submit_forgot_password(self, email: str, new_password: str, confirm_password: str):
@@ -22,14 +22,14 @@ class ForgotPasswordPageController(PageController):
             messagebox.showerror("Reset Password Failed", "Passwords do not match. Please try again.")
             return
         
-        # 检查邮箱是否存在
+        # Check if the mailbox exists
         user = self.user_model.get_user_by_email(email)
         if not user:
             self.root.logger.error("Reset password failed! Invalid email address.")
             messagebox.showerror("Reset Password Failed", "Invalid email address. Please try again.")
             return
 
-        # 更新用户密码
+        # Update User Password
         self.user_model.update_password(email, new_password)
         self.root.logger.info("Reset password successful!")
         messagebox.showinfo("Password Reset", "Your password has been reset successfully.")

@@ -2,7 +2,7 @@
 
 from utils.page_controller import PageController
 from .register_view import RegisterPageView
-from models.user_model import UserModel  # 导入UserModel
+from models.user_model import UserModel  # Import UserModel
 import tkinter as tk
 
 class RegisterPageController(PageController):
@@ -12,7 +12,7 @@ class RegisterPageController(PageController):
         self.view.set_controller(self)
         self.view.render()
         
-        # 创建UserModel实例
+        # Create a UserModel instance
         self.user_model = UserModel()
 
     def register(self, full_name: str, phone: str, email: str, password: str, confirm_password: str):
@@ -22,12 +22,12 @@ class RegisterPageController(PageController):
             self.root.logger.error("Passwords do not match!")
             return
         
-        # 检查邮箱是否已存在
+        # Check if the mailbox already exists
         if self.user_model.get_user_by_email(email):
             self.root.logger.error("Email already exists!")
             return
 
-        # 将用户信息保存到数据库
+        # Save user information to the database
         self.user_model.add_user(full_name, phone, email, password)
         self.root.logger.info("Registration successful!")
         self.root.show_page('Login')

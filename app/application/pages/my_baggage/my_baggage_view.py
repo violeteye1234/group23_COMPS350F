@@ -7,20 +7,27 @@ from models.sharedata import SharedData
 
 class MyBaggagePageView(PageView):
     def __init__(self, parent):
+        # Initialize the MyBaggagePageView with specified dimensions and background color
         super().__init__(parent, height = 712.5, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
+       
+        # Set the path to images for the baggage page
         self.image_path = self.image_path / "my_baggage/image/"
 
+        # Create a canvas to hold images and labels
         self.canvas = tk.Canvas(self, height = 712.5, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
         self.canvas.pack(fill="both", expand=True)
 
+        # Retrieve user data from shared data model
         self.user_data = SharedData.user_data
 
+        # Extract baggage information from user data
         self.baggagenumber = self.user_data['baggages'][0]['baggagenumber']
         self.baggagestatus = self.user_data['baggages'][0]['status']
         self.baggageflightnumber = self.user_data['flights'][0]['flightnumber']
         self.baggagecurrentlocation = self.user_data['flights'][0]['departureairport']
     
     def render(self):
+        # Load and display images on the canvas at specified coordinates
         self.image_image_1 = PhotoImage(file=self.image_path / "image_1.png")
         self.image_1 = self.canvas.create_image(150, 40, image=self.image_image_1)
 
@@ -33,9 +40,11 @@ class MyBaggagePageView(PageView):
         self.image_image_4 = PhotoImage(file=self.image_path / "image_4.png")
         self.image_4 = self.canvas.create_image(600, 250, image=self.image_image_4)
 
+        # Create buttons for navigating to baggage detail
         CanvasButton(self.canvas, 185, 320, self.image_path / "image_5.png", lambda: self.controller.root.page_controller.switch_page("baggage_detail"))
         CanvasButton(self.canvas, 600, 320, self.image_path / "image_6.png", lambda: self.controller.root.page_controller.switch_page("baggage_detail"))
 
+        # Create labels to display baggage information
         self.baggagenumber_label = tk.Label(self, text= self.baggagenumber, font=('Helvetica', 12, 'bold'), bg="#D9D9D9")
         self.baggagenumber_label.place(x=150, y=150)
 
@@ -48,7 +57,7 @@ class MyBaggagePageView(PageView):
         self.baggagecurrentlocation_label = tk.Label(self, text= self.baggagecurrentlocation, font=('Helvetica', 12, 'bold'), bg="#D9D9D9")
         self.baggagecurrentlocation_label.place(x=170, y=260)
 
-
+        # Set the current frame in the parent container to this view
         self.parent.set_frame(self)
 
     def update(self):

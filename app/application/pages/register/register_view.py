@@ -40,31 +40,31 @@ class RegisterPageView(PageView):
         self.image_image_9 = PhotoImage(file=self.image_path / "image_9.png")
         self.canvas.create_image(553.0, 627.0, image=self.image_image_9)
 
-        # 创建输入框和按钮
+        # Creating an input box and a button
         self.create_widgets()
 
     def create_widgets(self):
-        # 创建 "Full Name" 输入框
+        # Create the "Full Name" input box
         self.full_name_entry = tk.Entry(self.canvas, bd=0, bg="#D9D9D9", highlightthickness=0)
         self.canvas.create_window(733.0, 281.0, window=self.full_name_entry, width=362, height=22.5)
         
-        # 创建 "Phone Number" 输入框
+        # Create a "Phone Number" input box
         self.phone_entry = tk.Entry(self.canvas, bd=0, bg="#D9D9D9", highlightthickness=0)
         self.canvas.create_window(733.0, 334.0, window=self.phone_entry, width=362, height=22.5)
         
-        # 创建 "Email" 输入框
+        # Create an "Email" input box
         self.email_entry = tk.Entry(self.canvas, bd=0, bg="#D9D9D9", highlightthickness=0)
         self.canvas.create_window(733.0, 387.0, window=self.email_entry, width=362, height=22.5)
         
-        # 创建 "Password" 输入框
+        # Create a "Password" input box
         self.password_entry = tk.Entry(self.canvas, bd=0, bg="#D9D9D9", highlightthickness=0, show="*")
         self.canvas.create_window(733.0, 440.0, window=self.password_entry, width=362, height=22.5)
         
-        # 创建 "Confirm Password" 输入框
+        # Create the "Confirm Password" input box
         self.confirm_password_entry = tk.Entry(self.canvas, bd=0, bg="#D9D9D9", highlightthickness=0, show="*")
         self.canvas.create_window(733.0, 493.0, window=self.confirm_password_entry, width=362, height=22.5)
         
-        # 创建 "Register" 按钮
+        # Creating the "Register" Button
         self.register_button = CanvasButton(
             self.canvas,
             553.0, 627.0,

@@ -6,13 +6,18 @@ from utils import CanvasButton
 
 class ForgotPasswordPageView(PageView):
     def __init__(self, parent):
+        # Initialize the ForgotPasswordPageView with specified dimensions and background color
         super().__init__(parent, height=599, width=700, bg="#FFFFFF", bd=0, highlightthickness=0, relief="ridge")
+
+        # Set the path to images for the forgot password view
         self.image_path = self.image_path / "forgotpassword/images/"
         
+        # Create a canvas to hold images and input fields
         self.canvas = tk.Canvas(self, height=599, width=700, bg="#FFFFFF", bd=0, highlightthickness=0, relief="ridge")
         self.canvas.pack(fill="both", expand=True)
     
     def render(self):
+        # Load and display images on the canvas
         self.image_image_1 = PhotoImage(file=self.image_path / "image_1.png")
         self.canvas.create_image(500.0, 100.0, image=self.image_image_1)  
 
@@ -28,26 +33,26 @@ class ForgotPasswordPageView(PageView):
         self.image_image_5 = PhotoImage(file=self.image_path / "image_5.png")
         self.canvas.create_image(500.0, 574.0, image=self.image_image_5)  
 
-        # 创建输入框和按钮
+        # Create input fields and buttons
         self.create_widgets()
 
     def create_widgets(self):
-        # 创建 "Email" 输入框
+        # Create "Email" input field
         self.email_entry = tk.Entry(self.canvas, bd=0, bg="#A9A9A9", highlightthickness=0)
         self.canvas.create_window(510.0, 224.0, window=self.email_entry, width=330, height=35)  
         
-        # 创建 "New Password" 输入框
+        # Create "New Password" input field
         self.new_password_entry = tk.Entry(self.canvas, bd=0, bg="#A9A9A9", highlightthickness=0, show="*")
         self.canvas.create_window(510.0, 336.0, window=self.new_password_entry, width=130, height=35)  
         
-        # 创建 "Confirm New Password" 输入框
+        # Create "Confirm New Password" input field
         self.confirm_password_entry = tk.Entry(self.canvas, bd=0, bg="#A9A9A9", highlightthickness=0, show="*")
         self.canvas.create_window(510.0, 448.0, window=self.confirm_password_entry, width=50, height=35)  
         
-        # 创建 "Submit" 按钮
+        # Create "Submit" button
         self.submit_button = CanvasButton(
             self.canvas,
-            500.0, 574.0,  # x 坐标增加 150 (70 + 80)
+            500.0, 574.0,  # Coordinates for the button
             self.image_path / "image_5.png",  
             self.on_submit_button_click
         )
@@ -64,6 +69,7 @@ class ForgotPasswordPageView(PageView):
 
 
     def on_submit_button_click(self):
+        # Get values from input fields and call the controller method to handle submission
         email = self.email_entry.get()
         new_password = self.new_password_entry.get()
         confirm_password = self.confirm_password_entry.get()
@@ -73,4 +79,5 @@ class ForgotPasswordPageView(PageView):
         pass
     
     def set_controller(self, controller):
+        # Set the controller for handling events and actions
         self.controller = controller

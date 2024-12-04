@@ -20,11 +20,13 @@ import time
 
 class MainPageController(PageController):
     def __init__(self, root, parent_container = None):
+        # Initialize the MainPageController by calling the parent constructor
         super().__init__(root, parent_container)
         self.root = root
         self.view = MainPageView(root.container)
         self.current_content_controller = None
         self.view_set_controller()
+        # Dictionary mapping page names to their respective controllers
         self.pages = {
             "about"                  : AboutPageController                 ,
             "baggage_detail"         : BaggageDetailPageController         ,
@@ -46,9 +48,11 @@ class MainPageController(PageController):
         
 
     def switch_page(self, page_name):
+        # Clean up the current content controller if it exists
         if self.current_content_controller:
             self.current_content_controller.cleanup()
         
+        # Create and render the new content controller for the specified page
         self.current_content_controller = self.pages[page_name](self.root, self.view.content_frame)
         
         self.current_content_controller.render()
@@ -56,20 +60,24 @@ class MainPageController(PageController):
 
 
     def clean_content(self):
+        # Clean up the current content and clear the view
         if self.current_content_controller:
             self.current_content_controller.cleanup()
             self.current_content_controller = None
             self.view.clear_content()
         
     def logout(self) -> None:
+        # Navigate to the login page
         self.root.show_page('Login')
         
     def update_clock(self) -> None:
+        # Update the clock display on the view
         current_time = time.strftime("%H:%M")
         self.view.canvas.itemconfig(self.view.clock, text=current_time) # type: ignore
         self.view.canvas.after(1000, self.update_clock) # type: ignore
 
     def render(self):
+        # Render the main view and start updating the clock
         super().render()
         self.update_clock()
         self.switch_page("dashboard")

@@ -6,15 +6,20 @@ from models.sharedata import SharedData
 
 class DashboardPageView(PageView):
     def __init__(self, parent):
+        # Initialize the DashboardPageView with specified dimensions and background color
         super().__init__(parent, height = 712.5, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
+        # Set the path to images for the dashboard
         self.image_path = self.image_path / "dashboard/images/"
         
+        # Create a canvas to hold the images and labels
         self.canvas = tk.Canvas(self, height = 712.5, width = 892.5, bg="#F5F5F5", bd=0, highlightthickness=0, relief="ridge")
         self.canvas.pack(fill="both", expand=True)
 
+        # Access user data from the shared data model
         self.user_data = SharedData.user_data
         #self.data = self.controller.data
         
+        # Extract flight and baggage details from the user data
         self.flightnumber = self.user_data['flights'][0]['flightnumber']
         self.status = self.user_data['flights'][0]['status']
         self.gate = self.user_data['flights'][0]['gate']
@@ -25,6 +30,7 @@ class DashboardPageView(PageView):
         
 
     def render(self):
+        # Load and display images on the canvas
         self.image_image_1 = PhotoImage(file=self.image_path / "image_1.png")
         self.image_1 = self.canvas.create_image(138.5, 52.5, image=self.image_image_1)
 
@@ -34,12 +40,12 @@ class DashboardPageView(PageView):
         self.image_image_3 = PhotoImage(file=self.image_path / "image_3.png")
         self.image_3 = self.canvas.create_image(444.5, 504.5, image=self.image_image_3)
 
-        # create button
+        # Create buttons for navigation
         CanvasButton(self.canvas,  330.25, 615.75, self.image_path / "image_4.png", lambda: self.controller.root.page_controller.switch_page("my_flight"))
         CanvasButton(self.canvas,  731.5, 615.75, self.image_path / "image_5.png", lambda: self.controller.root.page_controller.switch_page("my_baggage"))
         CanvasButton(self.canvas,  722.5, 279.5, self.image_path / "image_6.png", lambda: self.controller.root.page_controller.switch_page("dashboard"))
 
-        # create text
+        # Create labels to display flight information
         self.flightnumber_label = tk.Label(self, text= self.flightnumber, font=('Helvetica', 12, 'bold'), bg="#D9D9D9")
         self.flightnumber_label.place(x=250, y=430)
         
@@ -77,7 +83,9 @@ class DashboardPageView(PageView):
         #self.departure_time_label = tk.Label(self, text=f"Departure Time: {departure_time}", font=('Helvetica', 12, 'bold'), bg="#F5F5F5")
         #self.departure_time_label.place(x=400, y=350)  # Adjust the position as needed
 
+        # Set the current frame in the parent container to this view
         self.parent.set_frame(self)
+        
         # Ensure parent is correctly set before calling set_frame
         '''
         if hasattr(self.parent, 'set_frame'):

@@ -6,7 +6,7 @@
 @startuml
 skinparam classAttributeIconSize 0
 
-' 定义类
+' Defining Classes
 
 class User {
     - username: str
@@ -93,7 +93,7 @@ class BoardingGate {
     + update_status()
 }
 
-' 定义关系
+' Defining relationships
 User "1" --> "*" Flight : get_flights()
 User "1" --> "*" Baggage : get_baggages()
 Flight "1" --> "1" Airline
@@ -121,17 +121,17 @@ participant "LoginPageController" as Controller
 participant "Database" as DB
 participant "User Model" as UserModel
 
-User -> View: 输入邮箱和密码
+User -> View: Enter your email address and password
 View -> Controller: handle_login(email, password)
 Controller -> DB: check_login_valid(email, password)
 DB --> Controller: valid = true/false
 alt valid
     Controller -> DB: get_user_info(email)
     DB --> Controller: user_info
-    Controller -> UserModel: 初始化User对象
-    Controller -> View: 导航到Dashboard Page
+    Controller -> UserModel: Initialize the User object
+    Controller -> View: Navigate to the Dashboard Page
 else
-    Controller -> View: 显示错误信息
+    Controller -> View: Display error message
 end
 @enduml
 ```
@@ -149,16 +149,16 @@ participant "RegisterPageView" as View
 participant "RegisterPageController" as Controller
 participant "Database" as DB
 
-User -> View: 输入注册信息
+User -> View: Enter registration information
 View -> Controller: handle_registration(user_info)
-Controller -> View: 验证输入数据
+Controller -> View: Validating input data
 Controller -> DB: check_user_exists(email)
 DB --> Controller: exists = true/false
 alt not exists
     Controller -> DB: registration(user_info)
-    Controller -> View: 显示注册成功，导航到Login Page
+    Controller -> View: Display registration successful, navigate to the Login Page
 else
-    Controller -> View: 显示用户已存在错误
+    Controller -> View: Show user already exists error
 end
 @enduml
 ```
@@ -178,15 +178,15 @@ participant "User Model" as UserModel
 participant "Flight Model" as FlightModel
 participant "Baggage Model" as BaggageModel
 
-User -> View: 打开Dashboard Page
+User -> View: Open the Dashboard Page
 View -> Controller: load_dashboard()
 Controller -> UserModel: get_flights()
-UserModel -> FlightModel: 获取用户的航班列表
+UserModel -> FlightModel: Get the user's flight list
 FlightModel --> UserModel: flights_list
 Controller -> UserModel: get_baggages()
-UserModel -> BaggageModel: 获取用户的行李列表
+UserModel -> BaggageModel: Get the user's luggage list
 BaggageModel --> UserModel: baggages_list
-Controller -> View: 显示航班和行李信息
+Controller -> View: Display flight and baggage information
 @enduml
 ```
 
@@ -204,7 +204,7 @@ participant "AboutPageController" as Controller
 
 User -> View: 打开About Page
 View -> Controller: load_about_page()
-Controller -> View: 显示公司信息和团队成员
+Controller -> View: Display company information and team members
 @enduml
 ```
 
@@ -220,12 +220,12 @@ actor User
 participant "HelpPageView" as View
 participant "HelpPageController" as Controller
 
-User -> View: 打开Help Page
+User -> View: Open Help Page
 View -> Controller: load_help_page()
-Controller -> View: 显示常见问题列表
-User -> View: 输入搜索查询
+Controller -> View: Show FAQ list
+User -> View: Enter your search query
 View -> Controller: handle_search(query)
-Controller -> View: 显示搜索结果
+Controller -> View: Show search results
 @enduml
 ```
 
@@ -241,12 +241,12 @@ actor User
 participant "ProfilePageView" as View
 participant "ProfilePageController" as Controller
 
-User -> View: 打开Profile Page
+User -> View: Open Profile Page
 View -> Controller: load_profile_page()
-Controller -> View: 显示个人信息和设置选项
-User -> View: 选择"个人信息"或"通知设置"
+Controller -> View: Display personal information and settings options
+User -> View: Select "Personal Information" or "Notification Settings"
 View -> Controller: navigate_to_selected_option(option)
-Controller -> View: 导航到相应页面
+Controller -> View: Navigate to the corresponding page
 @enduml
 ```
 
@@ -264,19 +264,19 @@ participant "PersonalInformationPageController" as Controller
 participant "User Model" as UserModel
 participant "Database" as DB
 
-User -> View: 打开Personal Information Page
+User -> View: Open Personal Information Page
 View -> Controller: load_personal_information()
-Controller -> UserModel: 获取用户信息
+Controller -> UserModel: Get user information
 UserModel --> Controller: user_info
-Controller -> View: 显示用户信息
-User -> View: 点击"编辑"按钮
+Controller -> View: Display user information
+User -> View: Click the "Edit" button
 View -> Controller: handle_edit_personal_information()
-Controller -> View: 启用编辑模式
-User -> View: 修改信息并点击"保存"
+Controller -> View: Enable Edit Mode
+User -> View: Modify the information and click "Save"
 View -> Controller: handle_save_personal_information(updated_info)
-Controller -> UserModel: 更新用户信息
+Controller -> UserModel: Update User Information
 UserModel -> DB: update_data("users", updated_info)
-Controller -> View: 显示保存成功消息
+Controller -> View: Display save success message
 @enduml
 ```
 
@@ -294,16 +294,16 @@ participant "NotificationSettingPageController" as Controller
 participant "User Model" as UserModel
 participant "Database" as DB
 
-User -> View: 打开Notification Setting Page
+User -> View: Open Notification Setting Page
 View -> Controller: load_notification_settings()
-Controller -> UserModel: 获取通知设置
+Controller -> UserModel: Get notification settings
 UserModel --> Controller: settings
-Controller -> View: 显示当前设置
-User -> View: 切换某个通知设置
+Controller -> View: Display current settings
+User -> View: Toggle a notification setting
 View -> Controller: handle_toggle_notification(setting_name, value)
-Controller -> UserModel: 更新通知设置
+Controller -> UserModel: Update notification settings
 UserModel -> DB: update_data("notification_settings", {setting_name: value})
-Controller -> View: 更新显示状态
+Controller -> View: Update display status
 @enduml
 ```
 
@@ -320,15 +320,15 @@ participant "NotificationCenterPageView" as View
 participant "NotificationCenterPageController" as Controller
 participant "User Model" as UserModel
 
-User -> View: 打开Notification Center Page
+User -> View: Open Notification Center Page
 View -> Controller: load_notifications()
-Controller -> UserModel: 获取用户通知
+Controller -> UserModel: Get user notifications
 UserModel --> Controller: notifications_list
-Controller -> View: 显示通知列表
-User -> View: 点击某个通知
+Controller -> View: Show Notification List
+User -> View: Click on a notification
 View -> Controller: handle_notification_click(notification_id)
-Controller -> UserModel: 标记通知为已读
-Controller -> View: 导航到相关内容或显示详情
+Controller -> UserModel: Click on a notification
+Controller -> View: Navigate to related content or display details
 @enduml
 ```
 
@@ -346,15 +346,15 @@ participant "BoardingInformationPageController" as Controller
 participant "User Model" as UserModel
 participant "Flight Model" as FlightModel
 
-User -> View: 打开Boarding Information Page
+User -> View: Open Boarding Information Page
 View -> Controller: load_boarding_information()
 Controller -> UserModel: get_flights()
-UserModel -> FlightModel: 获取航班信息
+UserModel -> FlightModel: Get flight information
 FlightModel --> UserModel: flights_list
-Controller -> View: 显示航班登机信息
-User -> View: 点击"查看地图"按钮
+Controller -> View: Display flight boarding information
+User -> View: Click the "View Map" button
 View -> Controller: handle_view_map(flight_number)
-Controller -> View: 导航到Map Page
+Controller -> View: Navigate to the Map Page
 @enduml
 ```
 
@@ -372,15 +372,15 @@ participant "MyFlightPageController" as Controller
 participant "User Model" as UserModel
 participant "Flight Model" as FlightModel
 
-User -> View: 打开My Flight Page
+User -> View: Open My Flight Page
 View -> Controller: load_my_flights()
 Controller -> UserModel: get_flights()
-UserModel -> FlightModel: 获取航班列表
+UserModel -> FlightModel: Get flight list
 FlightModel --> UserModel: flights_list
-Controller -> View: 显示航班列表
-User -> View: 点击某个航班的"go_detail_button"
+Controller -> View: Show flight list
+User -> View: Click on the "go_detail_button" for a flight
 View -> Controller: handle_go_detail(flight_number)
-Controller -> View: 导航到Flight Detail Page
+Controller -> View: Navigate to the Flight Detail Page
 @enduml
 ```
 
@@ -398,18 +398,18 @@ participant "MyBaggagePageController" as Controller
 participant "User Model" as UserModel
 participant "Baggage Model" as BaggageModel
 
-User -> View: 打开My Baggage Page
+User -> View: Open My Baggage Page
 View -> Controller: load_my_baggages()
 Controller -> UserModel: get_baggages()
-UserModel -> BaggageModel: 获取行李列表
+UserModel -> BaggageModel: Get baggage list
 BaggageModel --> UserModel: baggages_list
-Controller -> View: 显示行李列表
-User -> View: 输入搜索查询
+Controller -> View: Show baggage list
+User -> View: Enter your search query
 View -> Controller: handle_search_baggage(query)
-Controller -> View: 显示过滤后的行李列表
-User -> View: 点击某个行李的"to_baggage_detail_page_button"
+Controller -> View: Display the filtered baggage list
+User -> View: Click on a bag "to_baggage_detail_page_button"
 View -> Controller: handle_baggage_selection(baggage_id)
-Controller -> View: 导航到Baggage Detail Page
+Controller -> View: Navigate to the Baggage Detail Page
 @enduml
 ```
 
@@ -426,14 +426,14 @@ participant "FlightDetailPageView" as View
 participant "FlightDetailPageController" as Controller
 participant "Flight Model" as FlightModel
 
-User -> View: 打开Flight Detail Page
+User -> View: Open Flight Detail Page
 View -> Controller: load_flight_detail(flight_number)
-Controller -> FlightModel: 获取航班详情
+Controller -> FlightModel: Get flight details
 FlightModel --> Controller: flight_details
-Controller -> View: 显示航班详情和座位图
-User -> View: 点击"Track My Baggage"按钮
+Controller -> View: Display flight details and seat map
+User -> View: Click the "Track My Baggage" button
 View -> Controller: handle_track_my_baggage()
-Controller -> View: 导航到My Baggage Page
+Controller -> View: Navigate to My Baggage Page
 @enduml
 ```
 
@@ -450,11 +450,11 @@ participant "BaggageDetailPageView" as View
 participant "BaggageDetailPageController" as Controller
 participant "Baggage Model" as BaggageModel
 
-User -> View: 打开Baggage Detail Page
+User -> View: Open Baggage Detail Page
 View -> Controller: load_baggage_detail(baggage_id)
-Controller -> BaggageModel: 获取行李详情
+Controller -> BaggageModel: Get baggage details
 BaggageModel --> Controller: baggage_details
-Controller -> View: 显示行李信息、当前位置和活动历史
+Controller -> View: Display baggage information, current location and activity history
 @enduml
 ```
 
@@ -472,13 +472,13 @@ participant "MapPageController" as Controller
 participant "User Model" as UserModel
 participant "Flight Model" as FlightModel
 
-User -> View: 打开Map Page
+User -> View: Open Map Page
 View -> Controller: load_map(target_location)
-Controller -> UserModel: 获取current_location
+Controller -> UserModel: Get current_location
 UserModel --> Controller: current_location
-Controller -> FlightModel: 获取target_location（如boarding_gate位置）
+Controller -> FlightModel: Get target_location (such as boarding_gate location)
 FlightModel --> Controller: target_location_info
-Controller -> View: 显示从current_location到target_location的导航地图
+Controller -> View: Displays a navigation map from current_location to target_location
 @enduml
 ```
 
